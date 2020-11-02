@@ -9,10 +9,8 @@ public class BJ10818_heapSort {
 		while(cur*2+1 < n) { // 현재 노드는 자식이 무조건 있어야 함(자식 노드가 없으면 비교하는 의미가 없음)
 			int left = cur*2+1;
 			int right = left+1;
-			// 현재 노드와 비교하기 위해서 왼쪽 자식 노드와 오른쪽 자식 노드 중에서 큰 놈을 색출
-			// 마지막 노드를 root 노드라고 가정하고 대입할 경우에 대한 오류 방지하기 위해 right<n
-			if(right < n && arr[right] > arr[left])
-				bigger = right;
+			if(right < n && arr[right] > arr[left]) // 현재 노드와 비교하기 위해서 왼쪽 자식 노드와 오른쪽 자식 노드 중에서 큰 놈을 색출
+				bigger = right;							// 마지막 노드를 root 노드라고 가정하고 대입할 경우에 대한 오류 방지하기 위해 right<n
 			else bigger = left;
 			if(arr[cur] < arr[bigger]) { // 만약에 현재 노드보다 자식 노드가 더 크다면 둘의 자리를 교환한다
 				int temp = arr[cur];
@@ -28,10 +26,8 @@ public class BJ10818_heapSort {
 		while(cur*2+1 < n) { // 현재 노드는 자식이 무조건 있어야 함(자식 노드가 없으면 비교하는 의미가 없음)
 			int left = cur*2+1;
 			int right = left+1;
-			// 현재 노드와 비교하기 위해서 왼쪽 자식 노드와 오른쪽 자식 노드 중에서 작은 놈을 색출
-			// 마지막 노드를 root 노드라고 가정하고 대입할 경우에 대한 오류 방지하기 위해 right<n
-			if(right < n && arr[right] < arr[left])
-				smaller = right;
+			if(right < n && arr[right] < arr[left]) // 현재 노드와 비교하기 위해서 왼쪽 자식 노드와 오른쪽 자식 노드 중에서 작은 놈을 색출
+				smaller = right; 						// 마지막 노드를 root 노드라고 가정하고 대입할 경우에 대한 오류 방지하기 위해 right<n
 			else smaller = left;
 			if(arr[cur] > arr[smaller]) { // 만약에 현재 노드보다 자식 노드가 더 작다면 둘의 자리를 교환한다
 				int temp = arr[cur];
