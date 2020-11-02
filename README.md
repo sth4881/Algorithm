@@ -1,2 +1,14 @@
 # Algorithm
-알고리즘 문제 풀어보고 리뷰하는 공간
+![Java](https://img.shields.io/badge/Java-orange?logo=Java)
+
+## 2020.11.2.
+### Divide & Conquer
+- MergeSort.java
+### Dynamic Programming
+- Fibonacci.java(재귀식을 사용하지 않은 피보나치 수열)
+- Combination.java(이항계수 : n개 중에서 k개를 뽑는 경우의 수)
+- ShortestPath.java(최단거리로 mxn의 격자를 이동하는 경우의 수)
+- SumOfN.java(양의 정수 n을 1부터 n의 합으로 표현하는 경우의 수)
+- SumOfN2.java(양의 정수 n을 1부터 k의 합으로 표현하는 경우의 수)
+### Baekjoon Online Judge
+- BJ10818_heapSort.java(최대힙, 최소힙을 이용해서 최대값, 최소값 찾기)
