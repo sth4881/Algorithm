@@ -1,4 +1,5 @@
 # Algorithm
+
 ![Java](https://img.shields.io/badge/Java-orange?logo=Java)
 
 ## 📅 2020.11.2.
@@ -11,5 +12,6 @@
 - SumOfN.java(양의 정수 n을 1부터 n의 합으로 표현하는 방법의 수)
 - SumOfN2.java(양의 정수 n을 1부터 k의 합으로 표현하는 방법의 수)
 - SumOfN3.java(양의 정수 n을 1부터 k의 합으로 표현할 때, 더해지는 숫자들의 순서를 고려하지 않고 표현하는 방법의 수)
+- Coin.java(동전의 단위가 n개 있고 동전은 무한히 존재할 때, 거스름돈 m을 거슬러주는 방법의 수)
 ### Baekjoon Online Judge
 - BJ10818_heapSort.java(최대힙, 최소힙을 이용해서 최대값, 최소값 찾기)
