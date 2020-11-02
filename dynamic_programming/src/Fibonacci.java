@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Fibonacci {
 	// 배열을 사용한 DP 피보나치 수열
-	// 수행시간은 O(n)으로 재귀를 사용한 피보나치 수열보다 시간복잡도 좋음
+	// arr[i] = arr[i-1] + arr[i-2]; 구문이 실행되는 횟수는 이중 for문에 의해서 n*k에 비례
+	// 따라서 도출되는 시간복잡도는 O(n)으로, 재귀를 사용한 피보나치 수열보다 시간복잡도 좋음
 	public static int withArr(int n) {
 		int[] arr = new int[n+1];
 		arr[0] = 0; // 이전의 이전 수로 피보나치 수열을 적용하기 위한 첫번째 수로 초기화
@@ -14,8 +15,8 @@ public class Fibonacci {
 		return arr[n];
 	}
 	// 배열을 사용하지 않은 DP 피보나치 수열
-	// 배열을 사용하지 않으므로 메모리 효율도 좋음
-	// 수행시간은 위와 마찬가지로 O(n)
+	// 위 메소드와 달리 배열을 사용하지 않으므로 메모리 효율이 좋음
+	// 도출되는 시간복잡도는 위와 마찬가지로 O(n)
 	public static int withNoArr(int n) {
 		int preprev = 0; // 이전의 이전 수로 피보나치 수열을 적용하기 위한 첫번째 수로 초기화
 		int prev = 1; // 이전 수로 피보나치 수열을 적용하기 위한 두번째 수로 초기화

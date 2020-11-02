@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ShortestPath {
 	// m x n 격자를 최단거리로 가는 경우의 수
 	// = (m-1 x n를 최단거리로 가는 경우의 수) + (m x n-1를 최단거리로 가는 경우의수)
-	// DP를 이용하여 코드를 짜면  if~else 구문이 실행되는 횟수는 이중 for문에 의해서 m*n에 비례
+	//  if~else 구문이 실행되는 횟수는 이중 for문에 의해서 m*n에 비례
 	// 따라서 도출되는 시간복잡도는 O(mn)
 	public static int func(int m, int n) {
 		int[][] arr = new int[m+1][n+1];

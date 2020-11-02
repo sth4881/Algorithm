@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Combination {
 	// nCk(n개 중에서 k를 뽑는 경우의 수)
 	// = (n-1Ck-1(n을 뽑는 경우)) + (n-1Ck(n을 뽑지 않고 다른걸 뽑는 경우))
-	// DP를 이용해서 코드를 짜면 if~else 구문이 실행되는 횟수는 이중 for문에 의해서 n*k에 비례
-	// 코드에는 Math.min(i, k)이라고 기술했지만, 최대 k만큼 실행되기 때문에 시간복잡도는 O(nk)
+	// if~else 구문이 실행되는 횟수는 이중 for문에 의해서 n*k에 비례
+	// 따라서 도출되는 시간복잡도는 O(nk)
 	public static int func(int n, int k) {
 		int[][] arr = new int[n+1][k+1]; // n과 k를 입력받으면 0~n-1, 0~k-1까지만 생성되기 때문에 n+1, k+1
 		for(int i=0; i<=n; i++) {
