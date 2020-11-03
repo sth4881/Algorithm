@@ -15,3 +15,7 @@
 - Coin.java(동전의 단위가 n개 있고 동전은 무한히 존재할 때, 거스름돈 m을 거슬러주는 방법의 수)
 ### Baekjoon Online Judge
 - BJ10818_heapSort.java(최대힙, 최소힙을 이용해서 최대값, 최소값 찾기)
+
+## 📅 2020.11.4.
+### Dynamic Programming
+- Stairs1.java(n개의 계단을 오를 때 한 번에 1개 혹은 3개의 계단만 사용해서 올라가는 경우의 수)
