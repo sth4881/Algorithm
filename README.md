@@ -25,9 +25,14 @@
 ### Dynamic Programming
 - Grid1.java : 셀 (1,1)에서 오른쪽 방향 혹은 위쪽 방향으로만 가면서 셀 까지 가는 경로의 최소 비용 구하기. 경로의 비용이란 지나가는 셀의 비용의 총합을 말한다.
 - Grid2.java : 가장 아래 행의 셀로부터 '오른쪽 위쪽 대각선 방향' 혹은 '위쪽 방향' 혹은 '왼쪽 위쪽 대각선 방향'으로만 가면서 가장 위의 행의 셀까지 가는 경로의 최소 비용 구하기. 경로의 비용이란 지나가는 셀의 비용의 총합을 말한다.
-- BJ1003.java : 피보나치 함수를 재귀적으로 호출할 때, n번째 피보나치 수열은 0과 1을 각각 몇 번씩 호출하는지 구하기
 
 ## 📅 2020.11.12.
 ### Dynamic Programming
 - Stairs3.java : n개의 계단을 오를 때 한 번에 오를 수 있는 계단의 단위가 s1, s2, s3, ... , sk로 총 k개의 존재한다고 하자. 이 계단들을 사용하되 밟는 계단 수가 최소가 되도록 하면서 올라가고자 할 때 최소 계단 수 구하기
-- Padovan.java : 나선 모양으로 놓여져 있는 삼각형의 변의 길이를 수열로 갖는 파도반 수열 구현하기
+### Baekjoon Online Judge - Dynamic Programming
+- BJ9461.java : [파도반 수열](https://www.acmicpc.net/problem/9461)
+
+## 📅 2020.11.14.
+### Baekjoon Online Judge - Dynamic Programming
+- BJ1149.java : [RGB거리](https://www.acmicpc.net/problem/1149)
+- BJ1932.java : [정수 삼각형](https://www.acmicpc.net/problem/1932)
