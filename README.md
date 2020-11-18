@@ -23,7 +23,6 @@
 
 ## 📅 2020.11.10.
 ### Dynamic Programming
-- Grid1.java : 셀 (1,1)에서 오른쪽 방향 혹은 위쪽 방향으로만 가면서 셀 까지 가는 경로의 최소 비용 구하기. 경로의 비용이란 지나가는 셀의 비용의 총합을 말한다.
 - Grid2.java : 가장 아래 행의 셀로부터 '오른쪽 위쪽 대각선 방향' 혹은 '위쪽 방향' 혹은 '왼쪽 위쪽 대각선 방향'으로만 가면서 가장 위의 행의 셀까지 가는 경로의 최소 비용 구하기. 경로의 비용이란 지나가는 셀의 비용의 총합을 말한다.
 
 ## 📅 2020.11.12.
@@ -36,3 +35,7 @@
 ### Baekjoon Online Judge - Dynamic Programming
 - BJ1149.java : [RGB거리](https://www.acmicpc.net/problem/1149)
 - BJ1932.java : [정수 삼각형](https://www.acmicpc.net/problem/1932)
+
+## 📅 2020.11.18.
+### Dynamic Programming
+- Grid1.java : 셀 (1,1)에서 오른쪽 방향 혹은 위쪽 방향으로만 가면서 셀 (m-1, n-1) 까지 가는 경로의 최소 비용 구하기. 경로의 비용이란 지나가는 셀의 비용의 총합을 말한다.
