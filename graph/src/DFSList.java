@@ -3,7 +3,7 @@ package com.algorithm.graph;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class DFS {
+public class DFSList {
 	public static void func(ArrayList<ArrayList<Integer>> arr, ArrayList<Integer> dfs, ArrayList<Boolean> visited, int vtx) {
 		dfs.add(vtx); // 현재 정점을 방문한 목록에 순서대로 추가
 		visited.set(vtx, true); // 현재 정점을 방문했다고 표시
