@@ -63,5 +63,5 @@
 ### Graph
 - MazeSearch.java : [미로에서 최단경로 찾기](https://raw.githubusercontent.com/sth4881/Algorithm/main/graph/img/MazeSearch.png)
 - FindComponent.java : [연결요소의 개수와 가장 큰 연결요소의 크기 구하기](https://raw.githubusercontent.com/sth4881/Algorithm/main/graph/img/FindComponent.png)
-- ShortestPath.java : [연결요소에서 최단경로 찾기](https://raw.githubusercontent.com/sth4881/Algorithm/main/graph/img/ShortestPath.png)
+- ShortestPath.java : [연결요소에서 최단경로의 길이 찾기](https://raw.githubusercontent.com/sth4881/Algorithm/main/graph/img/ShortestPath.png)
 - PrintPath.java : [연결요소에서 최단경로 출력하기](https://raw.githubusercontent.com/sth4881/Algorithm/main/graph/img/PrintPath.png)
