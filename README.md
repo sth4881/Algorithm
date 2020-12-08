@@ -14,7 +14,7 @@
 - SumOfN3.java : 양의 정수 n을 1부터 k의 합으로 표현할 때, 더해지는 숫자들의 순서를 고려하지 않고 표현하는 방법의 수
 - Coin.java : 동전의 단위가 n개 있고 동전은 무한히 존재할 때, 거스름돈 m을 거슬러주는 방법의 수
 ### Baekjoon Online Judge
-- BJ10818_heapSort.java : 최대힙, 최소힙을 이용해서 최대값, 최소값 찾기
+- BOJ10818.java : 최대힙, 최소힙을 이용해서 최대값, 최소값 찾기
 
 ## 📅 2020.11.4.
 ### Dynamic Programming
@@ -29,12 +29,13 @@
 ### Dynamic Programming
 - Stairs3.java : n개의 계단을 오를 때 한 번에 오를 수 있는 계단의 단위가 s1, s2, s3, ... , sk로 총 k개의 존재한다고 하자. 이 계단들을 사용하되 밟는 계단 수가 최소가 되도록 하면서 올라가고자 할 때 최소 계단 수 구하기
 ### Baekjoon Online Judge - Dynamic Programming
-- BJ9461.java : [파도반 수열](https://www.acmicpc.net/problem/9461)
+- BOJ9461.java : [파도반 수열](https://www.acmicpc.net/problem/9461)
 
 ## 📅 2020.11.14.
 ### Baekjoon Online Judge - Dynamic Programming
-- BJ1149.java : [RGB거리](https://www.acmicpc.net/problem/1149)
-- BJ1932.java : [정수 삼각형](https://www.acmicpc.net/problem/1932)
+- BOJ1149.java : [RGB거리](https://www.acmicpc.net/problem/1149)
+- BOJ1932.java : [정수 삼각형](https://www.acmicpc.net/problem/1932)
+- BOJ2579.java(미구현) : [계단 오르기](https://www.acmicpc.net/problem/2579)
 
 ## 📅 2020.11.18.
 ### Dynamic Programming
@@ -46,7 +47,7 @@
 
 ## 📅 2020.11.29.
 ### Graph
-- AdjacentList.java : ArrayList를 이용한 인접리스트 표현
+- AdjList.java : ArrayList를 이용한 인접리스트 표현
 
 ## 📅 2020.12.3.
 ### Graph
