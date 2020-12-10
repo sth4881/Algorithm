@@ -69,4 +69,5 @@
 
 ## 📅 2020.12.10.
 ### Graph
-- TopologicalIndegree.java : 진입분지수를 이용한 위상정렬 구현
+- TopologicalIndegree.java : 진입분지수를 이용한 위상정렬 구현(그래프에 사이클이 만들어진 경우, 진입분지수를 이용한 위상정렬은 사용 불가능)
+- TopologicalDFS.java : DFS를 이용한 위상정렬 구현
