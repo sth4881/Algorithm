@@ -6,20 +6,20 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Stack;
 
 public class Dijkstra {
 
 	public static void func(ArrayList<ArrayList<Vtx>> arr, int src, int dst, int[] distance, int[] parent, boolean[] found) {
 		ArrayList<Integer> cnt = new ArrayList<Integer>();
+		Stack<Integer> s = new Stack<Integer>();
 		cnt.add(src); // 시작 정점은 최단거리가 도출됐으므로 cnt.add(src) 
 		found[src] = true; // 시작 정점은 항상 최단거리가 도출됨으로 found[src] = true;
 		distance[src] = 0; // 시작 정점으로부터 시작 정점까지의 거리는 0
 		parent[src] = -1; // 시작 정점은 부모 정점이 존재하지 않으므로 -1
 
 		int vtx = src;
-		while(cnt.size()<arr.size()) { // 최단거리가 구해진 정점이 총 정점의 개수보다 적을 때까지
+		while(cnt.size()<=arr.size()) { // 모든 정점의 최단거리가 구해질 때까지
 			for(int i=0; i<arr.get(vtx).size(); i++) { // 현재 정점 vtx에 인접한 정점 중에서
 				Vtx adj = arr.get(vtx).get(i);
 				if(!found[adj.vertex]) { // 인접한 정점을 방문하지 않았다면
@@ -28,6 +28,7 @@ public class Dijkstra {
 																						// 										+
 																						// 현재 정점 vtx부터 인접한 정점 adj 까지의 거리 adj.weight 보다 작다면
 						distance[adj.vertex] = distance[vtx] + adj.weight;
+						parent[adj.vertex] = vtx;
 					}
 				}
 			}
@@ -35,7 +36,7 @@ public class Dijkstra {
 			// 방문하지 않은 정점 중에서 다음으로 방문할 정점으로
 			// 시작 정점으로부터의 해당 정점까지의 거리가 최소인 정점을 선택
 			int min = Integer.MAX_VALUE;
-			int next = Integer.MIN_VALUE; // 의미없는 초기화
+			int next = 0; // 의미없는 초기화
 			for(int i=0; i<arr.size(); i++) { 
 				if(!found[i]) { // 시작 정점으로부터 최단거리가 구해지지 않은 정점 중에서
 					if(distance[i] < min) { // 시작 정점으로부터의 거리가 최소인 정점을 구하기
@@ -50,6 +51,16 @@ public class Dijkstra {
 			found[next] = true; // 시작 정점으로부터의 최단거리가 구해졌음을 표시
 			cnt.add(next); // 시작 정점으로부터의 최단거리가 구해진 정점의 개수 1 증가
 			vtx = next; // next의 값을 vtx에 넣어줌으로써 다음 방문할 정점을 갱신
+		}
+		
+		int tmp = dst;
+		while(tmp!=-1) {
+			s.push(tmp);
+			tmp = parent[tmp];
+		}
+		System.out.println("경로의 길이: "+distance[dst]);
+		while(!s.isEmpty()) {
+			System.out.print(s.pop()+" ");
 		}
 	}
 	public static void main(String[] args) {
@@ -104,10 +115,6 @@ public class Dijkstra {
 
 			func(arr, src, dst, dist, parent, found);
 			
-			for(int i=0; i<dist.length; i++)
-				System.out.print(dist[i]+" ");
-			System.out.println();
-
 			reader.close();
 		} catch(FileNotFoundException e) {
 			e.getStackTrace();

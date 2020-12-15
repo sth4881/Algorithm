@@ -74,4 +74,4 @@
 
 ## 📅 2020.12.15.
 ### Graph
-- Dijkstra.java : 다이젝스트라 알고리즘으로 최단경로의 길이 찾기
+- Dijkstra.java : Dijkstra 알고리즘으로 최단경로 및 경로의 길이 출력하기
