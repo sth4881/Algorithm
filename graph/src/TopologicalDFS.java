@@ -34,9 +34,11 @@ public class TopologicalDFS {
 		}
 		
 		Stack<Integer> s = new Stack<Integer>();
+		
 		boolean[] visited = new boolean[n];
-		for(int i=0; i<n; i++) // 모든 정점에 대해서 수행해야하므로
-			if(!visited[i]) func(arr, s, i, visited); // 정점 i를 방문하지 않았다면 정점 i에 대해서 DFS 수행
+		
+		int start = sc.nextInt();
+		func(arr, s, start, visited);
 		while(!s.isEmpty()) { // 알 수 없는 이유로 for(int i=0; i<s.size(); i++)를 사용하면 모든 값이 pop되지 않음 
 			System.out.print(s.pop()+" ");
 		}
