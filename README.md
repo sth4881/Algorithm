@@ -35,7 +35,6 @@
 ### Baekjoon Online Judge - Dynamic Programming
 - BOJ1149.java : [RGB거리](https://www.acmicpc.net/problem/1149)
 - BOJ1932.java : [정수 삼각형](https://www.acmicpc.net/problem/1932)
-- BOJ2579.java(미구현) : [계단 오르기](https://www.acmicpc.net/problem/2579)
 
 ## 📅 2020.11.18.
 ### Dynamic Programming
@@ -82,4 +81,5 @@
 
 ## 📅 2020.12.30.
 ### Dynamic Programming
+- BOJ2579.java : [계단 오르기](https://www.acmicpc.net/problem/2579)
 - BOJ2156.java : [포도주 시식](https://www.acmicpc.net/problem/2156)

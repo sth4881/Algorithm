@@ -1,39 +1,51 @@
 package com.baekjoon;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 
-public class BJ2579 {
-	public static void func(int n, int[] cost) {
-		int sum = cost[n];
-		int cnt = 1;
-		for(int i=n; i>1; i--) {
-			if(i==2) {
-				if(cnt!=2) sum += cost[i-1]; // 다음 계단을 더함
-				else break;
+public class BOJ2579 {
+	public static void func(int[] cost, int n) {
+		try {
+			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+			if(n==1) bw.write(cost[1]+"\n"); // n이 1인 경우에 대한 예외처리
+			else {
+				int[] dp = new int[n+1];
+				dp[1] = cost[1];
+				dp[2] = cost[1]+cost[2]; // 두번째 계단까지는 연속으로 오를 수 있으므로 첫번째 계단과 두번째 계단을 더하면 된다.
+				
+				for(int i=3; i<=n; i++)
+					dp[i] = Math.max(cost[i]+dp[i-2], cost[i]+cost[i-1]+dp[i-3]); // i번째 계단까지 올랐을 때 얻을 수 있는 최대 점수는
+																								// i번째 계단의 점수 + i-2번째 계단까지 올랐을 때 얻을 수 있는 최대 점수와
+																								// i번째 계단의 점수 + i-1번째 계단의 점수 + i-3번째 계단까지 올랐을 때 얻을 수 있는 최대 점수를
+																								// 비교해서 더 큰 값을 최대 점수로 선택하면 된다.
+				bw.write(dp[n]+"\n");
 			}
-			else if(cnt==2) { // 연속해서 2계단을 밟았을 경우
-				sum += cost[i-2];
-				cnt = 1;
-				i--;
-			} else {
-				if(cost[i-1]>=cost[i-2]) { // 다음 계단이 다다음 계단보다 클 경우 sum에 더함
-					sum += cost[i-1];
-					cnt++;
-				} else { // 다다음 계단이 다음 계단보다 클 경우 sum에 더함 + cnt는 1로 변경
-					sum += cost[i-2]; 
-					cnt=1;
-					i--;
-				}
-			}
+			bw.close();
+		} catch(FileNotFoundException e) {
+			e.getStackTrace();
+		} catch(IOException e) {
+			e.getStackTrace(); 
 		}
-		System.out.println(sum);
 	}
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int[] cost = new int[n+1];
-		for(int i=1; i<n+1; i++)
-			cost[i] = sc.nextInt();
-		func(n, cost);
-	}
+		try {
+			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+			String tmp = br.readLine();
+			int n = Integer.parseInt(tmp);
+			int[] cost = new int[n+1];
+			for(int i=1; i<n+1; i++) {
+				tmp = br.readLine();
+				cost[i] = Integer.parseInt(tmp);
+			}
+			func(cost, n);
+		} catch(FileNotFoundException e) {
+			e.getStackTrace();
+		} catch(IOException e) {
+			e.getStackTrace(); 
+		}
+	} 
 }
