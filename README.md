@@ -79,3 +79,7 @@
 ## 📅 2020.12.28.
 ### Dynamic Programming
 - BOJ1003.java : [피보나치 함수](https://www.acmicpc.net/problem/1003)
+
+## 📅 2020.12.30.
+### Dynamic Programming
+- BOJ2156.java : [포도주 시식](https://www.acmicpc.net/problem/2156)
