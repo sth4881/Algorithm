@@ -76,10 +76,14 @@
 - Dijkstra.java : Dijkstra 알고리즘으로 최단경로 및 경로의 길이 출력하기
 
 ## 📅 2020.12.28.
-### Dynamic Programming
+### Baekjoon Online Judge - Dynamic Programming
 - BOJ1003.java : [피보나치 함수](https://www.acmicpc.net/problem/1003)
 
 ## 📅 2020.12.30.
-### Dynamic Programming
+### Baekjoon Online Judge - Dynamic Programming
 - BOJ2579.java : [계단 오르기](https://www.acmicpc.net/problem/2579)
 - BOJ2156.java : [포도주 시식](https://www.acmicpc.net/problem/2156)
+
+## 📅 2020.12.31.
+### Baekjoon Online Judge - Dynamic Programming
+- BOJ11053.java : [가장 긴 증가하는 부분수열(LIS)](https://www.acmicpc.net/problem/11053)
