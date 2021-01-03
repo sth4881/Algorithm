@@ -87,3 +87,7 @@
 ## 📅 2020.12.31.
 ### Baekjoon Online Judge - Dynamic Programming
 - BOJ11053.java : [가장 긴 증가하는 부분수열(LIS)](https://www.acmicpc.net/problem/11053)
+
+## 📅 2021.1.3
+### Baekjoon Online Judge - Greedy Algorithm
+- BOJ11047.java : [동전 0](https://www.acmicpc.net/problem/11047)
