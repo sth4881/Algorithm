@@ -91,3 +91,7 @@
 ## 📅 2021.1.3
 ### Baekjoon Online Judge - Greedy Algorithm
 - BOJ11047.java : [동전 0](https://www.acmicpc.net/problem/11047)
+
+## 📅 2021.6.26
+### Baekjoon Online Judge - Geometry
+- BOJ1004.java : [어린왕자](https://www.acmicpc.net/problem/1004)
