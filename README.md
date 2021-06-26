@@ -93,5 +93,9 @@
 - BOJ11047.java : [동전 0](https://www.acmicpc.net/problem/11047)
 
 ## 📅 2021.6.26
+### Baekjoon Online Judge - Mathematics
+- BOJ1000.java : [A+B](https://www.acmicpc.net/problem/1000)
+- BOJ1001.java : [A-B](https://www.acmicpc.net/problem/1001)
+- BOJ1008.java : [A/B](https://www.acmicpc.net/problem/1008)
 ### Baekjoon Online Judge - Geometry
 - BOJ1004.java : [어린왕자](https://www.acmicpc.net/problem/1004)
