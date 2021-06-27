@@ -1,33 +1,41 @@
 package com.baekjoon;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 
-public class BJ1149 {
-	public static void func(int n, int[][] arr) {
-		int[][] dp = new int[n+1][3]; // dp¹è¿­ »ý¼º
-		for(int i=1; i<=n; i++) {
-			// ¹«ÀÛÁ¤ ÃÖ¼Ò ºñ¿ëÀ» °¡Áö´Â ÁýÀÇ »ö±òÀ» Ä¥ÇÑ´Ù°í ÇØ¼­
-			// n¹øÂ° Áý±îÁö »öÄ¥ÇßÀ» ¶§ ÃÖ¼Ò ºñ¿ëÀÌ µµÃâµÇÁö ¾ÊÀ¸¹Ç·Î
-			// ÃÖ¼Ò ºñ¿ëÀ» °®Áö ¾Ê´Â ´Ù¸¥ Áýµéµµ ¸ðµÎ Æ÷ÇÔÇØ¼­ °è»êÇØ¾ßÇÑ´Ù.
-			//
-			// Ã³À½ºÎÅÍ i¹øÂ° Áý±îÁö »öÄ¥ÇÏ´Â ºñ¿ëÀº i¹øÂ° ÁýÀ» »öÄ¥ÇÏ´Â ºñ¿ëÀ» ´õÇØÁÖ°í
-			// i-1¹øÂ° Áý Áß¿¡¼­ ÇöÀç »ö±ò°ú °ãÄ¡Áö ¾Ê´Â ÁýÀ» »öÄ¥ÇßÀ» ¶§±îÁöÀÇ µå´Â ºñ¿ëÀ» ´õÇØÁà¾ßÇÑ´Ù.
-			// ÀÌ ¶§ »ö±ò°ú °ãÄ¡Áö ¾Ê´Â Áý Áß¿¡¼­ ºñ¿ëÀÌ ´õ Àû°Ô µå´Â ÁýÀ» ¼±ÅÃÇØ¾ßÇÏ¹Ç·Î
-			// Math.min( dp[i-1][ÇöÀç Ä¥ÇÒ ¼ö ÀÖ´Â ÁýÀÇ »ö±òÀÌ ¾Æ´Ñ °Í1], dp[i-1][ÇöÀç Ä¥ÇÒ ¼ö ÀÖ´Â ÁýÀÇ »ö±òÀÌ ¾Æ´Ñ °Í2] )À» ´õÇØÁà¾ßÇÑ´Ù.
-			dp[i][0] = Math.min(dp[i-1][1], dp[i-1][2]) + arr[i][0];
-			dp[i][1] = Math.min(dp[i-1][0], dp[i-1][2]) + arr[i][1];
-			dp[i][2] = Math.min(dp[i-1][0], dp[i-1][1]) + arr[i][2];
-		}
-		System.out.println( Math.min(Math.min(dp[n][0], dp[n][1]), dp[n][2]) );
-	}
+public class BOJ1149 {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int[][] arr = new int[n+1][3];
-		for(int i=1; i<=n; i++) {
-			for(int j=0; j<3; j++)
-				arr[i][j] = sc.nextInt();
+		try {
+			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+			
+			int n = Integer.parseInt(br.readLine());
+			int[][] dp = new int[n+1][3];
+			for(int i=0; i<n; i++) {
+				String[] tmp = br.readLine().split(" ");
+				dp[i][0] = Integer.parseInt(tmp[0]);
+				dp[i][1] = Integer.parseInt(tmp[1]);
+				dp[i][2] = Integer.parseInt(tmp[2]);
+			}
+			
+			// ì•Œê³ ë¦¬ì¦˜
+			for(int i=0; i<n; i++) {
+				dp[i+1][0] += Math.min(dp[i][1], dp[i][2]); // i+1ë²ˆì§¸ ì§‘ì„ Rë¡œ ì¹ í•˜ëŠ”ë° í•„ìš”í•œ ë¹„ìš©ì€ ië²ˆì§¸ ì§‘ì„ Gì™€ B ì¤‘ì—ì„œ ì ì€ ë¹„ìš©ìœ¼ë¡œ ì¹ í•˜ëŠ” ë¹„ìš©ê³¼ ê°™ìŒ
+				dp[i+1][1] += Math.min(dp[i][0], dp[i][2]); // i+1ë²ˆì§¸ ì§‘ì„ Gë¡œ ì¹ í•˜ëŠ”ë° í•„ìš”í•œ ë¹„ìš©ì€ ië²ˆì§¸ ì§‘ì„ Rê³¼ B ì¤‘ì—ì„œ ì ì€ ë¹„ìš©ìœ¼ë¡œ ì¹ í•˜ëŠ” ë¹„ìš©ê³¼ ê°™ìŒ
+				dp[i+1][2] += Math.min(dp[i][0], dp[i][1]); // i+1ë²ˆì§¸ ì§‘ì„ Bë¡œ ì¹ í•˜ëŠ”ë° í•„ìš”í•œ ë¹„ìš©ì€ ië²ˆì§¸ ì§‘ì„ Rê³¼ G ì¤‘ì—ì„œ ì ì€ ë¹„ìš©ìœ¼ë¡œ ì¹ í•˜ëŠ” ë¹„ìš©ê³¼ ê°™ìŒ
+			}
+			
+			int result = Math.min(Math.min(dp[n-1][0], dp[n-1][1]), dp[n-1][2]); // ëª¨ë“  ì§‘ì„ ì•žë’¤ì˜ ìƒ‰ê³¼ ê²¹ì¹˜ì§€ ì•Šê²Œ ì¹ í•˜ëŠ” ìµœì†Œ ë¹„ìš© 
+			bw.write(result+"\n");
+			bw.close();			
+		} catch(FileNotFoundException e) {
+			e.getStackTrace();
+		} catch(IOException e) {
+			e.getStackTrace();
 		}
-		func(n, arr);
 	}
 }
