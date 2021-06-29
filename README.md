@@ -107,3 +107,5 @@
 ## 📅 2021.6.29
 ### Baekjoon Online Judge - Mathematics & Geometry
 - BOJ1002.java : [터렛](https://www.acmicpc.net/problem/1002)
+### Baekjoon Online Judge - Mathematics & Dynamic Programming
+- BOJ1010.java : [다리 놓기](https://www.acmicpc.net/problem/1010)
