@@ -103,3 +103,7 @@
 ## 📅 2021.6.27
 ### Baekjoon Online Judge - Dynamic Programming
 - BOJ11726.java : [2xN 타일링](https://www.acmicpc.net/problem/11726)
+
+## 📅 2021.6.29
+### Baekjoon Online Judge - Mathematics & Geometry
+- BOJ1002.java : [터렛](https://www.acmicpc.net/problem/1002)
