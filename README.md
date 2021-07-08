@@ -117,3 +117,7 @@
 ## 📅 2021.7.3
 ### Baekjoon Online Judge - Dynamic Programming
 - BOJ9251.java : [LCS](https://www.acmicpc.net/problem/9251)
+
+## 📅 2021.7.8
+### Baekjoon Online Judge - BFS
+- BOJ2178.java : [미로탐색](https://www.acmicpc.net/problem/2178)
