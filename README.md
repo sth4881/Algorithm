@@ -125,3 +125,4 @@
 ## 📅 2021.7.9
 ### Baekjoon Online Judge - Graph(DFS, BFS)
 - BOJ1260.java : [DFS와 BFS](https://www.acmicpc.net/problem/1260)
+- BOJ2606.java : [바이러스](https://www.acmicpc.net/problem/2606)
