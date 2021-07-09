@@ -119,5 +119,9 @@
 - BOJ9251.java : [LCS](https://www.acmicpc.net/problem/9251)
 
 ## 📅 2021.7.8
-### Baekjoon Online Judge - BFS
+### Baekjoon Online Judge - Graph(BFS)
 - BOJ2178.java : [미로탐색](https://www.acmicpc.net/problem/2178)
+
+## 📅 2021.7.9
+### Baekjoon Online Judge - Graph(DFS, BFS)
+- BOJ1260.java : [DFS와 BFS](https://www.acmicpc.net/problem/1260)
