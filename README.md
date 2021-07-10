@@ -119,14 +119,15 @@
 - BOJ9251.java : [LCS](https://www.acmicpc.net/problem/9251)
 
 ## 📅 2021.7.8
-### Baekjoon Online Judge - Graph(BFS)
+### Baekjoon Online Judge - Graph
 - BOJ2178.java : [미로탐색](https://www.acmicpc.net/problem/2178)
 
 ## 📅 2021.7.9
-### Baekjoon Online Judge - Graph(DFS, BFS)
+### Baekjoon Online Judge - Graph
 - BOJ1260.java : [DFS와 BFS](https://www.acmicpc.net/problem/1260)
 - BOJ2606.java : [바이러스](https://www.acmicpc.net/problem/2606)
 
 ## 📅 2021.7.10
-### Baekjoon Online Judge - Graph(DFS, BFS)
+### Baekjoon Online Judge - Graph
 - BOJ2667.java : [단지번호붙이기](https://www.acmicpc.net/problem/2667)
+- BOJ7562.java : [나이트의 이동](https://www.acmicpc.net/problem/7562)
