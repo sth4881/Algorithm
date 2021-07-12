@@ -131,3 +131,7 @@
 ### Baekjoon Online Judge - Graph
 - BOJ2667.java : [단지번호붙이기](https://www.acmicpc.net/problem/2667)
 - BOJ7562.java : [나이트의 이동](https://www.acmicpc.net/problem/7562)
+
+## 📅 2021.7.12
+### Baekjoon Online Judge - Brute Force
+- BOJ2798.java : [블랙잭](https://www.acmicpc.net/problem/2798)
