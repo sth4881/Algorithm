@@ -135,3 +135,4 @@
 ## 📅 2021.7.12
 ### Baekjoon Online Judge - Brute Force
 - BOJ2798.java : [블랙잭](https://www.acmicpc.net/problem/2798)
+- BOJ2231.java : [분해합](https://www.acmicpc.net/problem/2231)
