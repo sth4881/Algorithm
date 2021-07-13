@@ -140,3 +140,5 @@
 ## 📅 2021.7.13
 ### Baekjoon Online Judge - Brute Force
 - BOJ1059.java : [좋은 구간](https://www.acmicpc.net/problem/1059)
+### Baekjoon Online Judge - Binary Search
+- BOJ1920.java : [수 찾기](https://www.acmicpc.net/problem/1920)
