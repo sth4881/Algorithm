@@ -142,3 +142,7 @@
 - BOJ1059.java : [좋은 구간](https://www.acmicpc.net/problem/1059)
 ### Baekjoon Online Judge - Binary Search
 - BOJ1920.java : [수 찾기](https://www.acmicpc.net/problem/1920)
+
+## 📅 2021.7.15
+### Baekjoon Online Judge - Mathematics
+- BOJ3052.java : [나머지](https://www.acmicpc.net/problem/3052)
