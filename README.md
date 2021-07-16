@@ -148,3 +148,4 @@
 - BOJ3052.java : [나머지](https://www.acmicpc.net/problem/3052)
 ### Baekjoon Online Judge - String
 - BOJ1157.java : [단어 공부](https://www.acmicpc.net/problem/1157)
+- BOJ1152.java : [단어의 개수](https://www.acmicpc.net/problem/1152)
