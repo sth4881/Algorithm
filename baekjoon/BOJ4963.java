@@ -13,11 +13,11 @@ public class BOJ4963 {
 	public static void dfs(int[][] arr, int row, int col, int h, int w, boolean[][] visited) {
 		visited[row][col] = true; // 해당 정점을 방문했음을 표시
 		for(int i=0; i<8; i++) { // 현재 정점으로부터 8방향에 대해서
-			int nr = row+dr[i]; // 다음 정점의 행을 갱신
-			int nc = col+dc[i]; // 다음 정점의 열을 갱신
+			int nr = row+dr[i]; // 현재 정점의 행을 갱신
+			int nc = col+dc[i]; // 현재 정점의 열을 갱신
 			if(nr>=0 && nr<h && nc>=0 && nc<w) { // arr 범위를 초과하지 않게 제한
 				if(arr[nr][nc]==1 && !visited[nr][nc]) { // 다음 정점에 섬이 있고 방문되지 않았을 경우
-					dfs(arr, nr, nc, h, w, visited); // 다음 정점을 방문한다
+					dfs(arr, nr, nc, h, w, visited); // 다음 정점에 대해서 DFS 알고리즘 수행
 				}
 			}
 		}
