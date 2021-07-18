@@ -154,3 +154,7 @@
 ### Baekjoon Online Judge - Graph
 - BOJ4963.java : [섬의 개수](https://www.acmicpc.net/problem/4963)
 - BOJ2468.java : [안전 영역](https://www.acmicpc.net/problem/2468)
+
+## 📅 2021.7.18
+### Baekjoon Online Judge - Graph
+- BOJ11724.java : [연결 요소의 개수](https://www.acmicpc.net/problem/11724)
