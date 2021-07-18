@@ -158,3 +158,7 @@
 ## 📅 2021.7.18
 ### Baekjoon Online Judge - Graph
 - BOJ11724.java : [연결 요소의 개수](https://www.acmicpc.net/problem/11724)
+
+## 📅 2021.7.19
+### Baekjoon Online Judge - Dynamic Programming
+- BOJ1904.java : [01타일](https://www.acmicpc.net/problem/1904)
