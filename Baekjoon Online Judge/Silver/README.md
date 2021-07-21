@@ -13,6 +13,7 @@
 | 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./BOJ1904.java) |
 | 이분 탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) | [Java](./BOJ1920.java) |
 | 동적계획법 | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [Java](./BOJ1932.java) |
+| 수학, 정수론, 유클리드 호제법 | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | [Java](./BOJ2609) |
 | 동적계획법 | [포도주 시식](https://www.acmicpc.net/problem/2156) | [Java](./BOJ2156.java) |
 | 그래프 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [Java](./BOJ2178.java) |
 | 그래프, 브루트 포스 | [안전 영역](https://www.acmicpc.net/problem/2468) | [Java](./BOJ2468.java) |
