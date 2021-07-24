@@ -12,6 +12,7 @@
 | 그래프 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [Java](./BOJ1260.java) |
 | 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./BOJ1904.java) |
 | 이분 탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) | [Java](./BOJ1920.java) |
+| 욕심쟁이 알고리즘 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [Java](./BOJ1931.java) |
 | 동적계획법 | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [Java](./BOJ1932.java) |
 | 수학, 정수론, 유클리드 호제법 | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | [Java](./BOJ2609) |
 | 동적계획법 | [포도주 시식](https://www.acmicpc.net/problem/2156) | [Java](./BOJ2156.java) |
@@ -23,7 +24,7 @@
 | 그래프 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Java](./BOJ4963.java) |
 | 그래프 | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [Java](./BOJ7562.java) |
 | 수학, 동적계획법 | [파도반 수열](https://www.acmicpc.net/problem/9461) | [Java](./BOJ9461.java) |
-| 욕심쟁이 알고리즘 | [동전 0](https://www.acmicpc.net/problem/11047) | [Java](./BOJ11047.java)
+| 욕심쟁이 알고리즘 | [동전 0](https://www.acmicpc.net/problem/11047) | [Java](./BOJ11047.java) |
 | 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./BOJ11053.java) |
 | 그래프 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [Java](./BOJ11724.java) |
 | 동적계획법 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [Java](./BOJ11726.java) |

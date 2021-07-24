@@ -6,7 +6,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class BOJ1931 {
 	public static void main(String[] args) {
@@ -15,33 +16,29 @@ public class BOJ1931 {
 			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 			
 			int n = Integer.parseInt(br.readLine());
-			ArrayList<Time> arr = new ArrayList<Time>();
+			int[][] arr = new int[n][2];
 			for(int i=0; i<n; i++) {
 				String[] tmp = br.readLine().split(" ");
-				int start = Integer.parseInt(tmp[0]);
-				int end = Integer.parseInt(tmp[1]);
-				Time time = new Time(start, end);
-				arr.add(time);
+				arr[i][0] = Integer.parseInt(tmp[0]);
+				arr[i][1] = Integer.parseInt(tmp[1]);
 			}
 			
-			// 회의가 끝나는 시간을 기준으로 삽입정렬
-			for(int i=0; i<n; i++) {
-				for(int j=i+1; j<n; j++) {
-					if((arr.get(i).end == arr.get(j).end && arr.get(i).start < arr.get(j).start) || arr.get(i).end > arr.get(j).end) { // i번쨰 회의가 끝나는 시간이 j번째 회의가 끝나는 시간보다 늦으면
-						Time temp = new Time(arr.get(i).start, arr.get(i).end);
-						arr.set(i, arr.get(j));
-						arr.set(j, temp);
-					}
+			// 회의 종료시간(arr[i][1])을 기준으로 정렬하기 위해서 Comparator를 이용하여 compare 메소드를 재정의
+			Arrays.sort(arr, new Comparator<int[]>() {
+				@Override
+				public int compare(int[] o1, int[] o2) {
+					if(o1[1]==o2[1]) return o1[0] - o2[0]; // 종료시간이 같을 경우 시작시간이 빠른 순서대로 회의를 정렬
+					else return o1[1] - o2[1]; // 그 외의 경우에 대해서는 종료시간이 빠른 순서대로 회의를 정렬
 				}
-			}
+			});
 			
 			// 알고리즘
-			int cnt = 1;
-			int threshold = arr.get(0).end;
+			int cnt = 1; // 사용할 수 있는 회의 개수를 1로 초기화
+			int endTime = arr[0][1]; // 회의 종료시간을 첫번째 회의의 종료시간으로 초기화
 			for(int i=1; i<n; i++) {
-				if(threshold <= arr.get(i).start) {
-					threshold = arr.get(i).end;
-					cnt++;
+				if(endTime <= arr[i][0]) { // i번째 회의 시작시간이 이전 회의 종료시간과 같거나 더 늦을 경우  
+					endTime = arr[i][1]; // 회의 종료시간을 갱신
+					cnt++; // 회의의 개수를 1 증가
 				}
 			}
 			
@@ -52,14 +49,5 @@ public class BOJ1931 {
 		} catch(IOException e) {
 			e.getStackTrace(); 
 		}
-	}
-}
-
-class Time {
-	int start = 0;
-	int end = 0;
-	Time(int start, int end) {
-		this.start = start;
-		this.end = end;
 	}
 }
