@@ -24,7 +24,7 @@ public class BOJ11000 {
 				arr[i][1] = Integer.parseInt(tmp[1]);
 			}
 			
-			// 강의 종료시간(arr[i][1])을 기준으로 정렬하기 위해서 Comparator를 이용하여 compare 메소드를 재정의
+			// 강의 시작시간(arr[i][0])을 기준으로 정렬하기 위해서 Comparator를 이용하여 compare 메소드를 재정의
 			Arrays.sort(arr, new Comparator<int[]>() {
 				@Override
 				public int compare(int[] o1, int[] o2) {
