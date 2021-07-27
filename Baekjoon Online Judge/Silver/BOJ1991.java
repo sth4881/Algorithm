@@ -15,17 +15,13 @@ class Node {
 	public Node(String data) {
 		this.data = data;
 	}
-    public Node getLeftNode() {
-        return this.leftNode;
-    }
-    public Node getRightNode() {
-        return this.rightNode;
-    }
-	public void setLeftNode(Node node) {
+	public Node addLeftNode(Node node) {
         this.leftNode = node;
+        return node;
     }
-    public void setRightNode(Node node) {
+    public Node addRightNode(Node node) {
         this.rightNode = node;
+        return node;
     }
 }
 
@@ -55,36 +51,61 @@ public class BOJ1991 {
 			
 			int n = Integer.parseInt(br.readLine());
 			ArrayList<Node> arr = new ArrayList<Node>();
-			for(int i=0; i<26; i++) {
-				arr.add(new Node("A"+i)); // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!이거 추가하고 끝남!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-			}
 			
 			String[] tmp = br.readLine().split(" ");
 			Node root = new Node(tmp[0]); // Root Node 초기화
-			if(!tmp[1].equals(".")) // root node의 왼쪽 자식에 값이 있다면
-				root.setLeftNode(new Node(tmp[1]));
-			if(!tmp[2].equals(".")) // root node의 오른쪽 자식에 값이 있다면
-				root.setRightNode(new Node(tmp[2]));
+			arr.add(root);
 			
+			Node leftNode = null;
+			Node rightNode = null;
+			if(!tmp[1].equals(".")) { // root node의 왼쪽 자식에 값이 있다면
+				leftNode = root.addLeftNode(new Node(tmp[1]));
+				arr.add(leftNode);
+			}
+			if(!tmp[2].equals(".")) { // root node의 오른쪽 자식에 값이 있다면
+				rightNode = root.addRightNode(new Node(tmp[2]));
+				arr.add(rightNode);
+			}
+
 			// Root Node를 제외한 노드들을 트리에 추가하는 과정
 			for(int i=1; i<n; i++) {
 				tmp = br.readLine().split(" ");
-				Node curNode = new Node(tmp[0]); // i번째 node를 초기화
-				if(!tmp[1].equals(".")) // i번째 node의 왼쪽 자식에 값이 있다면
-					curNode.setLeftNode(new Node(tmp[1])); // i번째 node의 왼쪽 자식의 값을 초기화
-				if(!tmp[2].equals(".")) // i번째 node의 오른쪽 자식에 값이 있다면
-					curNode.setRightNode(new Node(tmp[2])); // i번째 node의 오른쪽 자식의 값을 초기화
+				Node curNode = null;
+				for(int j=0; j<i; j++) {
+					if(arr.get(j).leftNode!=null && arr.get(j).leftNode.data==tmp[0]) {
+						curNode = arr.get(j).leftNode;
+						break;
+					} else if(arr.get(j).rightNode!=null && arr.get(j).rightNode.data==tmp[0]) {
+						curNode = arr.get(j).rightNode;
+						break;
+					}
+				}
+
+//				System.out.println(curNode.data);
+//				if(curNode.leftNode!=null) System.out.println(curNode.leftNode.data);
+//				if(curNode.rightNode!=null) System.out.println(curNode.rightNode.data);
 				
-				// 전체 트리에서 각각의 노드에 대한 왼쪽 자식 노드와 현재 입력되는 노드의 값이 같을 경우(현재 노드가 왼쪽 자식일 경우)
-				if(arr.get(i).leftNode != null && arr.get(i).leftNode.data==curNode.data) {
-					if(curNode.leftNode!=null) arr.get(i).leftNode.setLeftNode(curNode.leftNode); // 현재 노드의 왼쪽 자식이 존재하면 왼쪽 부분에 추가
-					if(curNode.rightNode!=null) arr.get(i).leftNode.setRightNode(curNode.rightNode); // 현재 노드의 오른쪽 자식이 존재하면 왼쪽 부분에 추가
+				if(!tmp[1].equals(".")) { // i번째 node의 왼쪽 자식에 값이 있다면
+					leftNode = curNode.addLeftNode(new Node(tmp[1])); // i번째 node의 왼쪽 자식의 값을 초기화
+					arr.add(leftNode);
 				}
-				 // 전체 트리에서 각각의 노드에 대한 오른쪽 자식 노드와 현재 입력되는 노드의 값이 같을 경우(현재 노드가 오른쪽 자식일 경우)
-				if(arr.get(i).rightNode != null && arr.get(i).rightNode.data==curNode.data) {
-					if(curNode.leftNode!=null) arr.get(i).rightNode.setLeftNode(curNode.leftNode); // 현재 노드의 왼쪽 자식이 존재하면 오른쪽 부분에 추가
-					if(curNode.rightNode!=null) arr.get(i).rightNode.setRightNode(curNode.rightNode); // 현재 노드의 오른쪽 자식이 존재하면 오른쪽 부분에 추가
+				if(!tmp[2].equals(".")) { // i번째 node의 오른쪽 자식에 값이 있다면
+					rightNode = curNode.addRightNode(new Node(tmp[2])); // i번째 node의 오른쪽 자식의 값을 초기화
+					arr.add(rightNode);
 				}
+				
+//				for(int j=0; j<i; j++) {
+//					// 전체 트리에서 각각의 노드에 대한 왼쪽 자식 노드와 현재 입력되는 노드의 값이 같을 경우(현재 노드가 왼쪽 자식일 경우)
+//					if(arr.get(j).leftNode != null && arr.get(j).leftNode.data==curNode.data) {
+//						if(curNode.leftNode!=null) arr.get(j).leftNode.addLeftNode(curNode.leftNode); // 현재 노드의 왼쪽 자식이 존재하면 왼쪽 부분에 추가
+//						if(curNode.rightNode!=null) arr.get(j).leftNode.addRightNode(curNode.rightNode); // 현재 노드의 오른쪽 자식이 존재하면 왼쪽 부분에 추가
+//					}
+//					 // 전체 트리에서 각각의 노드에 대한 오른쪽 자식 노드와 현재 입력되는 노드의 값이 같을 경우(현재 노드가 오른쪽 자식일 경우)
+//					if(arr.get(j).rightNode != null && arr.get(j).rightNode.data==curNode.data) {
+//						if(curNode.leftNode!=null) arr.get(j).rightNode.addLeftNode(curNode.leftNode); // 현재 노드의 왼쪽 자식이 존재하면 오른쪽 부분에 추가
+//						if(curNode.rightNode!=null) arr.get(j).rightNode.addRightNode(curNode.rightNode); // 현재 노드의 오른쪽 자식이 존재하면 오른쪽 부분에 추가
+//					}
+//				}
 			}
 			
 			ArrayList<String> ans = new ArrayList<String>();
