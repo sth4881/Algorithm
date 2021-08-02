@@ -14,12 +14,13 @@
 | 이분 탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) | [Java](./BOJ1920.java) |
 | 욕심쟁이 알고리즘 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [Java](./BOJ1931.java) |
 | 동적계획법 | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [Java](./BOJ1932.java) |
-| 수학, 정수론, 유클리드 호제법 | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | [Java](./BOJ2609) |
 | 동적계획법 | [포도주 시식](https://www.acmicpc.net/problem/2156) | [Java](./BOJ2156.java) |
 | 그래프 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [Java](./BOJ2178.java) |
+| 동적계획법 | [동전 1](https://www.acmicpc.net/problem/2293) | [Java](./BOJ2293.java) |
 | 그래프, 브루트 포스 | [안전 영역](https://www.acmicpc.net/problem/2468) | [Java](./BOJ2468.java) |
 | 동적계획법 | [계단 오르기](https://www.acmicpc.net/problem/2579) | [Java](./BOJ2579.java) |
 | 그래프 | [바이러스](https://www.acmicpc.net/problem/2606) | [Java](./BOJ2606.java) |
+| 수학, 정수론, 유클리드 호제법 | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | [Java](./BOJ2609) |
 | 그래프 | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | [Java](./BOJ2667.java) |
 | 그래프 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Java](./BOJ4963.java) |
 | 그래프 | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [Java](./BOJ7562.java) |

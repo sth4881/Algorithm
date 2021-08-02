@@ -23,14 +23,10 @@ public class BOJ2293 {
 			}
 			
 			int[] dp = new int[k+1];
-			for(int i=1; i<=k; i++) {
-				for(int j=0; j<n; j++) {
-					if(arr[j]>i) break;
-					else if(arr[j]==i) {
-						dp[i]++;
-						break;
-					}
-					dp[i] = dp[i-1];
+			dp[0] = 1; // 동전을 아예 사용하지 않는 경우도 경우의 수라고 생각한다.
+			for(int i=0; i<n; i++) {
+				for(int j=arr[i]; j<=k; j++) { // 사용한 동전의 구성이 같은데, 순서만 다른 것은 같은 경우를 제외하기 위해서 j값을 매번 i번째 동전으로 초기화
+					dp[j] += dp[j-arr[i]]; // dp[j]는 첫번째부터 j번째까지의 동전을 사용했을 때의 합이 k원이 되도록 만드는 경우의 수이다.
 				}
 			}
 			
