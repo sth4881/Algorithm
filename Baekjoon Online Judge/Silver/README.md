@@ -27,5 +27,6 @@
 | 욕심쟁이 알고리즘 | [동전 0](https://www.acmicpc.net/problem/11047) | [Java](./BOJ11047.java) |
 | 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./BOJ11053.java) |
 | 그래프, 플로이드-와샬 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [Java](./BOJ11403) |
+| 수학, 정수론, 소수 판정 | [소인수분해](https://www.acmicpc.net/problem/11653) | [Java](./BOJ11653) |
 | 그래프 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [Java](./BOJ11724.java) |
 | 동적계획법 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [Java](./BOJ11726.java) |
