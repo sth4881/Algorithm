@@ -10,6 +10,7 @@
 | 수학, 브루트 포스 | [좋은 구간](https://www.acmicpc.net/problem/1059) | [Java](./BOJ1059.java) |
 | 동적계획법 | [RGB거리](https://www.acmicpc.net/problem/1149) | [Java](./BOJ1149.java) |
 | 그래프 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [Java](./BOJ1260.java) |
+| 그래프 | [숨바꼭질](https://www.acmicpc.net/problem/1697) | [Java](./BOJ1697.java) |
 | 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./BOJ1904.java) |
 | 이분 탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) | [Java](./BOJ1920.java) |
 | 욕심쟁이 알고리즘 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [Java](./BOJ1931.java) |

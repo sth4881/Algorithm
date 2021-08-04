@@ -8,40 +8,34 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 public class BOJ1697 {
 	public static int[] dx = { -1, 1, 2 };
-	public static int bfs(int start, int end, int[] parent, boolean[] visited) {
+	public static void bfs(int start, int end, int[] check) {
 		Queue<Integer> q = new LinkedList<Integer>();
-		Stack<Integer> s  = new Stack<Integer>();
-		visited[start] = true;
-		parent[start] = -1;
+		check[start] = 0;
 		
 		q.offer(start);
 		while(!q.isEmpty()) {
+			int nx;
 			int vtx = q.poll();
 			for(int i=0; i<3; i++) {
-				int nx = 0;
 				if(dx[i]==-1 || dx[i]==1) {
 					nx = vtx+dx[i];
 				} else {
 					nx = vtx*dx[i];
 				}
-				if(nx>=0 && nx<=end && !visited[nx ]) {
-					visited[nx] = true;
-					parent[nx] = vtx;
+
+				if(nx>=0 && nx<check.length && check[nx]==0) {
+					check[nx] = check[vtx]+1;
 					q.offer(nx);
+				}
+				if(nx==end) {
+					System.out.println(check[nx]); // 시작점에서 출발점에 도착한 경우 걸린 최소시간 반환
+					return;
 				}
 			}
 		}
-
-		int vtx = end;
-		while(vtx != start) {
-			s.push(vtx);
-			vtx = parent[vtx];
-		}
-		return s.size();
 	}
 	public static void main(String[] args) {
 		try {
@@ -53,12 +47,12 @@ public class BOJ1697 {
 			int end = Integer.parseInt(tmp[1]);
 			
 			int size = Math.max(start, end);
-			boolean[] visited = new boolean[size+1];
-			int[] parent = new int[size+1];
-			int result = bfs(start, end, parent, visited);
+			int[] check = new int[100001];
 			
-			bw.write(result+"\n");
-			bw.close();			
+			if(start==end) bw.write(0+"\n");
+			else bfs(start, end, check);
+
+			bw.close();
 		} catch(FileNotFoundException e) {
 			e.getStackTrace();
 		} catch(IOException e) {
