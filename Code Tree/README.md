@@ -8,4 +8,5 @@
 ## Novice - Mid
 
 ## Intermediate - Low
-- [Solved](./intermediate-low)
+- [Solved](./intermediate-low-solved)
+- [Failed](./intermediate-low-failed)
