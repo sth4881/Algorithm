@@ -29,7 +29,6 @@ public class BFS_Lesson1 {
 	public static int[] dy = { -1, 1, 0, 0 };
 	public static void bfs(int[][] grid, int row, int col, int n, int m, boolean[][] visited) {
 		Queue<Vertex> q = new LinkedList<Vertex>();
-		visited[row][col] = true;
 		
 		q.offer(new Vertex(row, col));
 		while(!q.isEmpty()) {
@@ -64,11 +63,12 @@ public class BFS_Lesson1 {
 			}
 			
 			boolean[][] visited = new boolean[n][m];
-			visited[0][0] = true;
-			bfs(grid, 0, 0, n, m, visited);
-			
-			if(!visited[n-1][m-1]) bw.write(0+"\n");
-			else if(visited[n-1][m-1]) bw.write(1+"\n");
+			if(grid[0][0]!=0) {
+				visited[0][0] = true;
+				bfs(grid, 0, 0, n, m, visited);
+				if(!visited[n-1][m-1]) bw.write(0+"\n");
+				else if(visited[n-1][m-1]) bw.write(1+"\n");
+			} else bw.write(0+"\n");
 			bw.close();
 		} catch(FileNotFoundException e) {
 			e.getStackTrace();
