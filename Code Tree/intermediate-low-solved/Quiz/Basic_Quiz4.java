@@ -1,4 +1,4 @@
-package com.algorithm.basic;
+package com.algorithm.codetree;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -21,42 +21,20 @@ public class Basic_Quiz4 {
 					arr[i] = "";
 				}
 			}
-			
-//			// j번째 숫자를 target으로 삼아서 이후의 숫자들이 target이 아닌 값을 만날때까지 cnt증가
-//			for(int i=1; i<n; i++) {
-//				String[] seq = arr[i-1].split(""); // i번째 수열을 구하기 위해서는 i-1번째 수열을 알아야함
-//				for(int j=0; j<seq.length; j++) {
-//					int cnt = 1; // i-1번째 수열의 j번째 숫자를 카운트하기 위한 변수 cnt를 1로 초기화
-//					if(j<seq.length-1 && seq[j].equals(seq[j+1])) { // 수열 seq의 j번째 숫자가 마지막 숫자가 아니고 그 다음 숫자가 일치하면
-//						cnt++; // j번째 숫자가 연속된다는 뜻이므로 1증가
-//					}
-//					else if(j==seq.length-1) { // 수열 seq의 j번째 숫자가 마지막 숫자라면
-//						System.out.println(i+" "+j+" "+"GG");
-//						if(seq.length>1 && !seq[seq.length-2].equals(seq[seq.length-1])) { // 해당 숫자가
-//							arr[i] += (seq[seq.length-1] + Integer.toString(cnt));
-//						} else if(seq.length>1 && !seq[seq.length-2].equals(seq[seq.length-1])) {
-//							arr[i] += (seq[j]+ Integer.toString(cnt));
-//						}
-//					}
-//				}
-//			}
 
 			for(int i=1; i<n; i++) {
 				String[] seq = arr[i-1].split(""); // i번째 수열을 구하기 위해서는 i-1번째 수열을 알아야함
 				for(int j=0; j<seq.length; j++) {
-					int cnt = 1;
 					String target = seq[j]; //  j번째 이후의 원소들에 대해서 같은지를 비교하기 위해서 i-1번째 수열의 j번째 원소를 타겟으로 삼음
-					if(target != seq[seq.length-1]) { // 현재 target이 수열의 마지막 숫자가 아니라면
-						while(j<seq.length-1 && target.equals(seq[j+1])) {
-							cnt++; // 타겟으로 삼은 원소의 값과 다음 원소의 값이 같다면 cnt 증가
-							j++;
-						}
-					} else { // 현재 target이 수열의 마지막 숫자라면
-						if(seq.length>1 && seq[seq.length-2].equals(seq[seq.length-1])) { // 마지막 숫자가 이전 숫자와 같은(?) 경우에 대해서 처리
-							arr[i] += seq[seq.length-1] + Integer.toString(cnt);
-						}
-					}
-					arr[i] += (target+Integer.toString(cnt)); // 다음 원소의 값이 같지 않으므로 조건문을 빠져나와서 i번째 수열의 값을 target과 cnt값을 더해서 갱신
+					int cnt = 1; // 타겟으로 삼은 원소에 대한 반복을 위해서 cnt를 1로 초기화
+                    while(j<seq.length-1 && target.equals(seq[j+1])) { // 타겟으로 삼은 원소의 값과 j+1 원소의 값이 같다면
+                        cnt++;
+                        j++;
+                    }
+                    // 타겟으로 삼은 원소의 값과 j+1 원소의 값이 같지 않으면 i번째 수열의 값을 target과 cnt값을 더해서 갱신
+                    // 마지막 원소와 그 전 원소의 값이 같은 경우에는 while문을 돌고, j가 증가하면서 for문을 빠져나옴 
+                    // 마지막 원소와 그 전 원소의 값이 다른 경우에는 while문을 돌지 않고 빠져나옴
+					arr[i] += (target+Integer.toString(cnt));
 				}
 			}
 			
