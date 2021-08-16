@@ -4,5 +4,10 @@
 - [Code Tree](https://www.codetree.ai/) (2021.8.1 ~ 2021.8.14)
 
 ## Intermediate - Low
-- [Solved](./intermediate-low-solved)
-- [Failed](./intermediate-low-failed)
+### Index
+- [Basic](./intermediate-low-solved/Basic)
+- [Simulation](./intermediate-low-solved/Simulation)
+- [Back-Tracking](./intermediate-low-solved/Back-Tracking)
+- [Graph](./intermediate-low-solved/Graph)
+- [DP](./intermediate-low-solved/DP)
+- [Test](./intermediate-low-solved/Test)
