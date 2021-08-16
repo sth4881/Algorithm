@@ -3,10 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-yellow?logo=Python)
 - [Code Tree](https://www.codetree.ai/) (2021.8.1 ~ 2021.8.14)
 
-## Novice - Low
-
-## Novice - Mid
-
 ## Intermediate - Low
 - [Solved](./intermediate-low-solved)
 - [Failed](./intermediate-low-failed)
