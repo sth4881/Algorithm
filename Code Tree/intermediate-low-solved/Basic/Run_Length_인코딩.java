@@ -1,4 +1,4 @@
-package com.algorithm.codetree.basic;
+package com.algorithm.codetree;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -29,7 +29,7 @@ public class Run_Length_인코딩 {
 			
 			// 마지막 문자열에 대해서 처리
 			list.add(input[input.length-1]);
-			if(!input[input.length-1].equals(input[input.length-2])) list.add("1");
+			if(input.length>1 && !input[input.length-1].equals(input[input.length-2])) list.add("1");
 			else list.add(Integer.toString(cnt));
 			
 			String answer = "";
