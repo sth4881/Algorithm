@@ -20,13 +20,14 @@ public class 순서를_바꾸었을_때_같은_단어인지_판별하기 {
 			if(input1.length!=input2.length) bw.write("No\n"); // 길이 다르면 탈락
 			else {
 				Arrays.sort(input1); Arrays.sort(input2); // 알파벳 정렬
-				String tmp1 = ""; String tmp2 = "";
-				for(int i=0; i<input1.length; i++) {
-					tmp1 += input1[i]; // 임시 문자열 tmp1에 정렬한 input1을 모두 추가
-					tmp2 += input2[i]; // 임시 문자열 tmp2에 정렬한 input2을 모두 추가
-				}
-				
-				if(tmp1.equals(tmp2)) bw.write("Yes\n"); // tmp1와 tmp2가 같으면 Yes
+                boolean isEqual = true;
+                for(int i=0; i<input1.length; i++) {
+                    if(!input1[i].equals(input2[i])) {
+                        isEqual = false;
+                        break;
+                    }
+                }
+				if(isEqual) bw.write("Yes\n"); // tmp1와 tmp2가 같으면 Yes
 				else bw.write("No\n"); // tmp1와 tmp2가 다르면 No
 			}
 			bw.close();
