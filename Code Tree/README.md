@@ -2,7 +2,6 @@
 - [Code Tree](https://www.codetree.ai/) (2021.8.1 ~ 2021.8.14)
 
 ## Intermediate - Low
-### Index
 - [Basic](./intermediate-low-solved/Basic)
 - [Simulation](./intermediate-low-solved/Simulation)
 - [Back-Tracking](./intermediate-low-solved/Back-Tracking)
