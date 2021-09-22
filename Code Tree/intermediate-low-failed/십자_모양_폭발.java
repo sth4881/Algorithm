@@ -1,4 +1,4 @@
-package com.algorithm.codetree.simulation;
+package com.algorithm.codetree;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -6,48 +6,33 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.ArrayList;
-import java.util.LinkedList;
 
 public class 십자_모양_폭발 {
-	public static int[] dx = { -1, 1, 0, 0 }; // 좌, 우, 상, 하
-	public static int[] dy = { 0, 0, 1, -1 }; // 좌, 우, 상, 하
-	public static void func(ArrayList<LinkedList<Integer>> list, int row, int col, int n) {
-		// 반복 횟수를 구하기 위한 변수 val
-		int val = list.get(col).get(n-1-row)-1;
-		
-		// 폭발 범위의 수평에 위치한 노드들을 삭제
-		for(int i=0; i<2; i++) { // 방향 관련
+	public static int[] dx = { 0, 0, -1, 1 };
+	public static int[] dy = { -1, 1, 0 ,0 };
+	public static int[][] func(int[][] arr, int row, int col, int n) {
+		// 폭발 범위에 휩싸인 값들을 0으로 변환
+		for(int i=0; i<4; i++) {
 			int nx = col;
-			int ny = n-1-row;
-			for(int j=0; j<val; j++) { // 횟수 관련
+			int ny = row;
+			for(int j=0; j<arr[row][col]-1; j++) {
 				nx += dx[i];
-				if(nx>=0 && nx<n) {
-					list.get(nx).remove(ny);
-					list.get(nx).addLast(0);
+				ny += dy[i];
+				if(nx>=0 && nx<n && ny>=0 && ny<n) arr[ny][nx] = 0;
+			}
+		}
+		arr[row][col] = 0;
+		
+		// 중력에 의해서 각각의 값들을 밑으로 이동
+		for(int i=n-1; i>0; i--) {
+			for(int j=0; j<n; j++) {
+				if(arr[i][j]==0) {
+					arr[i][j] = arr[i-1][j];
+					arr[i-1][j] = 0;
 				}
 			}
 		}
-		
-		// 폭발 범위의 수직에 위치한 값들을 0으로 변환
-		for(int i=2; i<4; i++) {
-			int ny = n-1-row;
-			for(int j=0; j<val; j++) {
-				ny += dy[i];
-				if(ny>=0 && ny<n) list.get(col).set(ny, 0);
-			}
-		}
-		
-//		// 
-//		for(int i=0; i<list.get(col).size(); i++) {
-//			if(list.get(col).get(i)==0) {
-//				while(list.get(col).get(i+1)!=0) {
-//					list.get(col).remove(i);
-//					list.get(col).addLast(0);
-//				}
-//				break;
-//			}
-//		}
+		return arr;
 	}
 	public static void main(String[] args) {
 		try {
@@ -55,28 +40,27 @@ public class 십자_모양_폭발 {
 			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 			
 			int n = Integer.parseInt(br.readLine());
-			ArrayList<LinkedList<Integer>> list = new ArrayList<LinkedList<Integer>>();
-			for(int i=0; i<n; i++)
-				list.add(new LinkedList<Integer>());
+			int[][] arr = new int[n][n];
 			
-			// 각각의 LinkedList를 초기화하는 과정
 			for(int i=0; i<n; i++) {
 				String[] str = br.readLine().split(" ");
 				for(int j=0; j<str.length; j++) {
-					list.get(j).addFirst(Integer.parseInt(str[j]));
+					arr[i][j] = Integer.parseInt(str[j]);
 				}
 			}
 			
 			String[] str = br.readLine().split(" ");
 			int row = Integer.parseInt(str[0])-1;
 			int col = Integer.parseInt(str[1])-1;
-			
-			func(list, row, col, n);
-			
-			for(int j=n-1; j>=0; j--) {
-				for(int i=0; i<n; i++)
-					bw.write(list.get(i).get(j)+" ");
-				bw.write("\n");
+
+			if(n==1) bw.write(0+"\n");
+			else {
+				int[][] ans = func(arr, row, col, n);
+				for(int i=0; i<n; i++) {
+					for(int j=0; j<n; j++)
+						bw.write(ans[i][j]+" ");
+					bw.write("\n");
+				}
 			}
 			bw.close();
 		} catch(FileNotFoundException e) {
