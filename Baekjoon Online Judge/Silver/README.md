@@ -1,4 +1,10 @@
-# BOJ Silver
+<div align="center">
+<img src="http://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/images/boj-og-1200.png" height="200">
+
+### <center>🥈 BOJ Silver 🥈</center>
+
+<!--Java-->
+<center><img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_jar.svg" height="30"/></center>
 
 | Algorithm | Problem | Language |
 |-----------|---------|----------|
@@ -32,3 +38,4 @@
 | 수학, 정수론, 소수 판정 | [소인수분해](https://www.acmicpc.net/problem/11653) | [Java](./[BOJ]11653_소인수분해) |
 | 그래프 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [Java](./[BOJ]11724_연결_요소의_개수.java) |
 | 동적계획법 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [Java](./[BOJ]11726_2xN_타일링.java) |
+</div>

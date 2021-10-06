@@ -1,4 +1,10 @@
-# BOJ Bronze
+<div align="center">
+<img src="http://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/images/boj-og-1200.png" height="200">
+
+### <center>🥉 BOJ Bronze 🥉</center>
+
+<!--Java-->
+<center><img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_jar.svg" height="30"/></center>
 
 | Algorithm | Problem | Language |
 |-----------|---------|----------|
@@ -11,3 +17,4 @@
 | 브루트 포스 | [블랙잭](https://www.acmicpc.net/problem/2798) | [Java](./[BOJ]2798_블랙잭.java) |
 | 사칙연산 | [나머지](https://www.acmicpc.net/problem/3052) | [Java](./[BOJ]3052_나머지.java) |
 | 수학 | [최소, 최대](https://www.acmicpc.net/problem/10818) | [Java](./[BOJ]10818_최소,최대.java) |
+</div>
