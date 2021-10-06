@@ -1,7 +1,7 @@
 <div align="center">
-<img src="http://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/images/boj-og-1200.png" height="200">
+<img src="https://blog.kakaocdn.net/dn/DWDqx/btqCF8ao0qJ/T8JiTZF0sHxeCFIcOMGsv1/img.png" height="100">
 
-### Baekjoon Online Judge
+### 🏆 B O J 🏆
 
 ### [Bronze](./Bronze) [Silver](./Silver) [Gold](./Gold)
 
