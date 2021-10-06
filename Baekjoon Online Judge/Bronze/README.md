@@ -6,8 +6,8 @@
 <!--Java-->
 <center><img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_jar.svg" height="30"/></center>
 
-| Algorithm |  Problem  |  Language :|
-|-----------|:---------:|:----------:|
+| Algorithm |  Problem  |  Language  |
+|:---------:|:---------:|:----------:|
 | 사칙연산 | [A+B](https://www.acmicpc.net/problem/1000) | [Java](./src/[BOJ]1000_A+B.java) |
 | 사칙연산 | [A-B](https://www.acmicpc.net/problem/1001) | [Java](./src/[BOJ]1001_A-B.java) |
 | 사칙연산 | [A/B](https://www.acmicpc.net/problem/1008) | [Java](./src/[BOJ]1008_A÷B.java) |
