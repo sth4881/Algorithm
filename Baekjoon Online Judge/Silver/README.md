@@ -7,7 +7,7 @@
 <center><img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_jar.svg" height="30"/></center>
 
 | Algorithm |  Problem  |  Language  |
-|-----------|:---------:|:----------:|
+|:----------|:---------:|:----------:|
 | 수학, 기하학 | [터렛](https://www.acmicpc.net/problem/1002) | [Java](./src/[BOJ]1002_터렛.java) |
 | 동적계획법 | [피보나치 함수](https://www.acmicpc.net/problem/1003) | [Java](./src/[BOJ]1003_피보나치_함수.java) |
 | 기하학 | [어린왕자](https://www.acmicpc.net/problem/1004) | [Java](./src/[BOJ]1004_어린_왕자.java) |
