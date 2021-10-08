@@ -19,5 +19,5 @@
 | 사칙연산 | [킹, 퀸, 룩, 비숍, 나이트, 폰](https://www.acmicpc.net/problem/3003) | [Python](./src/[BOJ]3003_킹,퀸,룩,비숍,나이트,폰.py) |
 | 사칙연산 | [나머지](https://www.acmicpc.net/problem/3052) | [Java](./src/[BOJ]3052_나머지.java) |
 | 수학 | [최소, 최대](https://www.acmicpc.net/problem/10818) | [Java](./src/[BOJ]10818_최소,최대.java) |
-| 시뮬레이션 | [공 바꾸기](https://www.acmicpc.net/problem/10813) | [Python](./src/[BOJ]10813_공바꾸기.py)
+| 시뮬레이션 | [공 바꾸기](https://www.acmicpc.net/problem/10813) | [Python](./src/[BOJ]10813_공바꾸기.py) |
 </div>
