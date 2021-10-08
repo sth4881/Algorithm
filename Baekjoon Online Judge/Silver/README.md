@@ -27,15 +27,15 @@
 | 브루트 포스, 그래프 탐색 | [안전 영역](https://www.acmicpc.net/problem/2468) | [Java](./src/[BOJ]2468_안전영역.java) |
 | 동적계획법 | [계단 오르기](https://www.acmicpc.net/problem/2579) | [Java](./src/[BOJ]2579_계단오르기.java) |
 | 그래프 탐색 | [바이러스](https://www.acmicpc.net/problem/2606) | [Java](./src/[BOJ]2606_바이러스.java) |
-| 수학, 정수론, 유클리드 호제법 | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | [Java](./src/[BOJ]2609_최대공약수와최소공배수) |
+| 수학, 정수론, 유클리드 호제법 | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | [Java](./src/[BOJ]2609_최대공약수와최소공배수.java) |
 | 그래프 탐색 | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | [Java](./src/[BOJ]2667_단지번호붙이기.java) |
 | 그래프 탐색 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Java](./src/[BOJ]4963_섬의개수.java) |
 | 그래프 탐색 | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [Java](./src/[BOJ]7562_나이트의이동.java) |
 | 수학, 동적계획법 | [파도반 수열](https://www.acmicpc.net/problem/9461) | [Java](./src/[BOJ]9461_파도반수열.java) |
 | 욕심쟁이 알고리즘 | [동전 0](https://www.acmicpc.net/problem/11047) | [Java](./src/[BOJ]11047_동전0.java) |
 | 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./src/[BOJ]11053_가장긴증가하는부분수열.java) |
-| 그래프 탐색, 플로이드-와샬 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [Java](./src/[BOJ]11403_경로찾기) |
-| 수학, 정수론, 소수 판정 | [소인수분해](https://www.acmicpc.net/problem/11653) | [Java](./src/[BOJ]11653_소인수분해) |
+| 그래프 탐색, 플로이드-와샬 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [Java](./src/[BOJ]11403_경로찾기.java) |
+| 수학, 정수론, 소수 판정 | [소인수분해](https://www.acmicpc.net/problem/11653) | [Java](./src/[BOJ]11653_소인수분해.java) |
 | 그래프 탐색 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [Java](./src/[BOJ]11724_연결요소의개수.java) |
 | 동적계획법 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [Java](./src/[BOJ]11726_2xn타일링.java) |
 </div>
