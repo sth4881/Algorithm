@@ -29,6 +29,7 @@
 | 그래프 탐색 | [바이러스](https://www.acmicpc.net/problem/2606) | [Java](./src/[BOJ]2606_바이러스.java) |
 | 수학, 정수론, 유클리드 호제법 | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | [Java](./src/[BOJ]2609_최대공약수와최소공배수.java) |
 | 그래프 탐색 | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | [Java](./src/[BOJ]2667_단지번호붙이기.java) |
+| 시뮬레이션 | [나무 조각](https://www.acmicpc.net/problem/2947) | [Python](./src/[BOJ]2947_나무조각.py) |
 | 그래프 탐색 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Java](./src/[BOJ]4963_섬의개수.java) |
 | 그래프 탐색 | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [Java](./src/[BOJ]7562_나이트의이동.java) |
 | 수학, 동적계획법 | [파도반 수열](https://www.acmicpc.net/problem/9461) | [Java](./src/[BOJ]9461_파도반수열.java) |
