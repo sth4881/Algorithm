@@ -14,6 +14,7 @@
 | 그래프 탐색 | [유기농 배추](https://www.acmicpc.net/problem/1012) | [Java](./src/[BOJ]1012_유기농배추.java) |
 | 수학, 브루트 포스 | [좋은 구간](https://www.acmicpc.net/problem/1059) | [Java](./src/[BOJ]1059_좋은구간.java) |
 | 동적계획법 | [RGB거리](https://www.acmicpc.net/problem/1149) | [Java](./src/[BOJ]1149_RGB거리.java) |
+| 시뮬레이션 | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) | [Python](./src/[BOJ]1244_스위치켜고끄기.py) |
 | 그래프 탐색 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [Java](./src/[BOJ]1260_DFS와BFS.java) |
 | 그래프 탐색 | [숨바꼭질](https://www.acmicpc.net/problem/1697) | [Java](./src/[BOJ]1697_숨바꼭질.java) |
 | 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./src/[BOJ]1904_01타일.java) |
