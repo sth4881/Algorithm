@@ -41,4 +41,5 @@
 | 수학, 정수론, 소수 판정 | [소인수분해](https://www.acmicpc.net/problem/11653) | [Java](./src/[BOJ]11653_소인수분해.java) |
 | 그래프 탐색 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [Java](./src/[BOJ]11724_연결요소의개수.java) |
 | 동적계획법 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [Java](./src/[BOJ]11726_2xn타일링.java) |
+| 문자열, 비트마스킹 | [비트가 넘쳐흘러](https://www.acmicpc.net/problem/17419) | |
 </div>
