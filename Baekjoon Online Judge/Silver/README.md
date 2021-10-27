@@ -17,6 +17,7 @@
 | 동적계획법 | [RGB거리](https://www.acmicpc.net/problem/1149) | [Java](./src/[BOJ]1149_RGB거리.java) |
 | 시뮬레이션 | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) | [Python](./src/[BOJ]1244_스위치켜고끄기.py) |
 | 그래프 탐색 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [Java](./src/[BOJ]1260_DFS와BFS.java) |
+| 시뮬레이션 | [나이트 투어](https://www.acmicpc.net/problem/1331) | [Java](./src/[BOJ]1331_나이트투어.java) |
 | 시뮬레이션 | [미로 만들기](https://www.acmicpc.net/problem/1347) | [Java](./src/[BOJ]1347_미로만들기.java) |
 | 그래프 탐색 | [숨바꼭질](https://www.acmicpc.net/problem/1697) | [Java](./src/[BOJ]1697_숨바꼭질.java) |
 | 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./src/[BOJ]1904_01타일.java) |
