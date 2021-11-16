@@ -7,9 +7,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class BOJ1713 {
-	public static class Student {
+	public static class Student implements Comparable<Student> {
 		int num = 0; // 학생의 번호
 		int total = 0; // 학생이 받은 추천수
 		int tStamp = 0; // 사진이 게시된 시간
@@ -18,30 +20,42 @@ public class BOJ1713 {
 			this.total = total;
 			this.tStamp = tStamp;
 		}
+		@Override
+		public int compareTo(Student o) {
+			// 후보들의 추천수가 동일하다면 사진이 게시된 시간이 빠른 후보를 삭제
+			if(this.total == o.total) return this.tStamp - o.tStamp;
+			// 후보들의 추천수가 같지 않다면 추천수가 낮은 후보를 삭제
+			else return this.total - o.total;
+		}
 	}
+	
 	public static int[] arr;
-	public static Student[] students;
 	public static ArrayList<Student> list;
-	public static void recommendation() {
-		// 전체 학생 수를 101명으로 초기화(0 제외) 
-		students = new Student[101];
+	public static void recommendation(int n) {
 		list = new ArrayList<Student>();
 		for(int i=0; i<arr.length; i++) {
-			// 사진이 게시된 후보가 3명 미만인 경우 후보의 사진을 게시
-			if(list.size()<3) list.add(new Student(arr[i], 1, i));
-			// 사진이 게시된 후보가 3명 이상인 경우
+			// 사진이 게시된 후보가 n명 미만인 경우 후보의 사진을 게시
+			if(list.size()<n) list.add(new Student(arr[i], 1, i));
+			// 사진이 게시된 후보가 n명 이상인 경우
 			else {
 				// 추천을 받은 후보의 사진이 게시되어 있지 않다면
 				if(!onBoard(i)) {
-					
+					// 추천 받은 횟수가 가장 적은 학생의 사진을 삭제하되
+					// 추천 받은 횟수가 가장 적은 학생이 두 명 이상인 경우
+					// 게시된 지 가장 오래된 사진을 삭제하고 새로운 후보의 사진을 게시
+					Collections.sort(list);
+					list.remove(0);
+					list.add(new Student(arr[i], 1, i));
 				}
 			}
 		}
 	}
+	
 	// 추천을 받은 후보의 사진이 게시되어 있는지 확인
 	public static boolean onBoard(int i) {
 		for(int j=0; j<list.size(); j++) {
 			// 추천을 받은 후보의 사진이 이미 게시되어 있는 경우
+			// 해당 후보의 추천수를 1 증가시키고 true 반환
 			if(list.get(j).num==arr[i]) {
 				list.get(j).total += 1;
 				return true;
@@ -50,6 +64,7 @@ public class BOJ1713 {
 		// 추천을 받은 후보의 사진이 게시되어 있지 않은 경우 false 반환
 		return false;
 	}
+	
 	public static void main(String[] args) {
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -66,13 +81,19 @@ public class BOJ1713 {
 				arr[i] = Integer.parseInt(input[i]);
 			
 			// 알고리즘
-			recommendation();
+			recommendation(n);
 
-			// 출력(오름차순으로 정렬)
-			//Collections.sort(list);
-			//for(int item : list)
-			//	bw.write(item+" ");
-			//bw.write("\n");
+			// 후보들의 번호를 오름차순으로 정렬
+			Collections.sort(list, new Comparator<Student>() {
+				@Override
+				public int compare(Student o1, Student o2) {
+					return o1.num - o2.num;
+				}
+			});
+			
+			// 최종 출력
+			for(Student item : list)
+				bw.write(item.num+" ");
 			bw.close();
 		} catch(FileNotFoundException e) {
 			e.getStackTrace();
