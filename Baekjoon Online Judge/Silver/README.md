@@ -37,6 +37,7 @@
 | 시뮬레이션 | [나무 조각](https://www.acmicpc.net/problem/2947) | [Python](./src/[BOJ]2947_나무조각.py) |
 | 시뮬레이션 | [개미](https://www.acmicpc.net/problem/3048) | [Python](./src/[BOJ]3048_개미.py) |
 | 그래프 탐색 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Java](./src/[BOJ]4963_섬의개수.java) |
+| 시뮬레이션 | [지구 온난화](https://www.acmicpc.net/problem/5212) | [Java](./src/[BOJ]5212_지구온난화.java) |
 | 그래프 탐색 | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [Java](./src/[BOJ]7562_나이트의이동.java) |
 | 수학, 동적계획법 | [파도반 수열](https://www.acmicpc.net/problem/9461) | [Java](./src/[BOJ]9461_파도반수열.java) |
 | 욕심쟁이 알고리즘 | [동전 0](https://www.acmicpc.net/problem/11047) | [Java](./src/[BOJ]11047_동전0.java) |
