@@ -22,9 +22,9 @@ public class BOJ1713 {
 		}
 		@Override
 		public int compareTo(Student o) {
-			// 후보들의 추천수가 동일하다면 사진이 게시된 시간이 빠른 후보를 삭제
+			// 후보들의 추천수가 동일하다면 사진이 게시된 시간이 빠른 후보순으로 정렬
 			if(this.total == o.total) return this.tStamp - o.tStamp;
-			// 후보들의 추천수가 같지 않다면 추천수가 낮은 후보를 삭제
+			// 후보들의 추천수가 같지 않다면 추천수가 낮은 후보순으로 정렬
 			else return this.total - o.total;
 		}
 	}
@@ -34,19 +34,18 @@ public class BOJ1713 {
 	public static void recommendation(int n) {
 		list = new ArrayList<Student>();
 		for(int i=0; i<arr.length; i++) {
-			// 사진이 게시된 후보가 n명 미만인 경우 후보의 사진을 게시
-			if(list.size()<n) list.add(new Student(arr[i], 1, i));
-			// 사진이 게시된 후보가 n명 이상인 경우
-			else {
-				// 추천을 받은 후보의 사진이 게시되어 있지 않다면
-				if(!onBoard(i)) {
-					// 추천 받은 횟수가 가장 적은 학생의 사진을 삭제하되
-					// 추천 받은 횟수가 가장 적은 학생이 두 명 이상인 경우
-					// 게시된 지 가장 오래된 사진을 삭제하고 새로운 후보의 사진을 게시
+			// 추천을 받은 후보의 사진이 게시되어 있지 않다면
+			if(!onBoard(i)) {
+				// 사진이 게시된 후보의 수가 사진틀의 개수와 같다면
+				if(list.size()==n) {
+					// 추천수가 가장 낮은 후보를 삭제하되
+					// 추천수가 가장 낮은 후보가 여러명인 경우
+					// 사진이 게시된 시간이 가장 빠른 후보를 삭제
 					Collections.sort(list);
 					list.remove(0);
-					list.add(new Student(arr[i], 1, i));
 				}
+				// 추천을 받은 후보의 사진을 게시
+				list.add(new Student(arr[i], 1, i));
 			}
 		}
 	}
