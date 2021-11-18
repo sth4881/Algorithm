@@ -21,6 +21,7 @@
 | 시뮬레이션 | [나이트 투어](https://www.acmicpc.net/problem/1331) | [Java](./src/[BOJ]1331_나이트투어.java) |
 | 시뮬레이션 | [미로 만들기](https://www.acmicpc.net/problem/1347) | [Java](./src/[BOJ]1347_미로만들기.java) |
 | 그래프 탐색 | [숨바꼭질](https://www.acmicpc.net/problem/1697) | [Java](./src/[BOJ]1697_숨바꼭질.java) |
+| 시뮬레이션 | [후보 추천하기](https://www.acmicpc.net/problem/1713) | [Java](./src/[BOJ]1713_후보추천하기.java) |
 | 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./src/[BOJ]1904_01타일.java) |
 | 이분 탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) | [Java](./src/[BOJ]1920_수찾기.java) |
 | 욕심쟁이 알고리즘 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [Java](./src/[BOJ]1931_회의실배정.java) |
