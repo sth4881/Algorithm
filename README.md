@@ -8,7 +8,7 @@
 ![MySQL](https://img.shields.io/badge/mysql-008CC1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 <!--BOJ-->
-### [<img src="https://www.google.com/s2/favicons?domain_url=https://www.acmicpc.net/" height="13"> Baekjoon Online Judge <img src="https://www.google.com/s2/favicons?domain_url=https://www.acmicpc.net/" height="13">](https://github.com/sth4881/Algorithm/tree/main/Baekjoon%20Online%20Judge)
+### [Baekjoon Online Judge](https://github.com/sth4881/Algorithm/tree/main/Baekjoon%20Online%20Judge)
 
 <!--CodeTree-->
-### [<img src="https://www.google.com/s2/favicons?domain_url=https://www.codetree.ai/" height="13"> Code Tree <img src="https://www.google.com/s2/favicons?domain_url=https://www.codetree.ai/" height="13">](https://github.com/sth4881/Algorithm/tree/main/Code%20Tree)
+### [Code Tree](https://github.com/sth4881/Algorithm/tree/main/Code%20Tree)
