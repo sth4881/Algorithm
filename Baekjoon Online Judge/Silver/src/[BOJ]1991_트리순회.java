@@ -8,128 +8,102 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
-//트리 구조를 만들기 위한 Node 클래스 생성
-class Node {
-	String data;
-	Node leftNode, rightNode;
-	public Node(String data) {
-		this.data = data;
-	}
-	public Node addLeftNode(Node node) {
-        this.leftNode = node;
-        return node;
-    }
-    public Node addRightNode(Node node) {
-        this.rightNode = node;
-        return node;
-    }
-}
-
 public class BOJ1991 {
-	public static void preOrder(Node node,  ArrayList<String> ans) { // 전위 순회
-		ans.add(node.data);
-		if(node.leftNode != null) preOrder(node.leftNode, ans); // left node에 자식이 있다면 left node에 대해서 전위 순회
-		if(node.rightNode != null) preOrder(node.rightNode, ans); // right node에 자식이 있다면 right node에 대해서 전위 순회
+	public static class Node {
+		char data;
+		Node left;
+		Node right;
+		public Node(char data) {
+			this.data = data;
+		}
 	}
-	
-	public static void inOrder(Node node, ArrayList<String> ans) { // 중위 순회
-		if(node.leftNode != null) inOrder(node.leftNode, ans); // left node에 자식이 있다면 left node에 대해서 중위 순회
-		ans.add(node.data);
-		if(node.rightNode != null) inOrder(node.rightNode, ans); // right node에 자식이 있다면 left node에 대해서 중위 순회
+	public static class Tree {
+		Node root;
+		ArrayList<Character> preOrderList = new ArrayList<Character>();
+		ArrayList<Character> inOrderList = new ArrayList<Character>();
+		ArrayList<Character> postOrderList = new ArrayList<Character>();
+		public void createNode(char rootData, char leftData, char rightData) {
+			// 루트 노드가 존재하지 않아서 트리가 구성되지 않는 경우 루트 노드를 생성
+			if(root == null) {
+				root = new Node(rootData);
+				if(leftData != '.') root.left = new Node(leftData);
+				if(rightData != '.') root.right = new Node(rightData);
+			}
+			// 루트 노드가 존재하여 트리가 구성된 경우 해당 노드를 트리의 어느 부분에 위치시킬지 결정
+			else appendNode(root, rootData, leftData, rightData);
+		}
+		public void appendNode(Node root, char rootData, char leftData, char rightData) {
+			// 현재 노드의 값과 일치하는 노드를 찾지 못한 경우 재귀 종료
+			if(root == null) return;
+			// 현재 노드의 값과 일치하는 노드를 찾은 경우
+			else if(root.data == rootData) {
+				// 현재 노드의 왼쪽 노드에 값이 존재하는 경우 루트 노드와 연결
+				if(leftData != '.') root.left = new Node(leftData);
+				// 현재 노드의 오른쪽 노드에 값이 존재하는 경우 루트 노드와 연결
+				if(rightData != '.') root.right = new Node(rightData);
+			}
+			// 현재 노드의 값과 일치하는 노드를 찾지 못했고 탐색할 노드가 남아있는 경우
+			// 현재 노드의 왼쪽 노드와 오른쪽 노드를 각각 재귀적으로 탐색
+			else {
+				appendNode(root.left, rootData, leftData, rightData);
+				appendNode(root.right, rootData, leftData, rightData);
+			}
+		}
+		// 전위 순회
+		public void preOrder(Node root) {
+			preOrderList.add(root.data);
+			if(root.left != null) preOrder(root.left);
+			if(root.right != null) preOrder(root.right);
+		}
+		// 중위 순회
+		public void inOrder(Node root) {
+			if(root.left != null) inOrder(root.left);
+			inOrderList.add(root.data);
+			if(root.right != null) inOrder(root.right);
+		}
+		// 후위 순회
+		public void postOrder(Node root) {
+			if(root.left != null) postOrder(root.left);
+			if(root.right != null) postOrder(root.right);
+			postOrderList.add(root.data);
+		}
 	}
-	
-	public static void postOrder(Node node, ArrayList<String> ans) { // 후위 순회
-		if(node.leftNode != null) postOrder(node.leftNode, ans); // left node에 자식이 있다면 left node에 대해서 후위 순회
-		if(node.rightNode != null) postOrder(node.rightNode, ans); // right node에 자식이 있다면 left node에 대해서 후위 순회
-		ans.add(node.data);
-	}
-	
 	public static void main(String[] args) {
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-			
+
+			// 입력 & 선언 & 초기화
 			int n = Integer.parseInt(br.readLine());
-			ArrayList<Node> arr = new ArrayList<Node>();
-			
-			String[] tmp = br.readLine().split(" ");
-			Node root = new Node(tmp[0]); // Root Node 초기화
-			arr.add(root);
-			
-			Node leftNode = null;
-			Node rightNode = null;
-			if(!tmp[1].equals(".")) { // root node의 왼쪽 자식에 값이 있다면
-				leftNode = root.addLeftNode(new Node(tmp[1]));
-				arr.add(leftNode);
-			}
-			if(!tmp[2].equals(".")) { // root node의 오른쪽 자식에 값이 있다면
-				rightNode = root.addRightNode(new Node(tmp[2]));
-				arr.add(rightNode);
-			}
-
-			// Root Node를 제외한 노드들을 트리에 추가하는 과정
-			for(int i=1; i<n; i++) {
-				tmp = br.readLine().split(" ");
-				Node curNode = null;
-				for(int j=0; j<i; j++) {
-					if(arr.get(j).leftNode!=null && arr.get(j).leftNode.data==tmp[0]) {
-						curNode = arr.get(j).leftNode;
-						break;
-					} else if(arr.get(j).rightNode!=null && arr.get(j).rightNode.data==tmp[0]) {
-						curNode = arr.get(j).rightNode;
-						break;
-					}
-				}
-
-//				System.out.println(curNode.data);
-//				if(curNode.leftNode!=null) System.out.println(curNode.leftNode.data);
-//				if(curNode.rightNode!=null) System.out.println(curNode.rightNode.data);
-				
-				if(!tmp[1].equals(".")) { // i번째 node의 왼쪽 자식에 값이 있다면
-					leftNode = curNode.addLeftNode(new Node(tmp[1])); // i번째 node의 왼쪽 자식의 값을 초기화
-					arr.add(leftNode);
-				}
-				if(!tmp[2].equals(".")) { // i번째 node의 오른쪽 자식에 값이 있다면
-					rightNode = curNode.addRightNode(new Node(tmp[2])); // i번째 node의 오른쪽 자식의 값을 초기화
-					arr.add(rightNode);
-				}
-				
-//				for(int j=0; j<i; j++) {
-//					// 전체 트리에서 각각의 노드에 대한 왼쪽 자식 노드와 현재 입력되는 노드의 값이 같을 경우(현재 노드가 왼쪽 자식일 경우)
-//					if(arr.get(j).leftNode != null && arr.get(j).leftNode.data==curNode.data) {
-//						if(curNode.leftNode!=null) arr.get(j).leftNode.addLeftNode(curNode.leftNode); // 현재 노드의 왼쪽 자식이 존재하면 왼쪽 부분에 추가
-//						if(curNode.rightNode!=null) arr.get(j).leftNode.addRightNode(curNode.rightNode); // 현재 노드의 오른쪽 자식이 존재하면 왼쪽 부분에 추가
-//					}
-//					 // 전체 트리에서 각각의 노드에 대한 오른쪽 자식 노드와 현재 입력되는 노드의 값이 같을 경우(현재 노드가 오른쪽 자식일 경우)
-//					if(arr.get(j).rightNode != null && arr.get(j).rightNode.data==curNode.data) {
-//						if(curNode.leftNode!=null) arr.get(j).rightNode.addLeftNode(curNode.leftNode); // 현재 노드의 왼쪽 자식이 존재하면 오른쪽 부분에 추가
-//						if(curNode.rightNode!=null) arr.get(j).rightNode.addRightNode(curNode.rightNode); // 현재 노드의 오른쪽 자식이 존재하면 오른쪽 부분에 추가
-//					}
-//				}
+			Tree tree = new Tree();
+			for(int i=0; i<n; i++) {
+				String[] str = br.readLine().split(" ");
+				tree.createNode(str[0].charAt(0), str[1].charAt(0), str[2].charAt(0));
 			}
 			
-			ArrayList<String> ans = new ArrayList<String>();
-			preOrder(root, ans);
-			for(int i=0; i<ans.size(); i++)
-				bw.write(ans.get(i)+"");
+			// 전위 순회
+			tree.preOrder(tree.root);
+			for(char item : tree.preOrderList)
+				bw.write(item+"");
 			bw.write("\n");
 			
-			ans = new ArrayList<String>();
-			inOrder(root, ans);
-			for(int i=0; i<ans.size(); i++)
-				bw.write(ans.get(i)+"");
+			// 중위 순회
+			tree.inOrder(tree.root);
+			for(char item : tree.inOrderList)
+				bw.write(item+"");
 			bw.write("\n");
 			
-			ans = new ArrayList<String>();
-			postOrder(root, ans);
-			for(int i=0; i<ans.size(); i++)
-				bw.write(ans.get(i)+"");
+			// 후위 순회
+			tree.postOrder(tree.root);
+			for(char item : tree.postOrderList)
+				bw.write(item+"");
 			bw.write("\n");
+			
 			bw.close();
 		} catch(FileNotFoundException e) {
 			e.getStackTrace();
 		} catch(IOException e) {
-			e.getStackTrace(); 
+			e.getStackTrace();
 		}
 	}
 }
