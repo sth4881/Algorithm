@@ -1,130 +1,117 @@
-package com.algorithm.graph;
+package com.algorithm;
 
 import java.io.BufferedReader;
-import java.io.File;
+import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
-import java.util.Stack;
 
 public class Dijkstra {
-
-	public static void func(ArrayList<ArrayList<Vtx>> arr, int src, int dst, int[] distance, int[] parent, boolean[] found) {
-		ArrayList<Integer> cnt = new ArrayList<Integer>();
-		Stack<Integer> s = new Stack<Integer>();
-		cnt.add(src); // ½ÃÀÛ Á¤Á¡Àº ÃÖ´Ü°Å¸®°¡ µµÃâµÆÀ¸¹Ç·Î cnt.add(src) 
-		found[src] = true; // ½ÃÀÛ Á¤Á¡Àº Ç×»ó ÃÖ´Ü°Å¸®°¡ µµÃâµÊÀ¸·Î found[src] = true;
-		distance[src] = 0; // ½ÃÀÛ Á¤Á¡À¸·ÎºÎÅÍ ½ÃÀÛ Á¤Á¡±îÁöÀÇ °Å¸®´Â 0
-		parent[src] = -1; // ½ÃÀÛ Á¤Á¡Àº ºÎ¸ğ Á¤Á¡ÀÌ Á¸ÀçÇÏÁö ¾ÊÀ¸¹Ç·Î -1
-
-		int vtx = src;
-		while(cnt.size()<=arr.size()) { // ¸ğµç Á¤Á¡ÀÇ ÃÖ´Ü°Å¸®°¡ ±¸ÇØÁú ¶§±îÁö
-			for(int i=0; i<arr.get(vtx).size(); i++) { // ÇöÀç Á¤Á¡ vtx¿¡ ÀÎÁ¢ÇÑ Á¤Á¡ Áß¿¡¼­
-				Vtx adj = arr.get(vtx).get(i);
-				if(!found[adj.vertex]) { // ÀÎÁ¢ÇÑ Á¤Á¡À» ¹æ¹®ÇÏÁö ¾Ê¾Ò´Ù¸é
-					if(distance[adj.vertex] > distance[vtx] + adj.weight) { // ½ÃÀÛ Á¤Á¡À¸·ÎºÎÅÍ ÀÎÁ¢ÇÑ Á¤Á¡ adj±îÁöÀÇ °Å¸® distance[adj.vertex]°¡
-																						// ½ÃÀÛ Á¤Á¡À¸·ÎºÎÅÍ ÇöÀç Á¤Á¡ vtx±îÁöÀÇ °Å¸® distance[vtx]
-																						// 										+
-																						// ÇöÀç Á¤Á¡ vtxºÎÅÍ ÀÎÁ¢ÇÑ Á¤Á¡ adj ±îÁöÀÇ °Å¸® adj.weight º¸´Ù ÀÛ´Ù¸é
-						distance[adj.vertex] = distance[vtx] + adj.weight;
-						parent[adj.vertex] = vtx;
-					}
-				}
-			}
-			
-			// ¹æ¹®ÇÏÁö ¾ÊÀº Á¤Á¡ Áß¿¡¼­ ´ÙÀ½À¸·Î ¹æ¹®ÇÒ Á¤Á¡À¸·Î
-			// ½ÃÀÛ Á¤Á¡À¸·ÎºÎÅÍÀÇ ÇØ´ç Á¤Á¡±îÁöÀÇ °Å¸®°¡ ÃÖ¼ÒÀÎ Á¤Á¡À» ¼±ÅÃ
-			int min = Integer.MAX_VALUE;
-			int next = 0; // ÀÇ¹Ì¾ø´Â ÃÊ±âÈ­
-			for(int i=0; i<arr.size(); i++) { 
-				if(!found[i]) { // ½ÃÀÛ Á¤Á¡À¸·ÎºÎÅÍ ÃÖ´Ü°Å¸®°¡ ±¸ÇØÁöÁö ¾ÊÀº Á¤Á¡ Áß¿¡¼­
-					if(distance[i] < min) { // ½ÃÀÛ Á¤Á¡À¸·ÎºÎÅÍÀÇ °Å¸®°¡ ÃÖ¼ÒÀÎ Á¤Á¡À» ±¸ÇÏ±â
-						min = distance[i];
-						next = i;
-					}
-				}
-			}
-			
-			// ¹æ¹®ÇÏÁö ¾ÊÀº Á¤Á¡ Áß¿¡¼­ ÃÖ´Ü°Å¸®·Î °¥ ¼ö ÀÖ´Â 
-			// Á¤Á¡À» ´ÙÀ½À¸·Î ¹æ¹®ÇÒ Á¤Á¡À¸·Î Ã³¸®
-			found[next] = true; // ½ÃÀÛ Á¤Á¡À¸·ÎºÎÅÍÀÇ ÃÖ´Ü°Å¸®°¡ ±¸ÇØÁ³À½À» Ç¥½Ã
-			cnt.add(next); // ½ÃÀÛ Á¤Á¡À¸·ÎºÎÅÍÀÇ ÃÖ´Ü°Å¸®°¡ ±¸ÇØÁø Á¤Á¡ÀÇ °³¼ö 1 Áõ°¡
-			vtx = next; // nextÀÇ °ªÀ» vtx¿¡ ³Ö¾îÁÜÀ¸·Î½á ´ÙÀ½ ¹æ¹®ÇÒ Á¤Á¡À» °»½Å
+	public static class Node {
+		int num;
+		int weight;
+		public Node(int num, int weight) {
+			this.num = num;
+			this.weight = weight;
 		}
+	}
+	public static int[] dist; // ì‹œì‘ì ìœ¼ë¡œë¶€í„° ê° ì •ì ì˜ ìµœë‹¨ê±°ë¦¬ ê³„ì‚°
+	public static int[] parent; // ìµœë‹¨ê±°ë¦¬ë¥¼ êµ¬í•˜ê¸° ìœ„í•œ ì •ì ì˜ ë¶€ëª¨ ë°°ì—´
+	public static boolean[] found; // ìµœë‹¨ê±°ë¦¬ë¥¼ ì°¾ì€ ì •ì ì„ êµ¬ë³„í•˜ê¸° ìœ„í•œ ë°°ì—´
+	public static ArrayList<ArrayList<Node>> list;
+	public static int dijkstra(int src, int dst, int n) {
+		int cnt = 1;
+		int cur = src;
+		dist[cur] = 0; // ì‹œì‘ì ìœ¼ë¡œë¶€í„° ì‹œì‘ì ê¹Œì§€ì˜ ê±°ë¦¬ëŠ” 0
+		parent[cur] = -1; // ì‹œì‘ì ì˜ ë¶€ëª¨ ì •ì ì€ ì¡´ì¬í•˜ì§€ ì•Šìœ¼ë¯€ë¡œ -1
+		found[cur] = true; // ì‹œì‘ì ì˜ ìµœë‹¨ê±°ë¦¬ëŠ” í•­ìƒ 0ìœ¼ë¡œ ë„ì¶œë˜ë¯€ë¡œ true
 		
-		int tmp = dst;
-		while(tmp!=-1) {
-			s.push(tmp);
-			tmp = parent[tmp];
+		// ëª¨ë“  ì •ì ì˜ ìµœë‹¨ê±°ë¦¬ë¥¼ êµ¬í•  ë•Œê¹Œì§€ ë°˜ë³µ
+		while(cnt!=n) {
+			// ì •ì  nodeì— ì¸ì ‘í•œ ê°ê°ì˜ ì •ì ë“¤ì— ëŒ€í•´ì„œ
+			for(int i=0; i<list.get(cur).size(); i++) { 
+				Node adj = list.get(cur).get(i);
+				// ì •ì  nodeì— ì¸ì ‘í•œ ì •ì ì˜ ìµœë‹¨ê±°ë¦¬ê°€ êµ¬í•´ì§€ì§€ ì•Šì•˜ë‹¤ë©´
+				if(!found[adj.num]) {
+					// â‘  ì‹œì‘ì ìœ¼ë¡œë¶€í„° ì •ì  adjê¹Œì§€ì˜ ê±°ë¦¬ì™€
+					// â‘¡ ì‹œì‘ì ìœ¼ë¡œë¶€í„° ì •ì  nodeê¹Œì§€ì˜ ê±°ë¦¬ + ì •ì  nodeë¡œë¶€í„° ì •ì  adjê¹Œì§€ì˜ ê±°ë¦¬ë¥¼ ë¹„êµ
+					if(dist[adj.num] > dist[cur] + adj.weight) {
+						dist[adj.num] = dist[cur] + adj.weight; // â‘¡ì˜ ê°’ì´ ë” ì‘ë‹¤ë©´ ìµœë‹¨ê±°ë¦¬ë¥¼ ê°±ì‹ 
+						parent[adj.num] = cur; // ì •ì  adjì˜ ë¶€ëª¨ ì •ì ì„ nodeë¡œ ê°±ì‹ 
+					}
+				}
+			}
+			
+			// ì•„ì§ ë°©ë¬¸ë˜ì§€ ì•ŠëŠ” ì •ì  ì¤‘ì—ì„œ ë‹¤ìŒìœ¼ë¡œ ë°©ë¬¸í•  ì •ì ìœ¼ë¡œ
+			// ì‹œì‘ì ìœ¼ë¡œë¶€í„° ì •ì ê¹Œì§€ì˜ ê±°ë¦¬ê°€ ìµœì†Œì¸ ì •ì ì„ ì„ íƒí•˜ëŠ” ì•Œê³ ë¦¬ì¦˜
+			int min = Integer.MAX_VALUE;
+			int nextVisit = 0;
+			for(int i=0; i<list.size(); i++) {
+				// ì‹œì‘ì ìœ¼ë¡œë¶€í„°ì˜ ìµœë‹¨ê±°ë¦¬ê°€ êµ¬í•´ì§€ì§€ ì•Šì€ ì •ì  ì¤‘ì—ì„œ
+				if(!found[i]) {
+					// ì‹œì‘ì ìœ¼ë¡œë¶€í„° ê±°ë¦¬ê°€ ìµœì†Œì¸ ì •ì  êµ¬í•˜ê¸°
+					if(dist[i] < min) {
+						min = dist[i];
+						nextVisit = i;
+					}
+				}
+			}
+			
+			// ì•„ì§ ë°©ë¬¸ë˜ì§€ ì•Šì€ ì •ì  ì¤‘ì—ì„œ ì‹œì‘ì ìœ¼ë¡œë¶€í„°
+			// ìµœë‹¨ê±°ë¦¬ë¡œ ê°ˆ ìˆ˜ ìˆëŠ” ì •ì ì„ ë„ì¶œ ë° ë‹¤ìŒ ë°©ë¬¸í•  ì •ì ìœ¼ë¡œ ì²˜ë¦¬í•˜ëŠ” ì•Œê³ ë¦¬ì¦˜
+			found[nextVisit] = true;
+			cur = nextVisit;
+			cnt++;
 		}
-		System.out.println("°æ·ÎÀÇ ±æÀÌ: "+distance[dst]);
-		while(!s.isEmpty()) {
-			System.out.print(s.pop()+" ");
-		}
+		// ìµœì¢…ì ìœ¼ë¡œ ì‹œì‘ì ìœ¼ë¡œë¶€í„° ë„ì°©ì ê¹Œì§€ì˜ ìµœë‹¨ê±°ë¦¬ ë°˜í™˜
+		return dist[dst];
 	}
 	public static void main(String[] args) {
 		try {
-			// Å×½ºÆ® ÄÉÀÌ½º¸¦ ÆÄÀÏ·ÎºÎÅÍ ÀĞ¾î¿Í¼­ Å×½ºÆ® ÇØº¸±â À§ÇØ¼­ ±¸Çö
-			String fileName = "E:\\ÇĞ±³\\4-1\\¾Ë°í¸®Áò\\°úÁ¦\\test.txt";
-			File file = new File(fileName);
-			FileReader reader = new FileReader(file);
-			BufferedReader bufReader = new BufferedReader(reader);
-			System.out.println(fileName);
+			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+			// ì…ë ¥
+			String[] nm = br.readLine().split(" ");
+			int n = Integer.parseInt(nm[0]); // ì •ì  ê°œìˆ˜
+			int m = Integer.parseInt(nm[1]); // ê°„ì„  ê°œìˆ˜
 			
-			String[] nm = bufReader.readLine().split(" ");
-			int n = Integer.parseInt(nm[0]);
-			int m = Integer.parseInt(nm[1]);
+			// ì„ ì–¸
+			list = new ArrayList<ArrayList<Node>>();
+			for(int i=0; i<n; i++)
+				list.add(new ArrayList<Node>());
 			
-			ArrayList<ArrayList<Vtx>> arr = new ArrayList<ArrayList<Vtx>>();
-			for(int i=0; i<n; i++) {
-				arr.add(new ArrayList<Vtx>()); // °¢°¢ÀÇ ArrayList¿¡ ¸Ş¸ğ¸® ÇÒ´çÇØ¼­ »ı¼º
-			}
-			
+			// ì´ˆê¸°í™”
 			for(int i=0; i<m; i++) {
-				String[] input = bufReader.readLine().split(" ");
-				int tmp1=Integer.parseInt(input[0]);
-				int tmp2=Integer.parseInt(input[1]);
-				int tmp3=Integer.parseInt(input[2]);
-				Vtx adj1 = new Vtx(); // ÀÎÁ¢ Á¤Á¡°ú °¡ÁßÄ¡¸¦ ¹­¾î¼­ ³Ö±â À§ÇØ¼­ Å¬·¡½º Vertex »ı¼º
-				adj1.vertex=tmp2; // Á¤Á¡ tmp1¿¡ ÀÎÁ¢ÇÑ Á¤Á¡ tmp2À» adj.vertex·Î ¼³Á¤
-				adj1.weight=tmp3; // Á¤Á¡ tmp1¿Í tmp2¸¦ ÀÕ´Â °¡ÁßÄ¡ tmp3¸¦ adj.weight·Î ¼³Á¤
-				arr.get(tmp1).add(adj1); // À§ÀÇ °ªÀ» Á¤Á¡ tmp1¿¡ ArrayList·Î ¿¬°á
-				Vtx adj2 = new Vtx(); // ÀÎÁ¢ Á¤Á¡°ú °¡ÁßÄ¡¸¦ ¹­¾î¼­ ³Ö±â À§ÇØ¼­ Å¬·¡½º Vertex »ı¼º
-				adj2.vertex=tmp1; // Á¤Á¡ tmp2¿¡ ÀÎÁ¢ÇÑ Á¤Á¡ tmp1À» adj.vertex·Î ¼³Á¤
-				adj2.weight=tmp3; // Á¤Á¡ tmp2¿Í tmp1¸¦ ÀÕ´Â °¡ÁßÄ¡ tmp3¸¦ adj.weight·Î ¼³Á¤
-				arr.get(tmp2).add(adj2); // À§ÀÇ °ªÀ» Á¤Á¡ tmp2¿¡ ArrayList·Î ¿¬°á
+				String[] input = br.readLine().split(" ");
+				int u = Integer.parseInt(input[0]);
+				int v = Integer.parseInt(input[1]);
+				int w = Integer.parseInt(input[2]);
+				list.get(u).add(new Node(v, w));
+				list.get(v).add(new Node(u, w));
 			}
 			
-//			for(int i=0; i<n; i++) {
-//				for(int j=0; j<arr.get(i).size(); j++) {
-//					System.out.println(i+"¹øÂ° ÀÎµ¦½ºÀÇ »çÀÌÁî: "+arr.get(i).size());
-//					System.out.println(i+" "+arr.get(i).get(j).vertex+" "+arr.get(i).get(j).weight);
-//				}
-//			}
-			
-			String[] srcdst = bufReader.readLine().split(" ");
+			// ì¶œë°œ & ë„ì°©
+			String[] srcdst = br.readLine().split(" ");
 			int src = Integer.parseInt(srcdst[0]);
 			int dst = Integer.parseInt(srcdst[1]);
 			
-			int[] dist = new int[n];
+			// ì‹œì‘ ì •ì ê³¼ ë‹¤ë¥¸ ì •ì  ê°„ì˜ ê±°ë¦¬ë¥¼ ì €ì¥í•˜ê¸° ìœ„í•œ ë°°ì—´
+			dist = new int[n];
 			for(int i=0; i<n; i++)
-				dist[i] = 1000000; // ½ÃÀÛ Á¤Á¡À¸·ÎºÎÅÍ ´Ù¸¥ ¸ğµç Á¤Á¡ÀÇ °Å¸®¸¦ ¹«ÇÑ´ë¿¡ °¡±õ°Ô ÃÊ±âÈ­ 
-			int[] parent = new int[n]; // °æ·Î¸¦ Ãâ·ÂÇÏ±â À§ÇØ¼­ °¢°¢ÀÇ Á¤Á¡ÀÇ ºÎ¸ğ Á¤Á¡À» ÀúÀå
-			boolean[] found = new boolean[n]; // ½ÃÀÛ Á¤Á¡À¸·ÎºÎÅÍ ÇØ´ç Á¤Á¡±îÁöÀÇ ÃÖ´Ü°æ·Î¸¦ Ã£¾ÒÀ½À» Ç¥½Ã
-
-			func(arr, src, dst, dist, parent, found);
+				dist[i] = 1000000; // ì‹œì‘ ì •ì ìœ¼ë¡œë¶€í„° ë‹¤ë¥¸ ëª¨ë“  ì •ì ì˜ ê±°ë¦¬ë¥¼ ë¬´í•œëŒ€ì— ê°€ê¹ê²Œ ì´ˆê¸°í™”
+			parent = new int[n]; // ìµœë‹¨ê±°ë¦¬ ê²½ë¡œ ì¶œë ¥ì„ ìœ„í•œ ë¶€ëª¨ ë°°ì—´ ìƒì„±
+			found = new boolean[n]; // ì‹œì‘ ì •ì ìœ¼ë¡œë¶€í„° í•´ë‹¹ ì •ì ê¹Œì§€ì˜ ìµœë‹¨ê²½ë¡œë¥¼ ì°¾ì•˜ìŒì„ í‘œì‹œí•˜ê¸° ìœ„í•œ ë°°ì—´ ìƒì„±
 			
-			reader.close();
+			// ì‹œì‘ì ìœ¼ë¡œë¶€í„° ë„ì°©ì ê¹Œì§€ì˜ ìµœë‹¨ê±°ë¦¬ ì¶œë ¥
+			bw.write(dijkstra(src, dst, n)+"\n");
+			bw.close();
 		} catch(FileNotFoundException e) {
 			e.getStackTrace();
 		} catch(IOException e) {
-			e.getStackTrace(); 
+			e.getStackTrace();
 		}
 	}
-}
-
-class Vtx {
-	int vertex;
-	int weight;
 }
