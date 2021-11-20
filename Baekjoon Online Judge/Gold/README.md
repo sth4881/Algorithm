@@ -8,6 +8,7 @@
 | Algorithm | Problem | Language |
 |:---------:|:-------:|:--------:|
 | 그래프 탐색, 트리 | [트리의 지름](https://www.acmicpc.net/problem/1967) | [Java](./src/[BOJ]1967_트리의지름.java) |
+| 동적계획법, 누적합 | [소형기관차](https://www.acmicpc.net/problem/2616) | [Java](./src/[BOJ]2616_소형기관차.java) |
 | 동적계획법 | [줄어들지 않아](https://www.acmicpc.net/problem/9251) | [Java](./src/[BOJ]2688_줄어들지않아.java) |
 | 동적계획법 | [LCS](https://www.acmicpc.net/problem/9251) | [Java](./src/[BOJ]9251_LCS.java) |
 | 욕심쟁이 알고리즘, 우선순위 큐 | [강의실 배정](https://www.acmicpc.net/problem/11000) | [Java](./src/[BOJ]11000_강의실배정.java) |
