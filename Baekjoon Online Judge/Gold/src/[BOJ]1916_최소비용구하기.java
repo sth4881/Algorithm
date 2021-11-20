@@ -87,7 +87,6 @@ public class BOJ1916 {
 				int v = Integer.parseInt(input[1]);
 				int w = Integer.parseInt(input[2]);
 				list.get(u).add(new Node(v, w));
-				list.get(v).add(new Node(u, w));
 			}
 			
 			// 출발 & 도착
@@ -98,7 +97,7 @@ public class BOJ1916 {
 			// 시작 정점과 다른 정점 간의 거리를 저장하기 위한 배열
 			dist = new int[n+1];
 			for(int i=0; i<=n; i++)
-				dist[i] = 1000000; // 시작 정점으로부터 다른 모든 정점의 거리를 무한대에 가깝게 초기화
+				dist[i] = Integer.MAX_VALUE; // 시작 정점으로부터 다른 모든 정점의 거리를 무한대에 가깝게 초기화
 			found = new boolean[n+1]; // 시작 정점으로부터 해당 정점까지의 최단경로를 찾았음을 표시하기 위한 배열 생성
 			
 			// 시작점으로부터 도착점까지의 최단거리 출력
