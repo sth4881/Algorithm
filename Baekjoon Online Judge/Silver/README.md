@@ -27,7 +27,8 @@
 | 이분 탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) | [Java](./src/[BOJ]1920_수찾기.java) |
 | 욕심쟁이 알고리즘 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [Java](./src/[BOJ]1931_회의실배정.java) |
 | 동적계획법 | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [Java](./src/[BOJ]1932_정수삼각형.java) |
-| 트리, 재귀 | [트리 순회](https://www.acmicpc.net/problem/1991) | [Java](./src/[BOJ]1991_트리순회.java)
+| 트리, 재귀 | [트리 순회](https://www.acmicpc.net/problem/1991) | [Java](./src/[BOJ]1991_트리순회.java) |
+| 시뮬레이션, 큐 | [프린터 큐](https://www.acmicpc.net/problem/1966) | [Java](./src/[BOJ]1966_프린터큐.java) |
 | 동적계획법 | [포도주 시식](https://www.acmicpc.net/problem/2156) | [Java](./src/[BOJ]2156_포도주시식.java) |
 | 그래프 탐색 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [Java](./src/[BOJ]2178_미로탐색.java) |
 | 동적계획법 | [동전 1](https://www.acmicpc.net/problem/2293) | [Java](./src/[BOJ]2293_동전1.java) |
