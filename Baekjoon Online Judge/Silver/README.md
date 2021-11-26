@@ -13,6 +13,7 @@
 | 기하학 | [어린왕자](https://www.acmicpc.net/problem/1004) | [Java](./src/[BOJ]1004_어린왕자.java) |
 | 수학, 조합론, 동적계획법 | [다리 놓기](https://www.acmicpc.net/problem/1010) | [Java](./src/[BOJ]1010_다리놓기.java) |
 | 그래프 탐색 | [유기농 배추](https://www.acmicpc.net/problem/1012) | [Java](./src/[BOJ]1012_유기농배추.java) |
+| 수학, 브루트 포스 | [토너먼트](https://www.acmicpc.net/problem/1057) | [Java](./src/[BOJ]1057_토너먼트.java) |
 | 수학, 브루트 포스 | [좋은 구간](https://www.acmicpc.net/problem/1059) | [Java](./src/[BOJ]1059_좋은구간.java) |
 | 시뮬레이션 | [킹](https://www.acmicpc.net/problem/1063) | [Java](./src/[BOJ]1063_킹.java) |
 | 동적계획법 | [RGB거리](https://www.acmicpc.net/problem/1149) | [Java](./src/[BOJ]1149_RGB거리.java) |
