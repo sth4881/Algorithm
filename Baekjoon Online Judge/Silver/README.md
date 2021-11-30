@@ -23,6 +23,7 @@
 | 시뮬레이션 | [미로 만들기](https://www.acmicpc.net/problem/1347) | [Java](./src/[BOJ]1347_미로만들기.java) |
 | 그리디, 시뮬레이션 | [국회의원 선거](https://www.acmicpc.net/problem/1417) | [Java](./src/[BOJ]1417_국회의원선거.java) |
 | 정수론, 브루트 포스 | [날짜 계산](https://www.acmicpc.net/problem/1476) | [Java](./src/[BOJ]1476_날짜계산.java) |
+| 시뮬레이션 | [투명](https://www.acmicpc.net/problem/1531) | [Java](./src/[BOJ]1531_투명.java) |
 | 그래프 탐색 | [숨바꼭질](https://www.acmicpc.net/problem/1697) | [Java](./src/[BOJ]1697_숨바꼭질.java) |
 | 시뮬레이션 | [후보 추천하기](https://www.acmicpc.net/problem/1713) | [Java](./src/[BOJ]1713_후보추천하기.java) |
 | 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./src/[BOJ]1904_01타일.java) |
