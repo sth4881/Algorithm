@@ -9,6 +9,7 @@
 |:---------:|:-------:|:--------:|
 | 그래프 탐색, 다익스트라 | [최단경로](https://www.acmicpc.net/problem/1753) | [Java](./src/[BOJ]1753_최단경로.java) |
 | 그래프 탐색, 다익스트라 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [Java](./src/[BOJ]1916_최소비용구하기.java) |
+| 동적계획법 | [LCS 3](https://www.acmicpc.net/problem/1958) | [Java](./src/[BOJ]1958_LCS3.java) |
 | 그래프 탐색, 트리 | [트리의 지름](https://www.acmicpc.net/problem/1967) | [Java](./src/[BOJ]1967_트리의지름.java) |
 | 동적계획법, 누적합 | [소형기관차](https://www.acmicpc.net/problem/2616) | [Java](./src/[BOJ]2616_소형기관차.java) |
 | 동적계획법 | [줄어들지 않아](https://www.acmicpc.net/problem/9251) | [Java](./src/[BOJ]2688_줄어들지않아.java) |
