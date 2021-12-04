@@ -49,6 +49,7 @@
 | 시뮬레이션 | [지구 온난화](https://www.acmicpc.net/problem/5212) | [Java](./src/[BOJ]5212_지구온난화.java) |
 | 그래프 탐색 | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [Java](./src/[BOJ]7562_나이트의이동.java) |
 | 시뮬레이션 | [거북이](https://www.acmicpc.net/problem/8911) | [Java](./src/[BOJ]8911_거북이.java) |
+| 동적계획법 | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [Java](./src/[BOJ]9095_1,2,3더하기.java) |
 | 수학, 동적계획법 | [파도반 수열](https://www.acmicpc.net/problem/9461) | [Java](./src/[BOJ]9461_파도반수열.java) |
 | 그리디 | [동전 0](https://www.acmicpc.net/problem/11047) | [Java](./src/[BOJ]11047_동전0.java) |
 | 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./src/[BOJ]11053_가장긴증가하는부분수열.java) |
