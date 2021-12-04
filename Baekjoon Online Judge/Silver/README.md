@@ -51,6 +51,7 @@
 | 시뮬레이션 | [거북이](https://www.acmicpc.net/problem/8911) | [Java](./src/[BOJ]8911_거북이.java) |
 | 동적계획법 | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [Java](./src/[BOJ]9095_1,2,3더하기.java) |
 | 수학, 동적계획법 | [파도반 수열](https://www.acmicpc.net/problem/9461) | [Java](./src/[BOJ]9461_파도반수열.java) |
+| 동적계획법 | [쉬운 계단 수](https://www.acmicpc.net/problem/10844) | [Java](./src/[BOJ]10844_쉬운계단수.java) |
 | 그리디 | [동전 0](https://www.acmicpc.net/problem/11047) | [Java](./src/[BOJ]11047_동전0.java) |
 | 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./src/[BOJ]11053_가장긴증가하는부분수열.java) |
 | 그래프 탐색, 플로이드-와샬 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [Java](./src/[BOJ]11403_경로찾기.java) |
