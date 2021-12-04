@@ -36,6 +36,7 @@
 | 시뮬레이션, 큐 | [프린터 큐](https://www.acmicpc.net/problem/1966) | [Java](./src/[BOJ]1966_프린터큐.java) |
 | 동적계획법 | [포도주 시식](https://www.acmicpc.net/problem/2156) | [Java](./src/[BOJ]2156_포도주시식.java) |
 | 그래프 탐색 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [Java](./src/[BOJ]2178_미로탐색.java) |
+| 동적계획법 | [이친수](https://www.acmicpc.net/problem/2193) | [Java](./src/[BOJ]2193_이친수.java) |
 | 동적계획법 | [동전 1](https://www.acmicpc.net/problem/2293) | [Java](./src/[BOJ]2293_동전1.java) |
 | 동적계획법 | [동전 2](https://www.acmicpc.net/problem/2294) |  |
 | 브루트 포스, 그래프 탐색 | [안전 영역](https://www.acmicpc.net/problem/2468) | [Java](./src/[BOJ]2468_안전영역.java) |
