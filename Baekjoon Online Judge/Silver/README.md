@@ -64,4 +64,5 @@
 | 동적계획법 | [1, 2, 3 더하기 3](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]15988_1,2,3더하기3.java) |
 | 시뮬레이션 | [죽음의 게임](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]17204_죽음의게임.java) |
 | 문자열, 비트마스킹 | [비트가 넘쳐흘러](https://www.acmicpc.net/problem/17419) | |
+| 그래프 탐색, 시뮬레이션 | [경쟁적 전염](https://www.acmicpc.net/problem/18405) | [Java](./src/[BOJ]18405_경쟁적전염.java) |
 </div>
