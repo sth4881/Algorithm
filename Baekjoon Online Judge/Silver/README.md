@@ -17,6 +17,7 @@
 | 수학, 브루트 포스 | [좋은 구간](https://www.acmicpc.net/problem/1059) | [Java](./src/[BOJ]1059_좋은구간.java) |
 | 시뮬레이션 | [킹](https://www.acmicpc.net/problem/1063) | [Java](./src/[BOJ]1063_킹.java) |
 | 동적계획법 | [RGB거리](https://www.acmicpc.net/problem/1149) | [Java](./src/[BOJ]1149_RGB거리.java) |
+| 큐 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [Java](./src/[BOJ]1158_요세푸스문제.java) |
 | 시뮬레이션 | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) | [Python](./src/[BOJ]1244_스위치켜고끄기.py) |
 | 그래프 탐색 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [Java](./src/[BOJ]1260_DFS와BFS.java) |
 | 시뮬레이션 | [나이트 투어](https://www.acmicpc.net/problem/1331) | [Java](./src/[BOJ]1331_나이트투어.java) |
