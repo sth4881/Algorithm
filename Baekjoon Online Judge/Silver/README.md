@@ -53,6 +53,7 @@
 | 그래프 탐색 | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [Java](./src/[BOJ]7562_나이트의이동.java) |
 | 시뮬레이션 | [거북이](https://www.acmicpc.net/problem/8911) | [Java](./src/[BOJ]8911_거북이.java) |
 | 동적계획법 | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [Java](./src/[BOJ]9095_1,2,3더하기.java) |
+| 그래프 탐색, 플로이드-와샬 | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | [Java](./src/[BOJ]9205_맥주마시면서걸어가기.java) |
 | 수학, 동적계획법 | [파도반 수열](https://www.acmicpc.net/problem/9461) | [Java](./src/[BOJ]9461_파도반수열.java) |
 | 스택 | [제로](https://www.acmicpc.net/problem/10773) | [Java](./src/[BOJ]10773_제로.java) |
 | 동적계획법 | [쉬운 계단 수](https://www.acmicpc.net/problem/10844) | [Java](./src/[BOJ]10844_쉬운계단수.java) |
