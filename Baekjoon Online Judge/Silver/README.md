@@ -45,6 +45,7 @@
 | 동적계획법 | [동전 2](https://www.acmicpc.net/problem/2294) |  |
 | 브루트 포스, 그래프 탐색 | [안전 영역](https://www.acmicpc.net/problem/2468) | [Java](./src/[BOJ]2468_안전영역.java) |
 | 동적계획법 | [계단 오르기](https://www.acmicpc.net/problem/2579) | [Java](./src/[BOJ]2579_계단오르기.java) |
+| 그래프 탐색 | [영역 구하기](https://www.acmicpc.net/problem/2583) | [Java](./src/[BOJ]2583_영역구하기.java) |
 | 그래프 탐색 | [바이러스](https://www.acmicpc.net/problem/2606) | [Java](./src/[BOJ]2606_바이러스.java) |
 | 수학, 정수론, 유클리드 호제법 | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | [Java](./src/[BOJ]2609_최대공약수와최소공배수.java) |
 | 그래프 탐색 | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | [Java](./src/[BOJ]2667_단지번호붙이기.java) |
