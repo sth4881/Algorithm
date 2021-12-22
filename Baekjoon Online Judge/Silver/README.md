@@ -35,6 +35,7 @@
 | 이분 탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) | [Java](./src/[BOJ]1920_수찾기.java) |
 | 그리디 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [Java](./src/[BOJ]1931_회의실배정.java) |
 | 동적계획법 | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [Java](./src/[BOJ]1932_정수삼각형.java) |
+| 그리디, 정렬 | [신입 사원](https://www.acmicpc.net/problem/1946) | [Java](./src/[BOJ]1946_신입사원.java) |
 | 트리, 재귀 | [트리 순회](https://www.acmicpc.net/problem/1991) | [Java](./src/[BOJ]1991_트리순회.java) |
 | 시뮬레이션, 큐 | [프린터 큐](https://www.acmicpc.net/problem/1966) | [Java](./src/[BOJ]1966_프린터큐.java) |
 | 동적계획법 | [포도주 시식](https://www.acmicpc.net/problem/2156) | [Java](./src/[BOJ]2156_포도주시식.java) |
