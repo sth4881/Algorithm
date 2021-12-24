@@ -71,6 +71,7 @@
 | 동적계획법 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [Java](./src/[BOJ]11726_2xn타일링.java) |
 | 정수론, 브루트 포스 | [숫자 놀이](https://www.acmicpc.net/problem/12971) | [Java](./src/[BOJ]12971_숫자놀이.java) |
 | 동적계획법 | [거스름돈](https://www.acmicpc.net/problem/14916) | [Java](./src/[BOJ]14916_거스름돈.java) |
+| 스택 | [이상한 하노이 탑](https://www.acmicpc.net/problem/15500) | [Java](./src/[BOJ]15500_이상한하노이탑.java) |
 | 동적계획법 | [1, 2, 3 더하기 3](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]15988_1,2,3더하기3.java) |
 | 그리디 | [A→B](https://www.acmicpc.net/problem/16953) | [Java](./src/[BOJ]16953_A→B.java) |
 | 시뮬레이션 | [죽음의 게임](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]17204_죽음의게임.java) |
