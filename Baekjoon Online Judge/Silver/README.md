@@ -63,6 +63,7 @@
 | 스택 | [제로](https://www.acmicpc.net/problem/10773) | [Java](./src/[BOJ]10773_제로.java) |
 | 동적계획법 | [쉬운 계단 수](https://www.acmicpc.net/problem/10844) | [Java](./src/[BOJ]10844_쉬운계단수.java) |
 | 그리디 | [동전 0](https://www.acmicpc.net/problem/11047) | [Java](./src/[BOJ]11047_동전0.java) |
+| 동적계획법 | [이동하기](https://www.acmicpc.net/problem/11048) | [Java](./src/[BOJ]11048_이동하기.java) |
 | 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./src/[BOJ]11053_가장긴증가하는부분수열.java) |
 | 그리디, 정렬 | [ATM](https://www.acmicpc.net/problem/11399) | [Java](./src/[BOJ]11399_ATM.java) |
 | 그래프 탐색, 플로이드-와샬 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [Java](./src/[BOJ]11403_경로찾기.java) |
