@@ -53,6 +53,7 @@
 | 그래프 탐색 | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | [Java](./src/[BOJ]2667_단지번호붙이기.java) |
 | 시뮬레이션 | [나무 조각](https://www.acmicpc.net/problem/2947) | [Python](./src/[BOJ]2947_나무조각.py) |
 | 시뮬레이션 | [개미](https://www.acmicpc.net/problem/3048) | [Python](./src/[BOJ]3048_개미.py) |
+| 문자열, 스택 | [안정적인 문자열](https://www.acmicpc.net/problem/4889) | [Java](./src/[BOJ]4889_안정적인문자열.java) |
 | 그래프 탐색 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Java](./src/[BOJ]4963_섬의개수.java) |
 | 시뮬레이션 | [지구 온난화](https://www.acmicpc.net/problem/5212) | [Java](./src/[BOJ]5212_지구온난화.java) |
 | 그래프 탐색 | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [Java](./src/[BOJ]7562_나이트의이동.java) |
