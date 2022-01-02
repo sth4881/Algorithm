@@ -56,6 +56,7 @@
 | 문자열, 스택 | [안정적인 문자열](https://www.acmicpc.net/problem/4889) | [Java](./src/[BOJ]4889_안정적인문자열.java) |
 | 그래프 탐색 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Java](./src/[BOJ]4963_섬의개수.java) |
 | 시뮬레이션 | [지구 온난화](https://www.acmicpc.net/problem/5212) | [Java](./src/[BOJ]5212_지구온난화.java) |
+| 그래프 탐색 | [결혼식](https://www.acmicpc.net/problem/5567) | [Java](./src/[BOJ]5567_결혼식.java) |
 | 그래프 탐색 | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [Java](./src/[BOJ]7562_나이트의이동.java) |
 | 시뮬레이션 | [거북이](https://www.acmicpc.net/problem/8911) | [Java](./src/[BOJ]8911_거북이.java) |
 | 동적계획법 | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [Java](./src/[BOJ]9095_1,2,3더하기.java) |
