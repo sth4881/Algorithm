@@ -72,6 +72,7 @@
 | 그래프 탐색, 트리 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | [Java](./src/[BOJ]11725_트리의부모찾기.java) |
 | 동적계획법 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [Java](./src/[BOJ]11726_2xn타일링.java) |
 | 정수론, 브루트 포스 | [숫자 놀이](https://www.acmicpc.net/problem/12971) | [Java](./src/[BOJ]12971_숫자놀이.java) |
+| 시뮬레이션, 큐 | [트럭](https://www.acmicpc.net/problem/13335) | [Java](./src/[BOJ]13335_트럭.java) |
 | 그리디, 정렬 | [슬라임 합치기](https://www.acmicpc.net/problem/14241) | [Java](./src/[BOJ]14241_슬라임합치기.java) |
 | 동적계획법 | [거스름돈](https://www.acmicpc.net/problem/14916) | [Java](./src/[BOJ]14916_거스름돈.java) |
 | 스택 | [이상한 하노이 탑](https://www.acmicpc.net/problem/15500) | [Java](./src/[BOJ]15500_이상한하노이탑.java) |
