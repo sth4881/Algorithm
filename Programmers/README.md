@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://file.newswire.co.kr/data/datafile2/thumb_640/2021/06/1993996598_20210610150326_5364622170.jpg" height="150">
+<img src="https://programmers.co.kr/assets/img-meta-programmers-e00862a7c9acd8ef5164f8c85b3ab0127d083ab59b3a98d7219690bd3570bf35.png" height="300">
 
 ### 🏅 Programmers 🏅
 
