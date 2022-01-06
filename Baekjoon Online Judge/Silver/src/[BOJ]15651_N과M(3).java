@@ -6,7 +6,6 @@ import java.util.StringTokenizer;
 public class BOJ15651 {
     static int N, M;
     static int[] arr;
-    static boolean[] visited;
     static BufferedWriter bw;
     static void dfs(int start, int depth) throws IOException {
         arr[depth] = start;
@@ -32,7 +31,6 @@ public class BOJ15651 {
             M = Integer.parseInt(st.nextToken());
 
             arr = new int[N+1];
-            visited = new boolean[N+1];
 
             for(int i=1; i<=N; i++)
                 dfs(i, 1);
