@@ -10,5 +10,6 @@
 | 해시맵 | [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | [Java](./src/신고_결과_받기.md) |
 | 구현 | [로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484) | [Java](./src/로또의_최고_순위와_최저_순위.md) |
 | 스택, 해시맵 | [크라운 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061) | [Java](./src/크라운_인형뽑기_게임.md) |
+| 브루트 포스 | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) | [Java](./src/모의고사.md) |
 
 </div>
