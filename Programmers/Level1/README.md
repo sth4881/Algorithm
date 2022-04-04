@@ -16,5 +16,6 @@
 | 구현 | [없는 숫자 더하기](https://programmers.co.kr/learn/courses/30/lessons/86051) | [Java](./src/없는_숫자_더하기.md) |
 | 구현 | [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | [Java](./src/실패율.md) |
 | 정렬 | [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) | [Java](./src/K번째수.md) |
+| 욕심쟁이 기법 | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | [Java](./src/체육복.md) |
 
 </div>
