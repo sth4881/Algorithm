@@ -18,5 +18,6 @@
 | 정렬 | [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) | [Java](./src/K번째수.md) |
 | 탐욕 알고리즘 | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | [Java](./src/체육복.md) |
 | 탐욕 알고리즘 | [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) | [Java](./src/예산.md) |
+| 구현 | [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) | [Java](./src/폰켓몬.md) |
 
 </div>
