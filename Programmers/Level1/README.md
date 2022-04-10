@@ -20,5 +20,6 @@
 | 탐욕 알고리즘 | [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) | [Java](./src/예산.md) |
 | 구현 | [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) | [Java](./src/폰켓몬.md) |
 | 구현 | [최소직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491) | [Java](./src/최소직사각형.md) |
+| 구현 | [부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612) | [Java](./src/부족한_금액_계산하기.md) |
 
 </div>
