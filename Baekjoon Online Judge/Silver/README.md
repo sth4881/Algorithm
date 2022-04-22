@@ -34,6 +34,7 @@
 | 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./src/[BOJ]1904_01타일.java) |
 | 동적계획법 | [연속합](https://www.acmicpc.net/problem/1912) | [Java](./src/[BOJ]1912_연속합.java) |
 | 이분 탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) | [Java](./src/[BOJ]1920_수찾기.java) |
+| 그래프 탐색 | [그림](https://www.acmicpc.net/problem/1926) | [Java](./src/BOJ1926_그림.md) |
 | 그리디 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [Java](./src/[BOJ]1931_회의실배정.java) |
 | 동적계획법 | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [Java](./src/[BOJ]1932_정수삼각형.java) |
 | 그리디, 정렬 | [신입 사원](https://www.acmicpc.net/problem/1946) | [Java](./src/[BOJ]1946_신입사원.java) |
