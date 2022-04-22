@@ -28,6 +28,7 @@
 | 동적계획법 | [1로 만들기](https://www.acmicpc.net/problem/1463) | [Java](./src/[BOJ]1463_1로만들기.java) |
 | 정수론, 브루트포스 | [날짜 계산](https://www.acmicpc.net/problem/1476) | [Java](./src/[BOJ]1476_날짜계산.java) |
 | 시뮬레이션 | [투명](https://www.acmicpc.net/problem/1531) | [Java](./src/[BOJ]1531_투명.java) |
+| 해시맵 | [나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620) | [Java](./src/BOJ1620_나는야포켓몬마스터이다솜.md) |
 | 그래프 탐색 | [숨바꼭질](https://www.acmicpc.net/problem/1697) | [Java](./src/[BOJ]1697_숨바꼭질.java) |
 | 시뮬레이션 | [후보 추천하기](https://www.acmicpc.net/problem/1713) | [Java](./src/[BOJ]1713_후보추천하기.java) |
 | 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./src/[BOJ]1904_01타일.java) |
