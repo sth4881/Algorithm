@@ -90,6 +90,7 @@
 | 동적계획법 | [1, 2, 3 더하기 3](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]15988_1,2,3더하기3.java) |
 | 그리디 | [A→B](https://www.acmicpc.net/problem/16953) | [Java](./src/[BOJ]16953_A→B.java) |
 | 시뮬레이션 | [죽음의 게임](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]17204_죽음의게임.java) |
+| 그래프 탐색 | [데스 나이트](https://www.acmicpc.net/problem/16948) | [Java](./src/BOJ16948_데스나이트.md) |
 | 문자열, 비트마스킹 | [비트가 넘쳐흘러](https://www.acmicpc.net/problem/17419) | |
 | 스택 | [과제가 끝나지 않아!](https://www.acmicpc.net/problem/17952) | [Java](./src/BOJ17952_과제가끝나지않아!.md) |
 | 그리디, 정렬 | [안테나](https://www.acmicpc.net/problem/18310)| [Java](./src/[BOJ]18310_안테나.java) |
