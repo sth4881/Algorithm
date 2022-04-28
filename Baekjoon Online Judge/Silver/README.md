@@ -78,7 +78,7 @@
 | 그래프 탐색, 플로이드-와샬 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [Java](./src/[BOJ]11403_경로찾기.java) |
 | 수학, 정수론, 소수 판정 | [소인수분해](https://www.acmicpc.net/problem/11653) | [Java](./src/[BOJ]11653_소인수분해.java) |
 | 그래프 탐색 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [Java](./src/[BOJ]11724_연결요소의개수.java) |
-| 그래프 탐색, 트리 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | [Java](./src/[BOJ]11725_트리의부모찾기.java) |
+| 그래프 탐색, 트리 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | [Java](./src/BOJ11725_트리의부모찾기.md) |
 | 동적계획법 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [Java](./src/[BOJ]11726_2xn타일링.java) |
 | 정수론, 브루트포스 | [숫자 놀이](https://www.acmicpc.net/problem/12971) | [Java](./src/[BOJ]12971_숫자놀이.java) |
 | 시뮬레이션, 큐 | [트럭](https://www.acmicpc.net/problem/13335) | [Java](./src/[BOJ]13335_트럭.java) |
