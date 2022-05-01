@@ -17,6 +17,7 @@
 | 동적계획법, 누적합 | [소형기관차](https://www.acmicpc.net/problem/2616) | [Java](./src/[BOJ]2616_소형기관차.java) |
 | 그래프 탐색 | [치즈](https://www.acmicpc.net/problem/2636) | [Java](./src/[BOJ]2636_치즈.java) |
 | 동적계획법 | [줄어들지 않아](https://www.acmicpc.net/problem/9251) | [Java](./src/[BOJ]2688_줄어들지않아.java) |
+| 그래프 탐색 | [토마토](https://www.acmicpc.net/problem/7576) | [Java](./src/BOJ7576_토마토.md) |
 | 동적계획법 | [LCS](https://www.acmicpc.net/problem/9251) | [Java](./src/[BOJ]9251_LCS.java) |
 | 그래프 탐색 | [적록색약](https://www.acmicpc.net/problem/10026) | [Java](./src/BOJ10026_적록색약.md) |
 | 그리디, 우선순위 큐 | [강의실 배정](https://www.acmicpc.net/problem/11000) | [Java](./src/[BOJ]11000_강의실배정.java) |
