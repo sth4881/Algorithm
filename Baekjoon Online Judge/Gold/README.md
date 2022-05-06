@@ -14,6 +14,7 @@
 | 그래프 탐색, 트리 | [트리의 지름](https://www.acmicpc.net/problem/1967) | [Java](./src/[BOJ]1967_트리의지름.java) |
 | 그래프 탐색, 백트래킹 | [알파벳](https://www.acmicpc.net/problem/1987) | [Java](./src/[BOJ]1987_알파벳.java) |
 | 그래프 탐색 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | [Java](./src/BOJ2206_벽부수고이동하기.md) |
+| 그래프 탐색 | [빙산](https://www.acmicpc.net/problem/2573) | [Java](./src/BOJ2573_빙산.md) |
 | 그래프 탐색, 브루트 포스 | [보물섬](https://www.acmicpc.net/problem/2589) | [Java](./src/BOJ2589_보물섬.md) |
 | 동적계획법, 누적합 | [소형기관차](https://www.acmicpc.net/problem/2616) | [Java](./src/[BOJ]2616_소형기관차.java) |
 | 그래프 탐색 | [치즈](https://www.acmicpc.net/problem/2636) | [Java](./src/BOJ2636_치즈.md) |
