@@ -88,7 +88,7 @@
 | 동적계획법 | [거스름돈](https://www.acmicpc.net/problem/14916) | [Java](./src/[BOJ]14916_거스름돈.java) |
 | 스택 | [이상한 하노이 탑](https://www.acmicpc.net/problem/15500) | [Java](./src/[BOJ]15500_이상한하노이탑.java) |
 | 백트래킹 | [N과 M(1)](https://www.acmicpc.net/problem/15649) | [Java](./src/BOJ15649_N과M(1).md) |
-| 백트래킹 | [N과 M(2)](https://www.acmicpc.net/problem/15650) | [Java](./src/[BOJ]15650_N과M(2).java) |
+| 백트래킹 | [N과 M(2)](https://www.acmicpc.net/problem/15650) | [Java](./src/BOJ15650_N과M(2).md) |
 | 백트래킹 | [N과 M(3)](https://www.acmicpc.net/problem/15651) | [Java](./src/[BOJ]15651_N과M(3).java) |
 | 백트래킹 | [N과 M(4)](https://www.acmicpc.net/problem/15652) | [Java](./src/[BOJ]15652_N과M(4).java) |
 | 동적계획법 | [1, 2, 3 더하기 3](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]15988_1,2,3더하기3.java) |
