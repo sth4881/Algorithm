@@ -98,5 +98,4 @@
 | 문자열, 비트마스킹 | [비트가 넘쳐흘러](https://www.acmicpc.net/problem/17419) | |
 | 스택 | [과제가 끝나지 않아!](https://www.acmicpc.net/problem/17952) | [Java](./src/BOJ17952_과제가끝나지않아!.md) |
 | 그리디, 정렬 | [안테나](https://www.acmicpc.net/problem/18310)| [Java](./src/[BOJ]18310_안테나.java) |
-| 그래프 탐색, 시뮬레이션 | [경쟁적 전염](https://www.acmicpc.net/problem/18405) | [Java](./src/[BOJ]18405_경쟁적전염.java) |
 </div>
