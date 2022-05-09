@@ -18,6 +18,7 @@
 | 그래프 탐색, 브루트 포스 | [보물섬](https://www.acmicpc.net/problem/2589) | [Java](./src/BOJ2589_보물섬.md) |
 | 동적계획법, 누적합 | [소형기관차](https://www.acmicpc.net/problem/2616) | [Java](./src/[BOJ]2616_소형기관차.java) |
 | 그래프 탐색 | [치즈](https://www.acmicpc.net/problem/2636) | [Java](./src/BOJ2636_치즈.md) |
+| 그래프 탐색 | [숫자 고르기](https://www.acmicpc.net/problem/2668) | [Java](./src/BOJ2668_숫자고르기.md) |
 | 동적계획법 | [줄어들지 않아](https://www.acmicpc.net/problem/9251) | [Java](./src/[BOJ]2688_줄어들지않아.java) |
 | 그래프 탐색 | [스타트 링크](https://www.acmicpc.net/problem/5014) | [Java](./src/BOJ5014_스타트링크.md) |
 | 그래프 탐색 | [토마토](https://www.acmicpc.net/problem/7576) | [Java](./src/BOJ7576_토마토.md) |
