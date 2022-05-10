@@ -97,5 +97,6 @@
 | 그래프 탐색 | [데스 나이트](https://www.acmicpc.net/problem/16948) | [Java](./src/BOJ16948_데스나이트.md) |
 | 문자열, 비트마스킹 | [비트가 넘쳐흘러](https://www.acmicpc.net/problem/17419) | |
 | 스택 | [과제가 끝나지 않아!](https://www.acmicpc.net/problem/17952) | [Java](./src/BOJ17952_과제가끝나지않아!.md) |
+| 그래프 탐색, 플로이드-워셜 | [Small World Network](https://www.acmicpc.net/problem/18243) | [Java](./src/BOJ18243_SmallWorldNetwork.md) |
 | 그리디, 정렬 | [안테나](https://www.acmicpc.net/problem/18310)| [Java](./src/[BOJ]18310_안테나.java) |
 </div>
