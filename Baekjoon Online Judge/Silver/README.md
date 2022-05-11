@@ -24,6 +24,7 @@
 | 그래프 탐색 | [전쟁 - 전투](https://www.acmicpc.net/problem/1303) | [Java](./src/BOJ1303_전쟁-전투.md) |
 | 시뮬레이션 | [나이트 투어](https://www.acmicpc.net/problem/1331) | [Java](./src/[BOJ]1331_나이트투어.java) |
 | 시뮬레이션 | [미로 만들기](https://www.acmicpc.net/problem/1347) | [Java](./src/[BOJ]1347_미로만들기.java) |
+| 그래프 탐색, 플로이드-워셜 | [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389) | [Java](./src/BOJ1389_케빈베이컨의6단계법칙.md) |
 | 그리디, 시뮬레이션 | [국회의원 선거](https://www.acmicpc.net/problem/1417) | [Java](./src/[BOJ]1417_국회의원선거.java) |
 | 그리디 | [뒤집기 II](https://www.acmicpc.net/problem/1455) | [Java](./src/[BOJ]1455_뒤집기II.java) | 
 | 동적계획법 | [1로 만들기](https://www.acmicpc.net/problem/1463) | [Java](./src/[BOJ]1463_1로만들기.java) |
