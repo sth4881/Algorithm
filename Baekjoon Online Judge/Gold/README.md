@@ -8,6 +8,7 @@
 | Algorithm | Problem | Language |
 |:---------:|:-------:|:--------:|
 | 최소 스패닝 트리 | [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | [Java](./src/[BOJ]1197_최소스패닝트리.java) |
+| 그래프 탐색, 다익스트라 | [파티](https://www.acmicpc.net/problem/1238) | [Jave](./src/BOJ1238_파티.md) |
 | 그래프 탐색, 다익스트라 | [최단경로](https://www.acmicpc.net/problem/1753) | [Java](./src/BOJ1753_최단경로.md) |
 | 그래프 탐색, 다익스트라 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [Java](./src/[BOJ]1916_최소비용구하기.java) |
 | 그래프 탐색, 플로이드-워셜 | [운동](https://www.acmicpc.net/problem/1956) | [Java](./src/BOJ1956_운동.md) |
