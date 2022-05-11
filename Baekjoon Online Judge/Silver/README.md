@@ -76,7 +76,7 @@
 | 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./src/[BOJ]11053_가장긴증가하는부분수열.java) |
 | 그래프 탐색 | [점프 점프](https://www.acmicpc.net/problem/11060) | [Java](./src/BOJ11060_점프점프.md) |
 | 그리디, 정렬 | [ATM](https://www.acmicpc.net/problem/11399) | [Java](./src/[BOJ]11399_ATM.java) |
-| 그래프 탐색, 플로이드-와샬 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [Java](./src/[BOJ]11403_경로찾기.java) |
+| 그래프 탐색, 플로이드-와샬 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [Java](./src/BOJ11403_경로찾기.md) |
 | 수학, 정수론, 소수 판정 | [소인수분해](https://www.acmicpc.net/problem/11653) | [Java](./src/[BOJ]11653_소인수분해.java) |
 | 그래프 탐색 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [Java](./src/[BOJ]11724_연결요소의개수.java) |
 | 그래프 탐색, 트리 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | [Java](./src/BOJ11725_트리의부모찾기.md) |
