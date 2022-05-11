@@ -25,6 +25,7 @@
 | 동적계획법 | [LCS](https://www.acmicpc.net/problem/9251) | [Java](./src/[BOJ]9251_LCS.java) |
 | 그래프 탐색 | [적록색약](https://www.acmicpc.net/problem/10026) | [Java](./src/BOJ10026_적록색약.md) |
 | 그리디, 우선순위 큐 | [강의실 배정](https://www.acmicpc.net/problem/11000) | [Java](./src/[BOJ]11000_강의실배정.java) |
+| 그래프 탐색, 플로이드-워셜 | [플로이드](https://www.acmicpc.net/problem/11404) | [Java](./src/BOJ11404_플로이드.md) |
 | 그래프 탐색, 백트래킹 | [ABCDE](https://www.acmicpc.net/problem/13023) | [Java](./src/BOJ13023_ABCDE.md) |
 | 그래프 탐색, 백트래킹 | [연구소](https://www.acmicpc.net/problem/14502) | [Java](./src/BOJ14502_연구소.md) |
 | 그래프 탐색, 시뮬레이션 | [아기 상어](https://www.acmicpc.net/problem/16236) | [Java](./src/[BOJ]16236_아기상어.java) |
