@@ -50,7 +50,7 @@
 | 그래프 탐색 | [물통](https://www.acmicpc.net/problem/2251) | [Java](./src/[BOJ]2251_물통.java) |
 | 동적계획법 | [동전 1](https://www.acmicpc.net/problem/2293) | [Java](./src/[BOJ]2293_동전1.java) |
 | 동적계획법 | [동전 2](https://www.acmicpc.net/problem/2294) |  |
-| 브루트포스, 그래프 탐색 | [안전 영역](https://www.acmicpc.net/problem/2468) | [Java](./src/[BOJ]2468_안전영역.java) |
+| 브루트포스, 그래프 탐색 | [안전 영역](https://www.acmicpc.net/problem/2468) | [Java](./src/BOJ2468_안전영역.md) |
 | 동적계획법 | [계단 오르기](https://www.acmicpc.net/problem/2579) | [Java](./src/[BOJ]2579_계단오르기.java) |
 | 그래프 탐색 | [영역 구하기](https://www.acmicpc.net/problem/2583) | [Java](./src/[BOJ]2583_영역구하기.java) |
 | 그래프 탐색 | [바이러스](https://www.acmicpc.net/problem/2606) | [Java](./src/[BOJ]2606_바이러스.java) |
