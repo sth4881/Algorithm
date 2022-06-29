@@ -60,7 +60,7 @@
 | 시뮬레이션 | [나무 조각](https://www.acmicpc.net/problem/2947) | [Python](./src/[BOJ]2947_나무조각.py) |
 | 시뮬레이션 | [개미](https://www.acmicpc.net/problem/3048) | [Python](./src/[BOJ]3048_개미.py) |
 | 문자열, 스택 | [안정적인 문자열](https://www.acmicpc.net/problem/4889) | [Java](./src/[BOJ]4889_안정적인문자열.java) |
-| 그래프 탐색 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Java](./src/[BOJ]4963_섬의개수.java) |
+| 그래프 탐색 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Java](./src/BOJ4963_섬의개수.md) |
 | 시뮬레이션 | [지구 온난화](https://www.acmicpc.net/problem/5212) | [Java](./src/[BOJ]5212_지구온난화.java) |
 | 그래프 탐색 | [결혼식](https://www.acmicpc.net/problem/5567) | [Java](./src/[BOJ]5567_결혼식.java) |
 | 그래프 탐색 | [숨바꼭질](https://www.acmicpc.net/problem/6118) | [Java](./src/BOJ6118_숨바꼭질.md) |
