@@ -47,6 +47,7 @@
 | 큐 | [카드 2](https://www.acmicpc.net/problem/2164) | [Java](./src/[BOJ]2164_카드2.java) |
 | 그래프 탐색 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [Java](./src/[BOJ]2178_미로탐색.java) |
 | 동적계획법 | [이친수](https://www.acmicpc.net/problem/2193) | [Java](./src/[BOJ]2193_이친수.java) |
+| 브루트 포스, 그래프 탐색 | [숫자판 점프](https://www.acmicpc.net/problem/2210) | [Java](./src/BOJ2210_숫자판점프.md) |
 | 그래프 탐색 | [물통](https://www.acmicpc.net/problem/2251) | [Java](./src/[BOJ]2251_물통.java) |
 | 동적계획법 | [동전 1](https://www.acmicpc.net/problem/2293) | [Java](./src/[BOJ]2293_동전1.java) |
 | 동적계획법 | [동전 2](https://www.acmicpc.net/problem/2294) |  |
@@ -60,7 +61,7 @@
 | 시뮬레이션 | [나무 조각](https://www.acmicpc.net/problem/2947) | [Python](./src/[BOJ]2947_나무조각.py) |
 | 시뮬레이션 | [개미](https://www.acmicpc.net/problem/3048) | [Python](./src/[BOJ]3048_개미.py) |
 | 문자열, 스택 | [안정적인 문자열](https://www.acmicpc.net/problem/4889) | [Java](./src/[BOJ]4889_안정적인문자열.java) |
-| 그래프 탐색 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Java](./src/[BOJ]4963_섬의개수.java) |
+| 그래프 탐색 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [Java](./src/BOJ4963_섬의개수.md) |
 | 시뮬레이션 | [지구 온난화](https://www.acmicpc.net/problem/5212) | [Java](./src/[BOJ]5212_지구온난화.java) |
 | 그래프 탐색 | [결혼식](https://www.acmicpc.net/problem/5567) | [Java](./src/[BOJ]5567_결혼식.java) |
 | 그래프 탐색 | [숨바꼭질](https://www.acmicpc.net/problem/6118) | [Java](./src/BOJ6118_숨바꼭질.md) |
