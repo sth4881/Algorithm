@@ -47,7 +47,6 @@
 | 큐 | [카드 2](https://www.acmicpc.net/problem/2164) | [Java](./src/[BOJ]2164_카드2.java) |
 | 그래프 탐색 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [Java](./src/[BOJ]2178_미로탐색.java) |
 | 동적계획법 | [이친수](https://www.acmicpc.net/problem/2193) | [Java](./src/[BOJ]2193_이친수.java) |
-| 브루트 포스, 그래프 탐색 | [숫자판 점프](https://www.acmicpc.net/problem/2210) | [Java](./src/BOJ2210_숫자판점프.md) |
 | 그래프 탐색 | [물통](https://www.acmicpc.net/problem/2251) | [Java](./src/[BOJ]2251_물통.java) |
 | 동적계획법 | [동전 1](https://www.acmicpc.net/problem/2293) | [Java](./src/[BOJ]2293_동전1.java) |
 | 동적계획법 | [동전 2](https://www.acmicpc.net/problem/2294) |  |
