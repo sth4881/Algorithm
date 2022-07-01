@@ -21,6 +21,7 @@
 | 큐 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [Java](./src/[BOJ]1158_요세푸스문제.java) |
 | 시뮬레이션 | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) | [Python](./src/[BOJ]1244_스위치켜고끄기.py) |
 | 그래프 탐색 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [Java](./src/BOJ1260_DFS와BFS.md) |
+| 그리디 | [시간 관리](https://www.acmicpc.net/problem/1263) | [Java](./src/BOJ1263_시간관리.md) |
 | 그래프 탐색 | [전쟁 - 전투](https://www.acmicpc.net/problem/1303) | [Java](./src/BOJ1303_전쟁-전투.md) |
 | 시뮬레이션 | [나이트 투어](https://www.acmicpc.net/problem/1331) | [Java](./src/[BOJ]1331_나이트투어.java) |
 | 시뮬레이션 | [미로 만들기](https://www.acmicpc.net/problem/1347) | [Java](./src/[BOJ]1347_미로만들기.java) |
@@ -30,6 +31,7 @@
 | 동적계획법 | [1로 만들기](https://www.acmicpc.net/problem/1463) | [Java](./src/[BOJ]1463_1로만들기.java) |
 | 정수론, 브루트포스 | [날짜 계산](https://www.acmicpc.net/problem/1476) | [Java](./src/[BOJ]1476_날짜계산.java) |
 | 시뮬레이션 | [투명](https://www.acmicpc.net/problem/1531) | [Java](./src/[BOJ]1531_투명.java) |
+| 수학, 문자열, 그리디 | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | [Java](./src/BOJ1541_잃어버린괄호.md) |
 | 해시맵 | [나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620) | [Java](./src/BOJ1620_나는야포켓몬마스터이다솜.md) |
 | 그래프 탐색 | [숨바꼭질](https://www.acmicpc.net/problem/1697) | [Java](./src/BOJ1697_숨바꼭질.md) |
 | 시뮬레이션 | [후보 추천하기](https://www.acmicpc.net/problem/1713) | [Java](./src/[BOJ]1713_후보추천하기.java) |
