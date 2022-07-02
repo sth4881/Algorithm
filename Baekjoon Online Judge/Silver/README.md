@@ -46,6 +46,7 @@
 | 그리디, 정렬 | [신입 사원](https://www.acmicpc.net/problem/1946) | [Java](./src/BOJ1946_신입사원.md) |
 | 트리, 재귀 | [트리 순회](https://www.acmicpc.net/problem/1991) | [Java](./src/[BOJ]1991_트리순회.java) |
 | 시뮬레이션, 큐 | [프린터 큐](https://www.acmicpc.net/problem/1966) | [Java](./src/[BOJ]1966_프린터큐.java) |
+| 그리디 | [등수 매기기](https://www.acmicpc.net/problem/2012) | [Java](./src/BOJ2012_등수매기기.md) |
 | 동적계획법 | [포도주 시식](https://www.acmicpc.net/problem/2156) | [Java](./src/[BOJ]2156_포도주시식.java) |
 | 큐 | [카드 2](https://www.acmicpc.net/problem/2164) | [Java](./src/[BOJ]2164_카드2.java) |
 | 그래프 탐색 | [미로 탐색](https://www.acmicpc.net/problem/2178) | [Java](./src/[BOJ]2178_미로탐색.java) |
