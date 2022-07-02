@@ -17,6 +17,7 @@
 | 수학, 브루트포스 | [토너먼트](https://www.acmicpc.net/problem/1057) | [Java](./src/[BOJ]1057_토너먼트.java) |
 | 수학, 브루트포스 | [좋은 구간](https://www.acmicpc.net/problem/1059) | [Java](./src/[BOJ]1059_좋은구간.java) |
 | 시뮬레이션 | [킹](https://www.acmicpc.net/problem/1063) | [Java](./src/[BOJ]1063_킹.java) |
+| 그리디 | [행렬](https://www.acmicpc.net/problem/1080) | [Java](./src/BOJ1080_행렬.md) |
 | 동적계획법 | [RGB거리](https://www.acmicpc.net/problem/1149) | [Java](./src/[BOJ]1149_RGB거리.java) |
 | 큐 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [Java](./src/[BOJ]1158_요세푸스문제.java) |
 | 시뮬레이션 | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) | [Python](./src/[BOJ]1244_스위치켜고끄기.py) |
