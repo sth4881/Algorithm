@@ -7,6 +7,7 @@
 
 | Algorithm | Problem | Language |
 |:---------:|:-------:|:--------:|
+| 그리디 | [배](https://www.acmicpc.net/problem/1092) | [Java](./src/BOJ1092_배.md) |
 | 최소 스패닝 트리 | [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | [Java](./src/[BOJ]1197_최소스패닝트리.java) |
 | 그래프 탐색, 다익스트라 | [파티](https://www.acmicpc.net/problem/1238) | [Jave](./src/BOJ1238_파티.md) |
 | 그래프 탐색, 다익스트라 | [최단경로](https://www.acmicpc.net/problem/1753) | [Java](./src/BOJ1753_최단경로.md) |
