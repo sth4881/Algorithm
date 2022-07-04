@@ -83,6 +83,8 @@
 | 그래프 탐색 | [점프 점프](https://www.acmicpc.net/problem/11060) | [Java](./src/BOJ11060_점프점프.md) |
 | 그리디, 정렬 | [ATM](https://www.acmicpc.net/problem/11399) | [Java](./src/[BOJ]11399_ATM.java) |
 | 그래프 탐색, 플로이드-와샬 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [Java](./src/BOJ11403_경로찾기.md) |
+| 그리디, 정렬 | [통나무 건너뛰기](https://www.acmicpc.net/problem/11497) | [Java](./src/BOJ11497_통나무건너뛰기.md) |
+| 그리디 | [주식](https://www.acmicpc.net/problem/11501) | [Java](./src/BOJ11501_주식.md) |
 | 수학, 정수론, 소수 판정 | [소인수분해](https://www.acmicpc.net/problem/11653) | [Java](./src/[BOJ]11653_소인수분해.java) |
 | 그래프 탐색 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [Java](./src/[BOJ]11724_연결요소의개수.java) |
 | 그래프 탐색, 트리 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | [Java](./src/BOJ11725_트리의부모찾기.md) |
@@ -98,7 +100,7 @@
 | 백트래킹 | [N과 M(3)](https://www.acmicpc.net/problem/15651) | [Java](./src/[BOJ]15651_N과M(3).java) |
 | 백트래킹 | [N과 M(4)](https://www.acmicpc.net/problem/15652) | [Java](./src/[BOJ]15652_N과M(4).java) |
 | 동적계획법 | [1, 2, 3 더하기 3](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]15988_1,2,3더하기3.java) |
-| 그리디 | [A→B](https://www.acmicpc.net/problem/16953) | [Java](./src/[BOJ]16953_A→B.java) |
+| 그리디 | [A→B](https://www.acmicpc.net/problem/16953) | [Java](./src/BOJ16953_A→B.md) |
 | 시뮬레이션 | [죽음의 게임](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]17204_죽음의게임.java) |
 | 그래프 탐색 | [데스 나이트](https://www.acmicpc.net/problem/16948) | [Java](./src/BOJ16948_데스나이트.md) |
 | 문자열, 비트마스킹 | [비트가 넘쳐흘러](https://www.acmicpc.net/problem/17419) | |
