@@ -18,12 +18,13 @@
 | 수학, 브루트포스 | [좋은 구간](https://www.acmicpc.net/problem/1059) | [Java](./src/[BOJ]1059_좋은구간.java) |
 | 시뮬레이션 | [킹](https://www.acmicpc.net/problem/1063) | [Java](./src/[BOJ]1063_킹.java) |
 | 그리디 | [행렬](https://www.acmicpc.net/problem/1080) | [Java](./src/BOJ1080_행렬.md) |
-| 동적계획법 | [RGB거리](https://www.acmicpc.net/problem/1149) | [Java](./src/[BOJ]1149_RGB거리.java) |
+| 동적계획법 | [RGB거리](https://www.acmicpc.net/problem/1149) | [Java](./src/BOJ1149_RGB거리.md) |
 | 큐 | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [Java](./src/[BOJ]1158_요세푸스문제.java) |
 | 시뮬레이션 | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244) | [Python](./src/[BOJ]1244_스위치켜고끄기.py) |
 | 그래프 탐색 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [Java](./src/BOJ1260_DFS와BFS.md) |
 | 그리디 | [시간 관리](https://www.acmicpc.net/problem/1263) | [Java](./src/BOJ1263_시간관리.md) |
 | 그래프 탐색 | [전쟁 - 전투](https://www.acmicpc.net/problem/1303) | [Java](./src/BOJ1303_전쟁-전투.md) |
+| 동적계획법 | [동물원](https://www.acmicpc.net/problem/1309) | [Java](./src/BOJ1309_동물원.md) |
 | 시뮬레이션 | [나이트 투어](https://www.acmicpc.net/problem/1331) | [Java](./src/[BOJ]1331_나이트투어.java) |
 | 시뮬레이션 | [미로 만들기](https://www.acmicpc.net/problem/1347) | [Java](./src/[BOJ]1347_미로만들기.java) |
 | 그래프 탐색, 플로이드-워셜 | [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389) | [Java](./src/BOJ1389_케빈베이컨의6단계법칙.md) |
@@ -37,8 +38,9 @@
 | 그래프 탐색 | [숨바꼭질](https://www.acmicpc.net/problem/1697) | [Java](./src/BOJ1697_숨바꼭질.md) |
 | 시뮬레이션 | [후보 추천하기](https://www.acmicpc.net/problem/1713) | [Java](./src/[BOJ]1713_후보추천하기.java) |
 | 그래프 탐색 | [음식물 피하기](https://www.acmicpc.net/problem/1743) | [Java](./src/BOJ1743_음식물피하기.md) |
-| 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./src/[BOJ]1904_01타일.java) |
-| 동적계획법 | [연속합](https://www.acmicpc.net/problem/1912) | [Java](./src/[BOJ]1912_연속합.java) |
+| 동적계획법 | [점프](https://www.acmicpc.net/problem/1890) | [Java](./src/BOJ1890_점프.md) |
+| 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./src/BOJ1904_01타일.md) |
+| 동적계획법 | [연속합](https://www.acmicpc.net/problem/1912) | [Java](./src/BOJ1912_연속합.md) |
 | 이분 탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) | [Java](./src/[BOJ]1920_수찾기.java) |
 | 그래프 탐색 | [그림](https://www.acmicpc.net/problem/1926) | [Java](./src/BOJ1926_그림.md) |
 | 그리디 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [Java](./src/BOJ1931_회의실배정.md) |
@@ -73,13 +75,15 @@
 | 시뮬레이션 | [거북이](https://www.acmicpc.net/problem/8911) | [Java](./src/[BOJ]8911_거북이.java) |
 | 동적계획법 | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [Java](./src/[BOJ]9095_1,2,3더하기.java) |
 | 그래프 탐색, 플로이드-와샬 | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | [Java](./src/[BOJ]9205_맥주마시면서걸어가기.java) |
-| 수학, 동적계획법 | [파도반 수열](https://www.acmicpc.net/problem/9461) | [Java](./src/[BOJ]9461_파도반수열.java) |
+| 수학, 동적계획법 | [파도반 수열](https://www.acmicpc.net/problem/9461) | [Java](./src/BOJ9461_파도반수열.md) |
 | 스택 | [제로](https://www.acmicpc.net/problem/10773) | [Java](./src/[BOJ]10773_제로.java) |
 | 동적계획법 | [쉬운 계단 수](https://www.acmicpc.net/problem/10844) | [Java](./src/[BOJ]10844_쉬운계단수.java) |
 | 브루트포스, 백트래킹 | [모든 순열](https://www.acmicpc.net/problem/10974) | [Java](./src/[BOJ]10974_모든순열.java) |
 | 그리디 | [동전 0](https://www.acmicpc.net/problem/11047) | [Java](./src/[BOJ]11047_동전0.java) |
 | 동적계획법 | [이동하기](https://www.acmicpc.net/problem/11048) | [Java](./src/[BOJ]11048_이동하기.java) |
-| 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./src/[BOJ]11053_가장긴증가하는부분수열.java) |
+| 동적계획법 | [카드 구매하기](https://www.acmicpc.net/problem/11052) | [Java](./src/BOJ11052_카드구매하기.md) |
+| 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./src/BOJ11053_가장긴증가하는부분수열.md) |
+| 동적계획법 | [오르막 수](https://www.acmicpc.net/problem/11057) | [Java](./src/BOJ11057_오르막수.md) |
 | 그래프 탐색 | [점프 점프](https://www.acmicpc.net/problem/11060) | [Java](./src/BOJ11060_점프점프.md) |
 | 그리디, 정렬 | [ATM](https://www.acmicpc.net/problem/11399) | [Java](./src/[BOJ]11399_ATM.java) |
 | 그래프 탐색, 플로이드-와샬 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [Java](./src/BOJ11403_경로찾기.md) |
@@ -94,6 +98,7 @@
 | 그리디, 정렬 | [슬라임 합치기](https://www.acmicpc.net/problem/14241) | [Java](./src/[BOJ]14241_슬라임합치기.java) |
 | 그래프 탐색 | [현수막](https://www.acmicpc.net/problem/14716) | [Java](./src/BOJ14716_현수막.md) |
 | 브루트 포스, 백트래킹 | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | [Java](./src/BOJ14888_연산자끼워넣기.md) |
+| 브루트 포스, 백트래킹 | [스타트와 링크](https://www.acmicpc.net/problem/14889) | [Java](./src/BOJ14889_스타트와링크.md) |
 | 동적계획법 | [거스름돈](https://www.acmicpc.net/problem/14916) | [Java](./src/[BOJ]14916_거스름돈.java) |
 | 스택 | [이상한 하노이 탑](https://www.acmicpc.net/problem/15500) | [Java](./src/[BOJ]15500_이상한하노이탑.java) |
 | 백트래킹 | [N과 M(1)](https://www.acmicpc.net/problem/15649) | [Java](./src/BOJ15649_N과M(1).md) |
@@ -101,6 +106,7 @@
 | 백트래킹 | [N과 M(3)](https://www.acmicpc.net/problem/15651) | [Java](./src/[BOJ]15651_N과M(3).java) |
 | 백트래킹 | [N과 M(4)](https://www.acmicpc.net/problem/15652) | [Java](./src/[BOJ]15652_N과M(4).java) |
 | 동적계획법 | [1, 2, 3 더하기 3](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]15988_1,2,3더하기3.java) |
+| 브루트 포스, 백트래킹 | [에너지 모으기](https://www.acmicpc.net/problem/16198) | [Java](./src/BOJ16198_에너지모으기.md) |
 | 그리디 | [A→B](https://www.acmicpc.net/problem/16953) | [Java](./src/BOJ16953_A→B.md) |
 | 시뮬레이션 | [죽음의 게임](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]17204_죽음의게임.java) |
 | 그래프 탐색 | [데스 나이트](https://www.acmicpc.net/problem/16948) | [Java](./src/BOJ16948_데스나이트.md) |
@@ -108,4 +114,5 @@
 | 스택 | [과제가 끝나지 않아!](https://www.acmicpc.net/problem/17952) | [Java](./src/BOJ17952_과제가끝나지않아!.md) |
 | 그래프 탐색, 플로이드-워셜 | [Small World Network](https://www.acmicpc.net/problem/18243) | [Java](./src/BOJ18243_SmallWorldNetwork.md) |
 | 그리디, 정렬 | [안테나](https://www.acmicpc.net/problem/18310)| [Java](./src/[BOJ]18310_안테나.java) |
+| 브루트 포스, 백트래킹 | [감시 피하기](https://www.acmicpc.net/problem/18428) | [Java](./src/BOJ18428_감시피하기.md) |
 </div>
