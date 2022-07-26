@@ -33,6 +33,7 @@
 | 그래프 탐색, 플로이드-워셜 | [플로이드](https://www.acmicpc.net/problem/11404) | [Java](./src/BOJ11404_플로이드.md) |
 | 그래프 탐색, 백트래킹 | [ABCDE](https://www.acmicpc.net/problem/13023) | [Java](./src/BOJ13023_ABCDE.md) |
 | 그래프 탐색, 백트래킹 | [연구소](https://www.acmicpc.net/problem/14502) | [Java](./src/BOJ14502_연구소.md) |
+| 구현, 시뮬레이션 | [로봇 청소기](https://www.acmicpc.net/problem/14503) | [Java](./src/BOJ14503_로봇청소기.md) |
 | 그래프 탐색, 시뮬레이션 | [아기 상어](https://www.acmicpc.net/problem/16236) | [Java](./src/[BOJ]16236_아기상어.java) |
 | 브루트 포스, 백트래킹 | [괄호 추가하기](https://www.acmicpc.net/problem/16637) | [Java](./src/[BOJ]16637_괄호추가하기.java) |
 | 그래프 탐색, 시뮬레이션 | [경쟁적 전염](https://www.acmicpc.net/problem/18405) | [Java](./src/BOJ18405_경쟁적전염.md) |
