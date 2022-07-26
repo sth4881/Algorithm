@@ -41,7 +41,7 @@
 | 동적계획법 | [점프](https://www.acmicpc.net/problem/1890) | [Java](./src/BOJ1890_점프.md) |
 | 동적계획법 | [01타일](https://www.acmicpc.net/problem/1904) | [Java](./src/BOJ1904_01타일.md) |
 | 동적계획법 | [연속합](https://www.acmicpc.net/problem/1912) | [Java](./src/BOJ1912_연속합.md) |
-| 이분 탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) | [Java](./src/[BOJ]1920_수찾기.java) |
+| 이분 탐색 | [수 찾기](https://www.acmicpc.net/problem/1920) | [Java](./src/BOJ1920_수찾기.md) |
 | 그래프 탐색 | [그림](https://www.acmicpc.net/problem/1926) | [Java](./src/BOJ1926_그림.md) |
 | 그리디 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [Java](./src/BOJ1931_회의실배정.md) |
 | 동적계획법 | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [Java](./src/[BOJ]1932_정수삼각형.java) |
@@ -77,6 +77,8 @@
 | 그래프 탐색, 플로이드-와샬 | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | [Java](./src/[BOJ]9205_맥주마시면서걸어가기.java) |
 | 수학, 동적계획법 | [파도반 수열](https://www.acmicpc.net/problem/9461) | [Java](./src/BOJ9461_파도반수열.md) |
 | 스택 | [제로](https://www.acmicpc.net/problem/10773) | [Java](./src/[BOJ]10773_제로.java) |
+| 이분 탐색 | [숫자 카드](https://www.acmicpc.net/problem/10815) | [Java](./src/BOJ10815_숫자카드.md) |
+| 이분 탐색, 해시맵 | [숫자 카드 2](https://www.acmicpc.net/problem/10816) | [Java](./src/BOJ10816_숫자카드2.md) |
 | 동적계획법 | [쉬운 계단 수](https://www.acmicpc.net/problem/10844) | [Java](./src/[BOJ]10844_쉬운계단수.java) |
 | 브루트포스, 백트래킹 | [모든 순열](https://www.acmicpc.net/problem/10974) | [Java](./src/[BOJ]10974_모든순열.java) |
 | 그리디 | [동전 0](https://www.acmicpc.net/problem/11047) | [Java](./src/[BOJ]11047_동전0.java) |
