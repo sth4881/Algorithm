@@ -16,6 +16,7 @@
 | 동적계획법 | [LCS 3](https://www.acmicpc.net/problem/1958) | [Java](./src/[BOJ]1958_LCS3.java) |
 | 그래프 탐색, 트리 | [트리의 지름](https://www.acmicpc.net/problem/1967) | [Java](./src/BOJ1967_트리의지름.md) |
 | 그래프 탐색, 백트래킹 | [알파벳](https://www.acmicpc.net/problem/1987) | [Java](./src/[BOJ]1987_알파벳.java) |
+| 그래프 탐색 | [다리 만들기](https://www.acmicpc.net/problem/2146) | [Java](./src/BOJ2146_다리만들기.md) |
 | 그래프 탐색 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | [Java](./src/BOJ2206_벽부수고이동하기.md) |
 | 그래프 탐색, 플로이드-워셜 | [Java](https://www.acmicpc.net/problem/2458) | [Java](./src/BOJ2458_키순서.md) |
 | 스택 | [탑](https://www.acmicpc.net/problem/2493) | [Java](./src/BOJ2493_탑.md) |
@@ -39,5 +40,6 @@
 | 브루트 포스, 백트래킹 | [괄호 추가하기](https://www.acmicpc.net/problem/16637) | [Java](./src/[BOJ]16637_괄호추가하기.java) |
 | 그래프 탐색 | [공주님을 구해라!](https://www.acmicpc.net/problem/17836) | [Java](./src/BOJ17836_공주님을구해라!.md) |
 | 그래프 탐색, 시뮬레이션 | [경쟁적 전염](https://www.acmicpc.net/problem/18405) | [Java](./src/BOJ18405_경쟁적전염.md) |
+| 구현, 시뮬레이션 | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) | [Java](./src/BOJ20055_컨베이어벨트위의로봇.md) |
 | 구현, 시뮬레이션 | [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | [Java](./src/BOJ21610_마법사상어와비바라기.md) |
 </div>

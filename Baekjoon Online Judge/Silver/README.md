@@ -97,6 +97,7 @@
 | 동적계획법 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [Java](./src/[BOJ]11726_2xn타일링.java) |
 | 정수론, 브루트포스 | [숫자 놀이](https://www.acmicpc.net/problem/12971) | [Java](./src/[BOJ]12971_숫자놀이.java) |
 | 시뮬레이션, 큐 | [트럭](https://www.acmicpc.net/problem/13335) | [Java](./src/[BOJ]13335_트럭.java) |
+| 이분 탐색, 매개변수 탐색 | [이상한 술집](https://www.acmicpc.net/problem/13702) | [Java](./src/BOJ13702_이상한술집.md) |
 | 그리디, 정렬 | [슬라임 합치기](https://www.acmicpc.net/problem/14241) | [Java](./src/[BOJ]14241_슬라임합치기.java) |
 | 그래프 탐색 | [현수막](https://www.acmicpc.net/problem/14716) | [Java](./src/BOJ14716_현수막.md) |
 | 브루트 포스, 백트래킹 | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | [Java](./src/BOJ14888_연산자끼워넣기.md) |
