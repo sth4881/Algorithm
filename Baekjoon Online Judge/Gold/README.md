@@ -39,4 +39,5 @@
 | 브루트 포스, 백트래킹 | [괄호 추가하기](https://www.acmicpc.net/problem/16637) | [Java](./src/[BOJ]16637_괄호추가하기.java) |
 | 그래프 탐색 | [공주님을 구해라!](https://www.acmicpc.net/problem/17836) | [Java](./src/BOJ17836_공주님을구해라!.md) |
 | 그래프 탐색, 시뮬레이션 | [경쟁적 전염](https://www.acmicpc.net/problem/18405) | [Java](./src/BOJ18405_경쟁적전염.md) |
+| 구현, 시뮬레이션 | [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | [Java](./src/BOJ21610_마법사상어와비바라기.md) |
 </div>
