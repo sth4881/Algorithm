@@ -7,6 +7,7 @@
 
 | Algorithm | Problem | Language |
 |:---------:|:-------:|:--------:|
+| 브루트 포스, 백트래킹 | [감소하는 수](https://www.acmicpc.net/problem/1038) | [Java](./src/BOJ1038_감소하는수.md) |
 | 그리디 | [배](https://www.acmicpc.net/problem/1092) | [Java](./src/BOJ1092_배.md) |
 | 최소 스패닝 트리 | [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | [Java](./src/[BOJ]1197_최소스패닝트리.java) |
 | 그래프 탐색, 다익스트라 | [파티](https://www.acmicpc.net/problem/1238) | [Jave](./src/BOJ1238_파티.md) |
@@ -17,6 +18,7 @@
 | 그래프 탐색, 트리 | [트리의 지름](https://www.acmicpc.net/problem/1967) | [Java](./src/BOJ1967_트리의지름.md) |
 | 그래프 탐색, 백트래킹 | [알파벳](https://www.acmicpc.net/problem/1987) | [Java](./src/[BOJ]1987_알파벳.java) |
 | 그래프 탐색 | [다리 만들기](https://www.acmicpc.net/problem/2146) | [Java](./src/BOJ2146_다리만들기.md) |
+| 구현, 시뮬레이션 | [로봇 시뮬레이션](https://www.acmicpc.net/problem/2174) | [Java](./src/BOJ2174_로봇시뮬레이션.md) |
 | 그래프 탐색 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | [Java](./src/BOJ2206_벽부수고이동하기.md) |
 | 그래프 탐색, 플로이드-워셜 | [Java](https://www.acmicpc.net/problem/2458) | [Java](./src/BOJ2458_키순서.md) |
 | 스택 | [탑](https://www.acmicpc.net/problem/2493) | [Java](./src/BOJ2493_탑.md) |
