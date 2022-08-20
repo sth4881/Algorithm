@@ -108,6 +108,7 @@
 | 백트래킹 | [N과 M(2)](https://www.acmicpc.net/problem/15650) | [Java](./src/BOJ15650_N과M(2).md) |
 | 백트래킹 | [N과 M(3)](https://www.acmicpc.net/problem/15651) | [Java](./src/[BOJ]15651_N과M(3).java) |
 | 백트래킹 | [N과 M(4)](https://www.acmicpc.net/problem/15652) | [Java](./src/[BOJ]15652_N과M(4).java) |
+| 브루트 포스, 백트래킹 | [연산자 끼워넣기 (2)](https://www.acmicpc.net/problem/15658) | [Java](./src/BOJ15658_연산자끼워넣기(2).md) |
 | 동적계획법 | [1, 2, 3 더하기 3](https://www.acmicpc.net/problem/15988) | [Java](./src/[BOJ]15988_1,2,3더하기3.java) |
 | 브루트 포스, 백트래킹 | [에너지 모으기](https://www.acmicpc.net/problem/16198) | [Java](./src/BOJ16198_에너지모으기.md) |
 | 그리디 | [A→B](https://www.acmicpc.net/problem/16953) | [Java](./src/BOJ16953_A→B.md) |
@@ -118,4 +119,5 @@
 | 그래프 탐색, 플로이드-워셜 | [Small World Network](https://www.acmicpc.net/problem/18243) | [Java](./src/BOJ18243_SmallWorldNetwork.md) |
 | 그리디, 정렬 | [안테나](https://www.acmicpc.net/problem/18310)| [Java](./src/[BOJ]18310_안테나.java) |
 | 브루트 포스, 백트래킹 | [감시 피하기](https://www.acmicpc.net/problem/18428) | [Java](./src/BOJ18428_감시피하기.md) |
+| 우선순위 큐, 시뮬레이션 | [센티와 마법의 뿅망치](https://www.acmicpc.net/problem/19638) | [Java](./src/BOJ19638_센티와마법의뿅망치.md) |
 </div>

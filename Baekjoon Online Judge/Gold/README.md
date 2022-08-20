@@ -35,6 +35,7 @@
 | 그리디, 우선순위 큐 | [강의실 배정](https://www.acmicpc.net/problem/11000) | [Java](./src/[BOJ]11000_강의실배정.java) |
 | 그래프 탐색, 플로이드-워셜 | [플로이드](https://www.acmicpc.net/problem/11404) | [Java](./src/BOJ11404_플로이드.md) |
 | 그래프 탐색, 백트래킹 | [ABCDE](https://www.acmicpc.net/problem/13023) | [Java](./src/BOJ13023_ABCDE.md) |
+| 그리디 | [행복 유치원](https://www.acmicpc.net/problem/13164) | [Java](./src/BOJ13164_행복유치원.md) |
 | 그래프 탐색, 백트래킹 | [연구소](https://www.acmicpc.net/problem/14502) | [Java](./src/BOJ14502_연구소.md) |
 | 구현, 시뮬레이션 | [로봇 청소기](https://www.acmicpc.net/problem/14503) | [Java](./src/BOJ14503_로봇청소기.md) |
 | 브루트 포스, 백트래킹 | [치킨 배달](https://www.acmicpc.net/problem/15686) | [Java](./src/BOJ15686_치킨배달.md) |
