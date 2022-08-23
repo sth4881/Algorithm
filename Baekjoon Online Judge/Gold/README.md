@@ -42,6 +42,7 @@
 | 브루트 포스, 백트래킹 | [치킨 배달](https://www.acmicpc.net/problem/15686) | [Java](./src/BOJ15686_치킨배달.md) |
 | 그래프 탐색, 시뮬레이션 | [아기 상어](https://www.acmicpc.net/problem/16236) | [Java](./src/[BOJ]16236_아기상어.java) |
 | 브루트 포스, 백트래킹 | [괄호 추가하기](https://www.acmicpc.net/problem/16637) | [Java](./src/[BOJ]16637_괄호추가하기.java) |
+| 그래프 탐색 | [뱀과 사다리 게임](https://www.acmicpc.net/problem/16928) | [Java](./src/BOJ16928_뱀과사다리게임.md) |
 | 그래프 탐색 | [공주님을 구해라!](https://www.acmicpc.net/problem/17836) | [Java](./src/BOJ17836_공주님을구해라!.md) |
 | 그래프 탐색, 시뮬레이션 | [경쟁적 전염](https://www.acmicpc.net/problem/18405) | [Java](./src/BOJ18405_경쟁적전염.md) |
 | 구현, 시뮬레이션 | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) | [Java](./src/BOJ20055_컨베이어벨트위의로봇.md) |

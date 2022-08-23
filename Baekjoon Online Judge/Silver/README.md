@@ -62,8 +62,10 @@
 | 그래프 탐색 | [영역 구하기](https://www.acmicpc.net/problem/2583) | [Java](./src/[BOJ]2583_영역구하기.java) |
 | 그래프 탐색 | [바이러스](https://www.acmicpc.net/problem/2606) | [Java](./src/[BOJ]2606_바이러스.java) |
 | 수학, 정수론, 유클리드 호제법 | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) | [Java](./src/[BOJ]2609_최대공약수와최소공배수.java) |
+| 구현, 브루트포스 | [오목](https://www.acmicpc.net/problem/2615) | [Java](./src/BOJ2615_오목.md) |
 | 그래프 탐색 | [촌수계산](https://www.acmicpc.net/problem/2644) | [Java](./src/BOJ2644_촌수계산.md) |
 | 그래프 탐색 | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | [Java](./src/[BOJ]2667_단지번호붙이기.java) |
+| 그리디 | [우리집엔 도서관이 있어](https://www.acmicpc.net/problem/2872) | [Java](./src/BOJ2872_우리집엔도서관이있어.md) |
 | 시뮬레이션 | [나무 조각](https://www.acmicpc.net/problem/2947) | [Python](./src/[BOJ]2947_나무조각.py) |
 | 시뮬레이션 | [개미](https://www.acmicpc.net/problem/3048) | [Python](./src/[BOJ]3048_개미.py) |
 | 문자열, 스택 | [안정적인 문자열](https://www.acmicpc.net/problem/4889) | [Java](./src/[BOJ]4889_안정적인문자열.java) |
