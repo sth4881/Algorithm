@@ -29,6 +29,7 @@
 | 시뮬레이션 | [미로 만들기](https://www.acmicpc.net/problem/1347) | [Java](./src/[BOJ]1347_미로만들기.java) |
 | 그래프 탐색, 플로이드-워셜 | [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389) | [Java](./src/BOJ1389_케빈베이컨의6단계법칙.md) |
 | 그리디, 시뮬레이션 | [국회의원 선거](https://www.acmicpc.net/problem/1417) | [Java](./src/[BOJ]1417_국회의원선거.java) |
+| 그리디 | [수리공 항승](https://www.acmicpc.net/problem/1449) | [Java](./src/BOJ1449_수리공항승.md) |
 | 그리디 | [뒤집기 II](https://www.acmicpc.net/problem/1455) | [Java](./src/[BOJ]1455_뒤집기II.java) | 
 | 동적계획법 | [1로 만들기](https://www.acmicpc.net/problem/1463) | [Java](./src/[BOJ]1463_1로만들기.java) |
 | 정수론, 브루트포스 | [날짜 계산](https://www.acmicpc.net/problem/1476) | [Java](./src/[BOJ]1476_날짜계산.java) |
@@ -48,6 +49,7 @@
 | 그리디, 정렬 | [신입 사원](https://www.acmicpc.net/problem/1946) | [Java](./src/BOJ1946_신입사원.md) |
 | 트리, 재귀 | [트리 순회](https://www.acmicpc.net/problem/1991) | [Java](./src/[BOJ]1991_트리순회.java) |
 | 시뮬레이션, 큐 | [프린터 큐](https://www.acmicpc.net/problem/1966) | [Java](./src/[BOJ]1966_프린터큐.java) |
+| 구현 | [체스](https://www.acmicpc.net/problem/1986) | [Java](./src/BOJ1986_체스.md) |
 | 그리디 | [등수 매기기](https://www.acmicpc.net/problem/2012) | [Java](./src/BOJ2012_등수매기기.md) |
 | 동적계획법 | [포도주 시식](https://www.acmicpc.net/problem/2156) | [Java](./src/[BOJ]2156_포도주시식.java) |
 | 큐 | [카드 2](https://www.acmicpc.net/problem/2164) | [Java](./src/[BOJ]2164_카드2.java) |
