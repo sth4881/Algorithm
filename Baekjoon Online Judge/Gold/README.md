@@ -34,6 +34,7 @@
 | 그래프 탐색 | [적록색약](https://www.acmicpc.net/problem/10026) | [Java](./src/BOJ10026_적록색약.md) |
 | 그리디, 우선순위 큐 | [강의실 배정](https://www.acmicpc.net/problem/11000) | [Java](./src/[BOJ]11000_강의실배정.java) |
 | 그래프 탐색, 플로이드-워셜 | [플로이드](https://www.acmicpc.net/problem/11404) | [Java](./src/BOJ11404_플로이드.md) |
+| 그래프 탐색, 시뮬레이션 | [Puyo Puyo](https://www.acmicpc.net/problem/11559) | [Java](./src/BOJ11559_PuyoPuyo.md) |
 | 그래프 탐색, 백트래킹 | [ABCDE](https://www.acmicpc.net/problem/13023) | [Java](./src/BOJ13023_ABCDE.md) |
 | 그리디 | [행복 유치원](https://www.acmicpc.net/problem/13164) | [Java](./src/BOJ13164_행복유치원.md) |
 | 그래프 탐색 | [4연산](https://www.acmicpc.net/problem/14395) | [Java](./src/BOJ14395_4연산.md) |
