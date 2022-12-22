@@ -99,6 +99,7 @@
 | 그래프 탐색 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [Java](./src/[BOJ]11724_연결요소의개수.java) |
 | 그래프 탐색, 트리 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | [Java](./src/BOJ11725_트리의부모찾기.md) |
 | 동적계획법 | [2xn 타일링](https://www.acmicpc.net/problem/11726) | [Java](./src/[BOJ]11726_2xn타일링.java) |
+| 동적계획법 | [2xn 타일링 2](https://www.acmicpc.net/problem/11727) | [Java](./src/[BOJ]11727_2xn타일링_2.md) |
 | 정수론, 브루트포스 | [숫자 놀이](https://www.acmicpc.net/problem/12971) | [Java](./src/[BOJ]12971_숫자놀이.java) |
 | 시뮬레이션, 큐 | [트럭](https://www.acmicpc.net/problem/13335) | [Java](./src/[BOJ]13335_트럭.java) |
 | 이분 탐색, 매개변수 탐색 | [이상한 술집](https://www.acmicpc.net/problem/13702) | [Java](./src/BOJ13702_이상한술집.md) |
