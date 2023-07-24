@@ -47,6 +47,7 @@
 | 그리디 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [Java](./src/BOJ1931_회의실배정.md) |
 | 동적계획법 | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [Java](./src/[BOJ]1932_정수삼각형.java) |
 | 그리디, 정렬 | [신입 사원](https://www.acmicpc.net/problem/1946) | [Java](./src/BOJ1946_신입사원.md) |
+| 동적계획법 | [상자넣기]](https://www.acmicpc.net/problem/1965) | [Java](./src/BOJ1965_상자넣기.java) |
 | 트리, 재귀 | [트리 순회](https://www.acmicpc.net/problem/1991) | [Java](./src/[BOJ]1991_트리순회.java) |
 | 시뮬레이션, 큐 | [프린터 큐](https://www.acmicpc.net/problem/1966) | [Java](./src/[BOJ]1966_프린터큐.java) |
 | 구현 | [체스](https://www.acmicpc.net/problem/1986) | [Java](./src/BOJ1986_체스.md) |
