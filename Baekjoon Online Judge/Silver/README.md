@@ -47,7 +47,7 @@
 | 그리디 | [회의실 배정](https://www.acmicpc.net/problem/1931) | [Java](./src/BOJ1931_회의실배정.md) |
 | 동적계획법 | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [Java](./src/[BOJ]1932_정수삼각형.java) |
 | 그리디, 정렬 | [신입 사원](https://www.acmicpc.net/problem/1946) | [Java](./src/BOJ1946_신입사원.md) |
-| 동적계획법 | [상자넣기]](https://www.acmicpc.net/problem/1965) | [Java](./src/BOJ1965_상자넣기.java) |
+| 동적계획법 | [상자넣기](https://www.acmicpc.net/problem/1965) | [Java](./src/BOJ1965_상자넣기.java) |
 | 트리, 재귀 | [트리 순회](https://www.acmicpc.net/problem/1991) | [Java](./src/[BOJ]1991_트리순회.java) |
 | 시뮬레이션, 큐 | [프린터 큐](https://www.acmicpc.net/problem/1966) | [Java](./src/[BOJ]1966_프린터큐.java) |
 | 구현 | [체스](https://www.acmicpc.net/problem/1986) | [Java](./src/BOJ1986_체스.md) |
@@ -89,7 +89,7 @@
 | 그리디 | [동전 0](https://www.acmicpc.net/problem/11047) | [Java](./src/[BOJ]11047_동전0.java) |
 | 동적계획법 | [이동하기](https://www.acmicpc.net/problem/11048) | [Java](./src/[BOJ]11048_이동하기.java) |
 | 동적계획법 | [카드 구매하기](https://www.acmicpc.net/problem/11052) | [Java](./src/BOJ11052_카드구매하기.md) |
-| 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./src/BOJ11053_가장긴증가하는부분수열.md) |
+| 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./src/BOJ11053_가장긴증가하는부분수열.java) |
 | 동적계획법 | [오르막 수](https://www.acmicpc.net/problem/11057) | [Java](./src/BOJ11057_오르막수.md) |
 | 그래프 탐색 | [점프 점프](https://www.acmicpc.net/problem/11060) | [Java](./src/BOJ11060_점프점프.md) |
 | 그리디, 정렬 | [ATM](https://www.acmicpc.net/problem/11399) | [Java](./src/[BOJ]11399_ATM.java) |
