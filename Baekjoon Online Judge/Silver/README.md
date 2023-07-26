@@ -90,7 +90,7 @@
 | 동적계획법 | [이동하기](https://www.acmicpc.net/problem/11048) | [Java](./src/[BOJ]11048_이동하기.java) |
 | 동적계획법 | [카드 구매하기](https://www.acmicpc.net/problem/11052) | [Java](./src/BOJ11052_카드구매하기.md) |
 | 동적계획법 | [가장 긴 증가하는 부분수열](https://www.acmicpc.net/problem/11053) | [Java](./src/BOJ11053_가장긴증가하는부분수열.java) |
-| 동적계획법 | [오르막 수](https://www.acmicpc.net/problem/11057) | [Java](./src/BOJ11057_오르막수.md) |
+| 동적계획법 | [오르막 수](https://www.acmicpc.net/problem/11057) | [Java](./src/BOJ11057_오르막수.java) |
 | 그래프 탐색 | [점프 점프](https://www.acmicpc.net/problem/11060) | [Java](./src/BOJ11060_점프점프.md) |
 | 그리디, 정렬 | [ATM](https://www.acmicpc.net/problem/11399) | [Java](./src/[BOJ]11399_ATM.java) |
 | 그래프 탐색, 플로이드-와샬 | [경로 찾기](https://www.acmicpc.net/problem/11403) | [Java](./src/BOJ11403_경로찾기.md) |
