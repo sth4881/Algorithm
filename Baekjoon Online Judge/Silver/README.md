@@ -127,4 +127,5 @@
 | 그리디, 정렬 | [안테나](https://www.acmicpc.net/problem/18310)| [Java](./src/[BOJ]18310_안테나.java) |
 | 브루트 포스, 백트래킹 | [감시 피하기](https://www.acmicpc.net/problem/18428) | [Java](./src/BOJ18428_감시피하기.md) |
 | 우선순위 큐, 시뮬레이션 | [센티와 마법의 뿅망치](https://www.acmicpc.net/problem/19638) | [Java](./src/BOJ19638_센티와마법의뿅망치.md) |
+| 그리디 | [햄버거 분배](https://www.acmicpc.net/problem/19941) | [Java](./src/BOJ19941_햄버거분배.java) |
 </div>
