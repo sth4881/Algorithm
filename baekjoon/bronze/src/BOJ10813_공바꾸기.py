@@ -1,3 +1,5 @@
+# 백준 10813번 공바꾸기 (Bronze) */
+
 n, m = map(int, input().split(" "))
 
 arr = [i for i in range(1, n+1)]

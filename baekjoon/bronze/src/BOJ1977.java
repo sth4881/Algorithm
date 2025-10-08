@@ -1,18 +1,8 @@
-## 백준 1977 완전제곱수 (브론즈 1)
-
-### 문제링크
-- https://www.acmicpc.net/problem/1977
-
-### 알고리즘
-1. `1`부터 `101`까지 각 숫자에 대해서 제곱수가 M 이상 N 이하라면 `list`에 추가하고 `sum`에 더한다.
-2. `sum`과 `list.get(0)`을 순서대로 출력한다.
-
-### 소스코드
-```java
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/* 백준 1977번 완전제곱수 (Bronze) */
 public class BOJ1977 {
     public static void main(String[] args) {
         try {
@@ -39,4 +29,3 @@ public class BOJ1977 {
         }
     }
 }
-```

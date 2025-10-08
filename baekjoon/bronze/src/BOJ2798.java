@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
+/* 백준 2798번 블랙잭 (Bronze) */
 public class BOJ2798 {
 	public static void main(String[] args) {
 		try {

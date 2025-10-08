@@ -2,7 +2,8 @@ package com.baekjoon;
 
 import java.util.Scanner;
 
-public class BJ10818_heapSort {
+/* 백준 10818번 최소,최대 (Bronze) */
+public class BOJ10818 {
 	public static void rebuildMaxHeap(int[] arr, int r, int n) {
 		int cur = r;
 		int bigger;

@@ -6,16 +6,28 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
 
-public class BOJ1152 {
+/* 백준 3052번 나머지 (Bronze) */
+public class BOJ3052 {
 	public static void main(String[] args) {
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 			
-			String[] words = br.readLine().trim().split(" ");
-			if(words[0].equals("")) bw.write(0+"\n");
-			else bw.write(words.length+"\n");
+			int[] arr = new int[10];
+			for(int i=0; i<10; i++) {
+				int tmp = Integer.parseInt(br.readLine());
+				arr[i] = tmp%42;
+			}
+			
+			ArrayList<Integer> list = new ArrayList<Integer>();
+			for(int item : arr) {
+				if(!list.contains(item))
+					list.add(item);
+			}
+			
+			bw.write(list.size()+"\n");
 			bw.close();
 		} catch(FileNotFoundException e) {
 			e.getStackTrace();

@@ -1,3 +1,5 @@
+# 백분 2309번 일곱난쟁이 (Bronze) */
+
 arr = []
 for i in range(9):
     arr.append(int(input()))
