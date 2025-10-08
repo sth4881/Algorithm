@@ -3,7 +3,7 @@
 
 ### 🏅 B O J 🏅
 
-### [Bronze](./bronze) [Silver](./silver) [Gold](./Gold)
+### [Bronze](./bronze) [Silver](./silver) [Gold](./gold)
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sth4881)](https://solved.ac/profile/sth4881)
 </div>
