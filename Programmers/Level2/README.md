@@ -5,6 +5,6 @@
 
 | Algorithm |  Problem  |  Language  |
 |:---------:|:---------:|:----------:|
-| 스택/큐 | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [Java](./src/[PRGMS]42586_기능개발.java) |
+| 스택/큐 | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [Java](./src/P42586.java) |
 
 </div>
