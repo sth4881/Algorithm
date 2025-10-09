@@ -4,6 +4,6 @@
 
 ### [Baekjoon Online Judge](https://github.com/sth4881/Algorithm/tree/main/baekjoon)
 
-### [Programmers](https://github.com/sth4881/Algorithm/tree/main/Programmers)
+### [Programmers](https://github.com/sth4881/Algorithm/tree/main/programmers)
 
 </div>

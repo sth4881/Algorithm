@@ -2,8 +2,8 @@ package com.algorithm.programmers;
 
 import java.util.HashMap;
 
-// 완주하지 못한 선수 - 해시
-class PRGMS42576 {
+/* 프로그래머스 완주하지 못한 선수 (Level1) */
+class P42576 {
     public String solution(String[] participant, String[] completion) {
         HashMap<String, Integer> map = new HashMap<>();
         for(String name : participant) {
