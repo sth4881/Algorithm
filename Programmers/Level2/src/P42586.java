@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.LinkedList;
 
+/* 프로그래머스 기능 개발 (Level 2) */
 class PRGMS42586 {
     public int[] solution(int[] progresses, int[] speeds) {
         ArrayList<Integer> list = new ArrayList<>();
