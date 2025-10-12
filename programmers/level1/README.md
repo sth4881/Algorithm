@@ -22,5 +22,6 @@
 | 구현 | [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491) | [Java](./src/최소직사각형.md) |
 | 구현 | [부족한 금액 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/82612) | [Java](./src/부족한_금액_계산하기.md) |
 | 구현, 시뮬레이션 | [콜라 문제](https://school.programmers.co.kr/learn/courses/30/lessons/132267) | [Java](./src/P132267.java) |
+| 구현, 문자열, 시뮬레이션 | [둘만의 암호](https://school.programmers.co.kr/learn/courses/30/lessons/155652) | [Java](./src/P155652.java) |
 
 </div>
